@@ -248,11 +248,58 @@ These projects need format alignment while preserving core content:
 
 ## 4. Templates Created
 
+**CRITICAL: Understanding the TWO Types of Reports**
+
+This project uses **TWO DISTINCT** reporting systems with different purposes, templates, and directory locations:
+
+### Report Type 1: Daily Progress Reports (`/daily_reports/`)
+
+**Purpose:** Post-session progress tracking - what you accomplished today
+**Location:** `/daily_reports/YYYY-MM-DD.md`
+**Template:** `daily_report_template.md`
+**Based on:** describe_it template structure
+**Frequency:** After each development session (typically daily)
+**Focus:** Features built, bugs fixed, technical decisions made
+
+**Key Characteristics:**
+- Written AFTER work is complete
+- Documents what was accomplished
+- Tracks session-specific progress
+- Links to commits and PRs
+- Focuses on deliverables
+
+### Report Type 2: GMS Startup Reports (`/daily_dev_startup_reports/`)
+
+**Purpose:** Pre-session strategic audit - comprehensive project health check
+**Location:** `/daily_dev_startup_reports/YYYY-MM-DD_startup_report.md`
+**Template:** `gms_startup_report_template.md` (NEW - to be created)
+**Based on:** video_gen 8-checkpoint GMS methodology
+**Frequency:** Daily at session start (or weekly for smaller projects)
+**Focus:** Project health, blockers, technical debt, strategic planning
+
+**Key Characteristics:**
+- Written BEFORE work begins
+- Audits entire project health
+- Uses 8 mandatory GMS checkpoints
+- Generates alternative plans (A, B, C, D, E)
+- Drives strategic decision-making
+
+### Report Type 3: Strategic Audits (Quarterly/Major Milestones)
+
+**Purpose:** Deep strategic review for major milestones
+**Location:** `/docs/audits/` or `/daily_dev_startup_reports/` (for major reviews)
+**Template:** `strategic_audit_template.md` (formerly startup_report_template.md)
+**Based on:** Enterprise audit best practices
+**Frequency:** Quarterly, phase transitions, or major incidents
+**Focus:** Architecture, security, performance, resource planning
+
+---
+
 ### Template 1: Daily Development Report
 
 **Location:** `/docs/templates/daily_report_template.md`
 
-**Purpose:** Standard daily report for active development projects
+**Purpose:** Post-session progress tracking (what you built today)
 
 **Sections:**
 1. Executive Summary (Status, Health Score, Key Metrics)
@@ -266,40 +313,89 @@ These projects need format alignment while preserving core content:
 
 **Usage:**
 ```bash
-# Copy template
-cp docs/templates/daily_report_template.md daily_reports/2025-XX-XX.md
+# Copy template for today's work
+cp docs/templates/daily_report_template.md daily_reports/$(date +%Y-%m-%d).md
 
-# Fill in project-specific data
-# Follow formatting conventions from video_gen reference
+# Fill in what you accomplished this session
+# Focus on deliverables, features, and progress
 ```
 
-### Template 2: Startup/Audit Report
+**When to Use:**
+- After completing a development session
+- To document what was built/fixed
+- To track daily progress toward milestones
+- To maintain project timeline
 
-**Location:** `/docs/templates/startup_audit_template.md`
+---
 
-**Purpose:** Comprehensive project health assessment (weekly/monthly)
+### Template 2: GMS Startup Report (8-Checkpoint Methodology)
 
-**Sections:**
-1. Executive Summary
-2. [MANDATORY-GMS-1] Daily Report Audit
-3. [MANDATORY-GMS-2] Code Annotation Scan
-4. [MANDATORY-GMS-3] Uncommitted Work Analysis
-5. [MANDATORY-GMS-4] Issue Tracker Review
-6. [MANDATORY-GMS-5] Technical Debt Assessment
-7. [MANDATORY-GMS-6] Project Status Reflection
-8. [MANDATORY-GMS-7] Alternative Plans Proposal
-9. [MANDATORY-GMS-8] Recommendation with Rationale
+**Location:** `/docs/templates/gms_startup_report_template.md` ✅ CREATED
+
+**Purpose:** Pre-session comprehensive project health audit
+
+**8 Mandatory GMS Checkpoints:**
+1. **[MANDATORY-GMS-1]** Daily Report Audit - Coverage analysis, missing reports
+2. **[MANDATORY-GMS-2]** Code Annotation Scan - TODOs, FIXMEs, HACKs prioritized
+3. **[MANDATORY-GMS-3]** Uncommitted Work Analysis - Git status review
+4. **[MANDATORY-GMS-4]** Issue Tracker Review - Open issues prioritized
+5. **[MANDATORY-GMS-5]** Technical Debt Assessment - Debt score and critical items
+6. **[MANDATORY-GMS-6]** Project Status Reflection - Current state analysis
+7. **[MANDATORY-GMS-7]** Alternative Plans Proposal - Plans A, B, C, D, E with effort/risk
+8. **[MANDATORY-GMS-8]** Recommendation with Rationale - Chosen approach + execution strategy
 
 **Usage:**
 ```bash
-# Generate audit report
-cp docs/templates/startup_audit_template.md daily_dev_startup_reports/2025-XX-XX_startup_report.md
+# Generate GMS audit at session start
+cp docs/templates/gms_startup_report_template.md \
+   daily_dev_startup_reports/$(date +%Y-%m-%d)_startup_report.md
 
 # Run automated analysis (if available)
-python scripts/generate_startup_report.py
+python scripts/generate_gms_audit.py
 
-# Review and customize with project-specific insights
+# Review all 8 checkpoints and choose Plan A/B/C/D/E
 ```
+
+**When to Use:**
+- At the START of each development session (daily or weekly)
+- Before making strategic decisions
+- When project feels stuck or unclear
+- To identify technical debt and blockers
+- To generate alternative approaches
+
+---
+
+### Template 3: Strategic Audit Report
+
+**Location:** `/docs/templates/strategic_audit_template.md` (renamed from startup_report_template.md)
+
+**Purpose:** Deep strategic review for major milestones or quarterly audits
+
+**Sections:**
+1. Executive Summary
+2. Audit Scope & Objectives
+3. Strategic Assessment (10 dimensions)
+4. Risk Analysis
+5. Strategic Recommendations
+6. Resource & Budget Implications
+7. Success Metrics & KPIs
+
+**Usage:**
+```bash
+# Generate quarterly or milestone audit
+cp docs/templates/strategic_audit_template.md \
+   docs/audits/Q4-2025-strategic-audit.md
+
+# Conduct deep analysis across all project dimensions
+# Include stakeholder interviews, metrics dashboards, security scans
+```
+
+**When to Use:**
+- Quarterly planning cycles
+- Major phase transitions (MVP → Production)
+- Post-incident reviews
+- Funding/budget planning
+- Architecture review cycles
 
 ### Template 3: Specialized Report Extensions
 
