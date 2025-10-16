@@ -1,0 +1,82 @@
+{
+  "name": "report-assistant",
+  "version": "2.0.0",
+  "description": "Standardized report management system with GMS methodology",
+  "scripts": {
+    "// === DAILY OPERATIONS ===": "",
+    "today": "npm run gms && npm run progress",
+    "gms": "node scripts/generate-gms.js",
+    "progress": "node scripts/generate-progress.js",
+    "commit": "git add daily_reports/ daily_dev_startup_reports/ && git commit -m \"docs: Add reports for $(date +%Y-%m-%d)\"",
+
+    "// === QUICK ALIASES ===": "",
+    "t": "npm run today",
+    "g": "npm run gms",
+    "p": "npm run progress",
+    "c": "npm run commit",
+
+    "// === AUDIT & VALIDATION ===": "",
+    "audit": "python3 scripts/report_management/audit_reports.py",
+    "audit:project": "python3 scripts/report_management/audit_reports.py --project",
+    "validate": "python3 scripts/report_management/validate_reports.py",
+    "validate:templates": "python3 scripts/report_management/validate_templates.py",
+
+    "// === GENERATION ===": "",
+    "generate:all": "python3 scripts/report_management/generate_reports.py --all",
+    "generate:missing": "python3 scripts/report_management/generate_reports.py --missing",
+    "backfill": "python3 scripts/report_management/generate_reports.py --backfill",
+
+    "// === SYNCHRONIZATION ===": "",
+    "sync": "python3 scripts/report_management/sync_reports.py",
+    "sync:templates": "python3 scripts/report_management/sync_templates.py",
+    "update:format": "python3 scripts/report_management/update_format.py",
+
+    "// === SWARM OPERATIONS ===": "",
+    "swarm:init": "npx claude-flow@alpha swarm init mesh --max-agents 5",
+    "swarm:audit": "npx claude-flow@alpha swarm deploy audit-all",
+    "swarm:align": "npx claude-flow@alpha swarm deploy align-reports",
+    "swarm:gms": "npx claude-flow@alpha sparc run gms-audit",
+
+    "// === MAINTENANCE ===": "",
+    "backup": "tar -czf backups/reports_$(date +%Y%m%d).tar.gz daily_reports/ daily_dev_startup_reports/",
+    "clean": "find . -name '*.pyc' -delete && find . -name '__pycache__' -type d -exec rm -rf {} + 2>/dev/null || true",
+    "stats": "node scripts/report-stats.js",
+
+    "// === DEVELOPMENT ===": "",
+    "test": "pytest tests/",
+    "test:watch": "pytest-watch tests/",
+    "lint": "pylint scripts/ && eslint scripts/*.js",
+    "format": "black scripts/ && prettier --write scripts/*.js",
+
+    "// === INSTALLATION ===": "",
+    "setup": "npm run setup:deps && npm run setup:dirs",
+    "setup:deps": "pip install -r requirements.txt && npm install",
+    "setup:dirs": "mkdir -p daily_reports daily_dev_startup_reports docs/templates backups scripts/report_management",
+
+    "// === WORKFLOW SHORTCUTS ===": "",
+    "morning": "npm run gms && echo 'Good morning! GMS report ready for review.'",
+    "evening": "npm run progress && npm run commit && echo 'Progress documented. Great work today!'",
+    "weekly": "npm run audit && npm run stats && npm run backup",
+
+    "// === PROJECT MANAGEMENT ===": "",
+    "init:project": "bash -c 'mkdir -p ../$npm_config_project/{daily_reports,daily_dev_startup_reports,docs/templates}'",
+    "list:projects": "ls -d ../*/ | grep -E '(daily_reports|daily_dev_startup_reports)' | cut -d'/' -f2 | sort | uniq"
+  },
+  "keywords": [
+    "reports",
+    "gms",
+    "daily-reports",
+    "project-management",
+    "claude-flow",
+    "swarm"
+  ],
+  "author": "Brandon Lambert",
+  "license": "MIT",
+  "dependencies": {
+    "claude-flow": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}
