@@ -1,0 +1,394 @@
+=== ANALYZING: corporate_intel ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/corporate_intel
+
+COMMITS SINCE AUG 2024: 84
+
+FIRST COMMIT (since Aug 2024): 2025-09-14 15:45:28 -0700
+LAST COMMIT: 2025-10-17 20:48:19 -0700
+
+AUTHORS:
+     74 Claude Code
+     10 bjpl
+
+
+BRANCHES:
+* master
+  remotes/origin/main
+  remotes/origin/master
+
+TAGS:
+v1.0.0-rc1
+
+COMMIT LOG:
+afd75ac|2025-10-17 20:48:19 -0700|Claude Code|feat: Complete Plan A Day 4 - Data Pipeline Activation & Quality Fixes
+2da4a25|2025-10-17 11:03:22 -0700|Claude Code|feat: Complete swarm execution of Plans A & B - test coverage and technical debt cleanup
+d11aea0|2025-10-17 00:50:24 -0700|Claude Code|docs: Add after-restart quick start checklist
+b0acd09|2025-10-17 00:49:23 -0700|Claude Code|chore: update Claude Flow session metrics after diagnostic session
+2b3c166|2025-10-17 00:37:09 -0700|Claude Code|feat: Add comprehensive staging validation scripts and Docker diagnostic docs
+17a75d9|2025-10-17 00:14:52 -0700|Claude Code|chore: update Claude Flow metrics - performance, system, and task tracking
+16a20f0|2025-10-17 00:09:18 -0700|Claude Code|feat: staging deployment 100% complete - database migrated + TimescaleDB configured
+c950b43|2025-10-16 23:57:11 -0700|Claude Code|feat: staging deployment operational + MinIO fix + comprehensive docs
+95697c0|2025-10-16 23:33:15 -0700|Claude Code|feat: Complete Plan A + Plan D1 staging infrastructure - Repository pattern, deduplication, deployment prep
+ae0094f|2025-10-16 16:15:57 -0700|Claude Code|chore: update metrics, memory stores, and development configuration
+3d67fd7|2025-10-12 23:12:53 -0700|Claude Code|docs: Add comprehensive technology stack documentation
+2a05c05|2025-10-08 21:47:46 -0700|Claude Code|fix: SEC API ticker-to-CIK lookup + feat: add trending companies endpoint
+6b3e8b3|2025-10-08 21:39:21 -0700|Claude Code|feat: add comprehensive health endpoints + deployment readiness checklist
+8a904f8|2025-10-08 21:31:45 -0700|Claude Code|feat: add report generation endpoint + version caps to prevent auto-upgrades
+f533486|2025-10-08 21:18:15 -0700|Claude Code|docs: resolve Prefect v3 dependency investigation - not a blocker
+47668df|2025-10-08 21:12:53 -0700|Claude Code|chore: update Claude Flow metrics from morning setup audit
+0d90fe9|2025-10-08 02:12:43 -0700|Claude Code|chore: update Claude Flow metrics
+c4e022f|2025-10-08 02:02:01 -0700|Claude Code|chore: update Claude Flow metrics from current session
+4986807|2025-10-07 22:22:11 -0700|Claude Code|chore: update Claude Flow metrics after CLAUDE.md v2.3 update
+e8b4897|2025-10-07 22:18:27 -0700|Claude Code|docs: update CLAUDE.md with critical swarm orchestration architecture (v2.3)
+8d147dc|2025-10-07 22:07:20 -0700|Claude Code|chore: update Claude Flow metrics from previous session
+ab733cf|2025-10-07 18:42:53 -0700|Claude Code|docs: update Alpha Vantage test API key handling
+65ad4ef|2025-10-07 18:36:18 -0700|Claude Code|feat: resolve Prefect dependency and add Alpha Vantage tests
+ca53f59|2025-10-07 18:31:27 -0700|Claude Code|feat: implement real-world data ingestion testing infrastructure
+2a9b18d|2025-10-07 17:17:19 -0700|Claude Code|feat: add keyword triggers and condensed summaries to CLAUDE.md
+03ae583|2025-10-07 17:08:01 -0700|Claude Code|fix: consolidate all critical content in CLAUDE.md for auto-loading
+01285fa|2025-10-07 16:49:57 -0700|Claude Code|fix: embed all MANDATORY directives in CLAUDE.md for auto-loading
+e52402f|2025-10-07 16:44:46 -0700|Claude Code|refactor: split CLAUDE.md into 3 focused files with clear hierarchy
+3d08406|2025-10-07 16:35:48 -0700|Claude Code|docs: add MANDATORY-2 Professional Communication Style and renumber all directives
+f5a97ed|2025-10-07 16:23:45 -0700|Claude Code|docs: add comprehensive 24-point Agent Operating Instructions to CLAUDE.md
+b287af4|2025-10-07 01:23:47 -0700|Claude Code|docs: complete daily report package for October 6, 2025 - A grade (95/100)
+dde9f41|2025-10-06 14:32:01 -0700|Claude Code|docs: add daily report for Oct 6 + update metrics and pipeline coverage
+b9ba095|2025-10-06 14:12:48 -0700|Claude Code|test: massive test expansion - 659+ tests, 9.2K lines, 70%+ coverage framework
+7956d84|2025-10-06 13:50:11 -0700|Claude Code|fix: resolve Alpha Vantage pipeline 91.7% failure rate - safe_float + retry logic
+a65c02f|2025-10-06 13:33:29 -0700|Claude Code|feat: complete Phase 1-4 deployment readiness - A- grade (90/100) achieved
+4c5d93b|2025-10-06 00:29:38 -0700|Claude Code|docs: add complete project history - all daily reports from Sept 14 to Oct 6
+6c11d51|2025-10-06 00:23:42 -0700|Claude Code|docs: add complete 7-day daily report archive (Sept 29 - Oct 6, 2025)
+402b572|2025-10-06 00:20:43 -0700|Claude Code|docs: add comprehensive daily report for 2025-10-05 with visual analysis
+f75046e|2025-10-06 00:07:44 -0700|Claude Code|feat: complete quick wins - tests, indexes, comprehensive auth/API coverage
+8f95272|2025-10-05 23:54:21 -0700|Claude Code|docs: add comprehensive pre-deployment improvement roadmap
+46312e7|2025-10-05 23:50:45 -0700|Claude Code|feat: complete next steps - tests now passing, Docker scripts, comprehensive guide
+3e9b8d3|2025-10-05 23:46:40 -0700|Claude Code|refactor: fix Pydantic V2 and SQLAlchemy 2.0 deprecations + honest evaluation
+133cba9|2025-10-05 23:38:38 -0700|Claude Code|fix: update test imports to use src/core/config and remove old dashboard file
+6889bd5|2025-10-05 23:25:16 -0700|Claude Code|docs: comprehensive session evaluation and status report
+2fcac55|2025-10-05 22:55:47 -0700|Claude Code|feat: add Phase 2 Alpha Vantage daily scheduler
+eb78207|2025-10-05 22:55:39 -0700|Claude Code|feat: complete dashboard rebuild with expert architecture
+b856f25|2025-10-05 22:23:02 -0700|Claude Code|fix: correct all data pipeline and visualization issues
+f326af1|2025-10-05 21:58:01 -0700|Claude Code|feat: extend historical data lookback from 2 years to 5 years
+56585c3|2025-10-05 21:55:41 -0700|Claude Code|feat: expand coverage to 28 EdTech companies across all market segments
+184b2c8|2025-10-05 21:43:45 -0700|Claude Code|feat: completely redesign dashboard with modern professional UI
+a607629|2025-10-05 21:43:43 -0700|Claude Code|feat: configure dbt and simplify models for competitive intelligence
+0ef7839|2025-10-05 21:43:41 -0700|Claude Code|feat: build comprehensive data service layer for dashboard
+e9e85de|2025-10-05 21:43:40 -0700|Claude Code|feat: implement real data ingestion from Yahoo Finance and Alpha Vantage APIs
+3c6516f|2025-10-05 20:36:46 -0700|Claude Code|feat: implement professional color palette with WCAG AA compliance
+aa71665|2025-10-04 20:51:20 -0700|Claude Code|chore: enhance .gitignore to protect environment files
+7dda058|2025-10-03 21:43:11 -0700|Claude Code|feat: implement comprehensive infrastructure hardening for production deployment
+473a391|2025-10-03 21:42:04 -0700|Claude Code|refactor: migrate to Pydantic v2 syntax across all models
+da3c959|2025-10-03 21:40:34 -0700|Claude Code|feat: implement Redis-backed API key rate limiting
+bd6c3fe|2025-10-03 21:39:14 -0700|Claude Code|feat: enhance type safety and infrastructure hardening for production deployment
+5c35230|2025-10-03 21:39:03 -0700|Claude Code|refactor: complete type annotations for all API v1 endpoints
+ad9ff01|2025-10-03 21:37:38 -0700|Claude Code|refactor: improve type annotations and security validation
+df3fce6|2025-10-03 11:54:40 -0700|Claude Code|docs: add step-by-step solo developer deployment guide
+911167f|2025-10-03 11:51:32 -0700|Claude Code|feat: implement advanced deployment infrastructure for Phase 3 Sprint 2
+fa3ccc2|2025-10-03 11:31:51 -0700|Claude Code|feat: implement comprehensive Docker infrastructure for Phase 3 Sprint 1
+f234f44|2025-10-03 10:38:54 -0700|Claude Code|feat: implement comprehensive code quality automation for Phase 2 Sprint 2
+322c25f|2025-10-03 10:23:01 -0700|Claude Code|test: add comprehensive test suite for Phase 2 Sprint 1
+98abf06|2025-10-03 10:11:53 -0700|Claude Code|feat: pin all dependency versions with semantic versioning upper bounds
+2a8e8b0|2025-10-03 10:04:18 -0700|Claude Code|docs: add SECRET_KEY validation verification report
+b3b3273|2025-10-03 10:00:45 -0700|Claude Code|refactor: replace wildcard imports with explicit imports in alembic
+3f8d2bf|2025-10-03 09:59:10 -0700|Claude Code|feat: complete database storage implementation in SEC pipeline
+b908ba2|2025-10-03 09:55:08 -0700|Claude Code|feat: implement comprehensive Great Expectations validation
+3a7086a|2025-10-03 09:43:20 -0700|Claude Code|docs: add git initialization report
+8fc4998|2025-10-03 09:41:43 -0700|Claude Code|chore: enhance .gitignore with additional patterns
+1ff20f3|2025-10-03 09:41:27 -0700|Claude Code|feat: initial commit - Corporate Intelligence Platform
+89cdea7|2025-09-14 16:55:33 -0700|bjpl|feat: Implement secure environment configuration and data ingestion
+7dac7db|2025-09-14 16:41:12 -0700|bjpl|feat: Complete unit tests, historical data ingestion, and monitoring setup
+6cc8960|2025-09-14 16:31:41 -0700|bjpl|fix: Critical technical debt resolution - Production deployment readiness
+77a8b9b|2025-09-14 16:27:03 -0700|bjpl|feat: Implement comprehensive JWT authentication and authorization system
+e70370b|2025-09-14 16:15:26 -0700|bjpl|Complete data connectors, observability, and platform documentation
+3eb63cf|2025-09-14 16:09:08 -0700|bjpl|Implement Plotly Dash visualizations with SPARC methodology
+42ef92f|2025-09-14 16:03:04 -0700|bjpl|Complete data validation and dbt transformation layer
+f68d243|2025-09-14 15:56:33 -0700|bjpl|Implement embedding pipeline and pluggable analysis engine
+edd2fb9|2025-09-14 15:51:40 -0700|bjpl|Add FastAPI backend, caching layer, and document processing
+0d4f04b|2025-09-14 15:45:28 -0700|bjpl|Initial project setup: Core configuration, database models, and infrastructure
+
+FILE CHANGE STATISTICS:
+COMMIT:afd75ac
+568	0	config/production/.env.production.template
+448	0	config/production/alpha-vantage-config.yml
+119	0	config/production/backups/crontab
+258	0	config/production/data-sources/newsapi-config.yml
+393	0	config/production/data-sources/yahoo-finance-config.yml
+759	0	config/production/docker-compose.production.yml
+374	0	config/production/grafana/dashboards/api-performance.json
+351	0	config/production/grafana/dashboards/database-metrics.json
+361	0	config/production/grafana/dashboards/redis-metrics.json
+16	0	config/production/grafana/provisioning/dashboards/dashboards.yml
+28	0	config/production/grafana/provisioning/datasources/prometheus.yml
+257	0	config/production/nginx.conf
+191	0	config/production/prometheus/alertmanager.yml
+152	0	config/production/prometheus/alerts/api-alerts.yml
+167	0	config/production/prometheus/alerts/database-alerts.yml
+157	0	config/production/prometheus/alerts/redis-alerts.yml
+170	0	config/production/prometheus/alerts/system-alerts.yml
+178	0	config/production/prometheus/prometheus.production.yml
+296	0	config/production/sec-api-config.yml
+156	0	config/production/traefik-dynamic.yml
+98	0	config/production/traefik.yml
+1038	0	daily_dev_startup_reports/2025-10-17_comprehensive_startup_report.md
+558	0	docs/ALPHA_VANTAGE_PRODUCTION_SUMMARY.md
+107	0	docs/PERFORMANCE_BASELINE_EXECUTIVE_SUMMARY.md
+638	0	docs/PLAN_A_DAY1_PERFORMANCE_BASELINE.md
+876	3	docs/SWARM_EXECUTION_SUMMARY_2025-10-17.md
+285	0	docs/api_validation_report_staging.md
+1047	0	docs/data-sources/ALPHA_VANTAGE_INTEGRATION.md
+448	0	docs/data-sources/NEWSAPI_INTEGRATION.md
+504	0	docs/data-sources/SEC_EDGAR_INTEGRATION.md
+778	0	docs/data-sources/YAHOO_FINANCE_INTEGRATION.md
+163	0	docs/data-sources/alpha_vantage_validation_results.json
+433	0	docs/deployment/ANOMALY_ANALYSIS_DAY3.md
+654	0	docs/deployment/DATA_PIPELINE_HEALTH_REPORT.md
+269	0	docs/deployment/DATA_QUALITY_FIX_REPORT.md
+1126	0	docs/deployment/DAY3_COMPLETION_REPORT.md
+401	0	docs/deployment/DAY3_EXECUTIVE_SUMMARY.md
+819	0	docs/deployment/DAY4_COMPLETION_REPORT.md
+339	0	docs/deployment/DAY4_GX_BLOCKER_RESOLUTION.md
+1076	0	docs/deployment/DAY4_PREREQUISITES.md
+672	0	docs/deployment/DAY5_PREREQUISITES.md
+716	0	docs/deployment/DEPLOYMENT_AUTOMATION.md
+499	0	docs/deployment/DEPLOYMENT_SUMMARY_DAY4.md
+248	0	docs/deployment/PLAN_A_DAY3_COMPLETE.txt
+462	0	docs/deployment/PLAN_A_DAY4_FINAL_COMPLETION_REPORT.md
+1330	0	docs/deployment/PRODUCTION_DEPLOYMENT_LOG_DAY4.md
+774	0	docs/deployment/PRODUCTION_READINESS_ASSESSMENT.md
+593	0	docs/deployment/PRODUCTION_READINESS_SUMMARY.md
+658	0	docs/deployment/PRODUCTION_STATUS_ASSESSMENT.md
+346	0	docs/deployment/QUICK_DEPLOYMENT_REFERENCE.md
+161	0	docs/deployment/README_DAY3.md
+408	0	docs/deployment/SMOKE_TEST_EXECUTIVE_SUMMARY_DAY3.md
+397	0	docs/deployment/STABILITY_MONITORING_GUIDE.md
+496	0	docs/deployment/backup-restore.md
+589	0	docs/deployment/deployment-validation-day4.json
+968	0	docs/deployment/dns-ssl-setup.md
+268	0	docs/deployment/health-endpoints-catalog.json
+341	0	docs/deployment/health-validation-day3-report.md
+465	0	docs/deployment/monitoring-setup.md
+1201	0	docs/deployment/production-deployment-checklist.md
+1118	0	docs/deployment/production-deployment-runbook.md
+350	0	docs/deployment/production-domain-checklist.md
+1158	0	docs/deployment/production-environment-setup.md
+719	0	docs/deployment/production-rollback-plan.md
+850	0	docs/deployment/production-smoke-tests.md
+167	0	docs/deployment/smoke-test-report-day3-20251017_184857.md
+377	0	docs/deployment/smoke-test-results-day3-20251017_184857.json
+4615	0	docs/deployment/stability-report-day3.json
+276	0	docs/deployment/stability-report-day3.md
+5596	0	docs/performance_baseline_20251017_180039.json
+197	0	docs/pipeline/CHANGES_SEC_DEDUPLICATION.md
+48	0	docs/pipeline/PIPELINE_EXECUTION_LOG_DAY4.md
+134	0	docs/pipeline/SAMPLE_ANALYTICS_REPORT.md
+66	0	docs/pipeline/data-ingestion-results.json
+214	0	docs/pipeline/dbt-run-results.json
+59	0	docs/pipeline/performance_baseline_day4.json
+158	0	docs/pipeline/sec_company_deduplication.md
+0	0	docs/pipeline/top_companies_revenue.txt
+136	0	docs/sec_api_validation_results.json
+323	0	docs/security_validation_day1_results.json
+1	0	gx/README.md
+163	115	scripts/backup/restore-database.sh
+574	0	scripts/data-cleanup/fix-duplicate-companies.py
+110	0	scripts/data-cleanup/fix-duplicates.sql
+27	0	scripts/data-cleanup/update-company-ciks.sql
+280	0	scripts/data-ingestion/cleanup_duplicate_companies.py
+467	0	scripts/data-ingestion/ingest-alpha-vantage.py
+556	0	scripts/data-ingestion/ingest-news-sentiment.py
+410	0	scripts/data-ingestion/ingest-sec-filings.py
+664	0	scripts/data-ingestion/ingest-yahoo-finance.py
+77	0	scripts/data-ingestion/test-alpha-vantage.py
+455	0	scripts/deploy-api.sh
+427	0	scripts/deploy-infrastructure.sh
+543	225	scripts/deploy-production.sh
+239	0	scripts/health-dashboard.sh
+507	0	scripts/performance_baseline.py
+18	0	scripts/quick-stability-check.sh
+501	0	scripts/rollback-production.sh
+642	0	scripts/run_pipeline_day4.py
+571	0	scripts/simulate-stability-data.py
+593	0	scripts/smoke-test-staging.sh
+77	0	scripts/ssl-renewal-cron.sh
+349	0	scripts/ssl-setup.sh
+574	0	scripts/stability-monitor.sh
+329	0	scripts/staging-health-validation.sh
+165	0	scripts/test-newsapi-connectivity.py
+223	0	scripts/test-yahoo-finance-connectivity.py
+418	0	scripts/validate_and_report_day4.py
+190	0	scripts/visualize-stability.py
+1	0	src/api/v1/companies.py
+104	21	src/pipeline/sec_ingestion.py
+154	0	tests/integration/api_validation_results.json
+461	0	tests/integration/test_alpha_vantage_production.py
+390	0	tests/integration/test_api_validation_staging.py
+553	0	tests/integration/test_sec_api_production.py
+111	0	tests/integration/validate_api_internal.sh
+1558	0	tests/smoke_test_comprehensive.py
+205	0	tests/test_sec_company_lookup.py
+
+COMMIT:2da4a25
+3	3	.claude-flow/metrics/performance.json
+0	650	.claude-flow/metrics/system-metrics.json
+3	3	.claude-flow/metrics/task-metrics.json
+322	0	daily_dev_startup_reports/2025-10-17_startup_report.md
+336	0	daily_reports/2025-10-03.md
+155	0	daily_reports/2025-10-04.md
+345	0	daily_reports/2025-10-05.md
+440	0	daily_reports/2025-10-06.md
+358	0	daily_reports/2025-10-07.md
+521	0	daily_reports/2025-10-08.md
+449	0	daily_reports/2025-10-12.md
+752	0	daily_reports/2025-10-16.md
+177	0	docs/SWARM_EXECUTION_SUMMARY_2025-10-17.md
+509	0	docs/TECHNICAL_DEBT_REMEDIATION_PLAN.md
+331	0	docs/TEST_COVERAGE_ACHIEVEMENT_REPORT.md
+79	0	docs/code_review/REVIEW_SUMMARY.md
+925	0	docs/code_review/plan_a_b_quality_review.md
+555	0	docs/metrics/PERFORMANCE_METRICS_ANALYSIS.md
+347	24	src/core/exceptions.py
+29	159	src/pipeline/common.py
+41	28	src/pipeline/common/utilities.py
+24	252	tests/conftest.py
+380	0	tests/e2e/test_authentication_flow.py
+288	0	tests/e2e/test_data_ingestion_pipeline.py
+615	0	tests/unit/test_data_sources_comprehensive.py
+530	0	tests/unit/test_repositories_comprehensive.py
+654	0	tests/unit/test_sec_ingestion_comprehensive.py
+
+COMMIT:d11aea0
+234	0	AFTER_RESTART_CHECKLIST.md
+
+COMMIT:b0acd09
+3	3	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+
+COMMIT:2b3c166
+161	0	docs/DOCKER_DESKTOP_ISSUE_REPORT.md
+335	0	docs/STAGING_RESUME_INSTRUCTIONS.md
+115	0	scripts/quick_db_test.py
+340	0	scripts/test_staging_api.py
+
+COMMIT:17a75d9
+80	2	.claude-flow/metrics/performance.json
+430	4678	.claude-flow/metrics/system-metrics.json
+3	3	.claude-flow/metrics/task-metrics.json
+
+COMMIT:16a20f0
+444	0	docs/STAGING_DEPLOYMENT_SUCCESS.md
+
+COMMIT:c950b43
+12	6	docker-compose.staging.yml
+537	0	docs/STAGING_RESUME_GUIDE.md
+523	0	docs/STAGING_STATE_DOCUMENTATION.md
+163	0	src/pipeline/common.py
+84	0	tests/verify_refactoring.py
+
+COMMIT:95697c0
+279	0	config/.env.production.template
+1117	0	daily_dev_startup_reports/2025-10-16_dev_startup_report.md
+1353	0	daily_dev_startup_reports/2025-10-16_evening_dev_startup_report.md
+157	0	docker-compose.staging.yml
+600	0	docs/PLAN_A_COMPLETION_REPORT.md
+473	0	docs/architecture/ADR-001-REPOSITORY-PATTERN.md
+631	0	docs/deployment/DEPLOYMENT_COMPLETION_SUMMARY.md
+614	0	docs/deployment/DEPLOYMENT_RUNBOOKS.md
+501	0	docs/deployment/DNS_CONFIGURATION_GUIDE.md
+346	0	docs/deployment/HIGH-002_DEPLOYMENT_CHECKLIST.md
+949	0	docs/deployment/PLAN_D1_QUICK_START.md
+696	0	docs/deployment/PLAN_D4_REVIEW_ASSESSMENT.md
+1	0	requirements.txt
+744	0	scripts/deployment/deploy-production.sh
+589	0	scripts/deployment/deploy-staging.sh
+556	0	scripts/deployment/rollback.sh
+683	0	scripts/deployment/setup-monitoring.sh
+372	0	scripts/deployment/setup-ssl-letsencrypt.sh
+600	0	scripts/deployment/validate-pre-deploy.sh
+287	0	scripts/staging/cleanup_test_data.sh
+557	0	scripts/staging/generate_test_report.py
+405	0	scripts/staging/orchestrate_tests.py
+
+PROJECT FILES:
+total 508
+drwxrwxrwx 1 brand brand    512 Oct 17 19:41 .
+drwxrwxrwx 1 brand brand    512 Oct 17 22:40 ..
+-rwxrwxrwx 1 brand brand   2559 Oct  3 10:28 .bandit
+drwxrwxrwx 1 brand brand    512 Oct  2 21:43 .claude
+drwxrwxrwx 1 brand brand    512 Sep 14 15:39 .claude-flow
+-rwxrwxrwx 1 brand brand    327 Oct 17 10:36 .coveragerc
+-rwxrwxrwx 1 brand brand   1479 Oct  2 22:14 .dockerignore
+-rwxrwxrwx 1 brand brand   7500 Oct  5 19:48 .env
+-rwxrwxrwx 1 brand brand   3541 Oct  2 21:53 .env.example
+-rwxrwxrwx 1 brand brand    812 Sep 14 16:44 .env.production
+-rwxrwxrwx 1 brand brand   3877 Oct 16 23:46 .env.staging
+-rwxrwxrwx 1 brand brand    590 Oct  3 10:34 .flake8
+drwxrwxrwx 1 brand brand    512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand    512 Oct  2 22:18 .github
+-rwxrwxrwx 1 brand brand   1400 Oct 10 21:13 .gitignore
+-rwxrwxrwx 1 brand brand   1650 Oct  2 22:14 .hadolint.yaml
+drwxrwxrwx 1 brand brand    512 Oct 10 21:13 .hive-mind
+-rwxrwxrwx 1 brand brand    656 Oct 10 21:13 .mcp.json
+-rwxrwxrwx 1 brand brand   2588 Oct  3 10:34 .pre-commit-config.yaml
+drwxrwxrwx 1 brand brand    512 Oct  6 13:02 .pytest_cache
+drwxrwxrwx 1 brand brand    512 Oct 17 20:48 .swarm
+drwxrwxrwx 1 brand brand    512 Oct 16 22:34 .test_venv
+drwxrwxrwx 1 brand brand    512 Sep 15 19:35 .vscode
+-rwxrwxrwx 1 brand brand      0 Oct  2 23:19 =0.21.0
+-rwxrwxrwx 1 brand brand      0 Oct  2 23:19 =0.25.0
+-rwxrwxrwx 1 brand brand      0 Oct  2 23:19 =4.1.0
+-rwxrwxrwx 1 brand brand      0 Oct  2 23:19 =7.4.0
+-rwxrwxrwx 1 brand brand   6397 Oct 17 00:50 AFTER_RESTART_CHECKLIST.md
+-rwxrwxrwx 1 brand brand  11027 Oct  7 16:44 AGENT_INSTRUCTIONS.md
+
+README.MD PREVIEW:
+# Corporate Intelligence Platform for EdTech Analysis
+
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue.svg)](https://www.postgresql.org/)
+[![Ray](https://img.shields.io/badge/Ray-2.8+-red.svg)](https://www.ray.io/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## 🎯 Overview
+
+Production-hardened business intelligence platform that aggregates and analyzes corporate financial data through automated API integrations, specifically targeting the EdTech ecosystem. Built with enterprise-grade architecture supporting real-time data ingestion, distributed processing, and advanced analytics.
+
+## 🏗️ Architecture
+
+```mermaid
+graph TB
+    subgraph "Data Sources"
+        SEC[SEC EDGAR API]
+        YF[Yahoo Finance]
+        AV[Alpha Vantage]
+        NEWS[NewsAPI]
+        CB[Crunchbase]
+        GH[GitHub API]
+    end
+    
+    subgraph "Ingestion Layer"
+        PREFECT[Prefect Orchestration]
+        GE[Great Expectations]
+    end
+    
+    subgraph "Storage Layer"
+        PG[(PostgreSQL/TimescaleDB)]
+        REDIS[(Redis Cache)]
+        MINIO[(MinIO S3)]
+        VECTOR[(pgvector)]
+    end
+    
+    subgraph "Processing Layer"
+        RAY[Ray Distributed]
+        DBT[dbt Transformations]
+        EMBED[Embeddings Pipeline]
+    end
+    
+    subgraph "API Layer"
+        FASTAPI[FastAPI Backend]
+        CACHE[Cache Manager]
+    end
+    
+    subgraph "Visualization"
+        DASH[Plotly Dash]
+

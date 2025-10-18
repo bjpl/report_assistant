@@ -9,7 +9,12 @@ from pathlib import Path
 from typing import List, Dict
 
 # Base directory for all projects
-BASE_DIR = Path("/mnt/c/Users/brand/Development/Project_Workspace/active-development")
+# Use parent directory of report_assistant (go up 2 levels from scripts/report_management)
+BASE_DIR = Path(__file__).parent.parent.parent.parent
+
+# Template file path
+REPORT_ASSISTANT_DIR = Path(__file__).parent.parent.parent
+TEMPLATE_FILE = REPORT_ASSISTANT_DIR / "docs" / "templates" / "daily_report_template.md"
 
 # Projects with daily_reports folders
 DAILY_REPORTS_PROJECTS = [
@@ -52,8 +57,14 @@ NESTED_PROJECTS = {
     }
 }
 
-# Report template
-DAILY_REPORT_TEMPLATE = """# Daily Development Report - {date}
+# Load comprehensive template from file
+def get_daily_report_template() -> str:
+    """Load the comprehensive daily report template"""
+    if TEMPLATE_FILE.exists():
+        return TEMPLATE_FILE.read_text()
+    else:
+        # Fallback to simple template if file not found
+        return """# Daily Development Report - {date}
 
 ## Project: {project_name}
 
@@ -69,6 +80,8 @@ DAILY_REPORT_TEMPLATE = """# Daily Development Report - {date}
 ## Next Steps
 {next_steps}
 """
+
+DAILY_REPORT_TEMPLATE = get_daily_report_template()
 
 # Startup report template
 STARTUP_REPORT_TEMPLATE = """# Development Startup Report - {timestamp}

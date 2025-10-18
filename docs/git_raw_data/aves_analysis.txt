@@ -1,0 +1,485 @@
+=== ANALYZING: aves ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/aves
+
+COMMITS SINCE AUG 2024: 146
+
+FIRST COMMIT (since Aug 2024): 2025-09-15 13:29:58 -0700
+LAST COMMIT: 2025-10-17 20:54:20 -0700
+
+AUTHORS:
+    119 Claude Code
+     27 bjpl
+
+
+BRANCHES:
+  align-daily-reports-execution
+  align-reports-aves
+* main
+  remotes/origin/align-daily-reports-execution
+  remotes/origin/gh-pages
+  remotes/origin/main
+
+TAGS:
+alignment-v1.0
+
+COMMIT LOG:
+606f370|2025-10-17 20:54:20 -0700|Claude Code|chore: Add metrics, memory database, test logs, and daily reports
+36c4a80|2025-10-17 20:35:48 -0700|Claude Code|feat: Complete Plan A - Production readiness, security, and migration preparation
+e3477ef|2025-10-17 11:40:55 -0700|Claude Code|feat: Add CI/CD pipeline with secure secret management
+df4e9d5|2025-10-17 11:19:19 -0700|Claude Code|fix: Comprehensive test infrastructure overhaul - Plans A & D completed
+6293fe1|2025-10-16 22:33:51 -0700|Claude Code|feat: Add comprehensive test utilities framework and migration toolkit
+90f4d9b|2025-10-16 22:07:59 -0700|Claude Code|fix: Comprehensive test infrastructure improvements and stats fix deployment
+393e1ca|2025-10-16 21:59:10 -0700|Claude Code|fix: Refactor UnsplashService to read API key at runtime for testability
+73db130|2025-10-16 21:56:12 -0700|Claude Code|fix: Allow deployment despite test failures to unblock stats fix
+449de4c|2025-10-16 21:50:59 -0700|Claude Code|fix: Correct package-lock.json path in deployment workflow
+01ddf20|2025-10-16 21:47:13 -0700|Claude Code|fix: Add terser dependency to fix CI build failures
+a43ac16|2025-10-16 21:40:55 -0700|Claude Code|fix: Display correct annotation stats using dedicated stats endpoint
+8a199a9|2025-10-16 21:32:30 -0700|Claude Code|fix: Force immediate refetch of annotation stats after all mutations
+d0a4f66|2025-10-16 20:23:25 -0700|Claude Code|fix: Force stats query refetch after annotation approval
+6c81fa8|2025-10-16 19:55:24 -0700|Claude Code|fix: Force refetch stats after approve/reject operations
+1347cf6|2025-10-16 19:49:30 -0700|Claude Code|debug: Add comprehensive logging to approve mutation workflow
+a1a1625|2025-10-16 19:41:50 -0700|Claude Code|fix: Create annotations table migration to fix approve functionality
+a01131f|2025-10-16 19:28:37 -0700|Claude Code|fix: AI annotation review workflow - bounding box format and auth
+049474e|2025-10-16 16:15:30 -0700|Claude Code|docs: Add daily report for 2025-10-11
+f17279c|2025-10-12 23:09:33 -0700|Claude Code|docs: Add comprehensive technology stack documentation
+3c06ed4|2025-10-11 17:06:54 -0700|Claude Code|feat: Align daily reports to unified format
+b120a61|2025-10-11 17:06:46 -0700|Claude Code|WIP on align-daily-reports-execution: 591300b docs: Standardize section ordering while preserving ROI analysis
+5feec9c|2025-10-11 17:06:46 -0700|Claude Code|index on align-daily-reports-execution: 591300b docs: Standardize section ordering while preserving ROI analysis
+591300b|2025-10-11 16:44:26 -0700|Claude Code|docs: Standardize section ordering while preserving ROI analysis
+96f084e|2025-10-11 16:36:26 -0700|Claude Code|Merge branch 'align-reports-aves': Daily report alignment to unified format
+ad8d3c8|2025-10-11 16:34:12 -0700|Claude Code|docs: Align aves daily reports to unified format
+de06c8e|2025-10-07 23:56:07 -0700|Claude Code|refactor(docs): Reorganize documentation assets into subdirectories
+808a6f4|2025-10-07 23:26:34 -0700|Claude Code|docs: Add comprehensive multi-phase development session report
+17eca3f|2025-10-07 23:21:06 -0700|Claude Code|perf(frontend): Enhance code splitting with granular vendor chunking
+b751003|2025-10-07 23:18:56 -0700|Claude Code|feat(ci): Add comprehensive CI/CD GitHub Actions workflows
+b7b3fc1|2025-10-07 23:17:22 -0700|Claude Code|feat(devops): Add complete Docker containerization infrastructure
+218a484|2025-10-07 23:15:13 -0700|Claude Code|test(frontend): Add comprehensive DOM mock utilities module
+6b1f8f9|2025-10-07 23:13:59 -0700|Claude Code|test(frontend): Fix 26 of 42 apiAdapter.test.ts failures (85.7% passing)
+74d6ea3|2025-10-07 23:03:16 -0700|Claude Code|feat(backend): Eliminate all 4 TODO comments with production implementations
+1564dfc|2025-10-07 23:03:14 -0700|Claude Code|Deploy aves frontend to GitHub Pages
+0552d1a|2025-10-07 22:59:45 -0700|Claude Code|test(frontend): Fix all 11 Tooltip component test failures
+4eebb7b|2025-10-07 22:18:15 -0700|Claude Code|docs: Add critical swarm orchestration architecture box to CLAUDE.md
+4c7b9f7|2025-10-07 18:37:10 -0700|Claude Code|test(frontend): Partial fix for Tooltip component tests (11/26 passing)
+eb4656a|2025-10-07 18:27:07 -0700|Claude Code|docs: Add comprehensive test recovery session report for October 7, 2025
+f46a217|2025-10-07 18:25:22 -0700|Claude Code|test: Fix 27 test failures across backend and frontend
+f99c81a|2025-10-07 17:56:21 -0700|Claude Code|chore: Update package-lock.json for happy-dom dependency
+d29f93a|2025-10-07 17:56:02 -0700|Claude Code|docs: Add comprehensive daily development report for October 7, 2025
+fe450ad|2025-10-07 17:55:59 -0700|Claude Code|feat(backend): Add global test teardown and dynamic pool cleanup
+2a537cd|2025-10-07 17:55:56 -0700|Claude Code|fix(backend): Correct auth middleware error message assertion
+9bf48b1|2025-10-07 17:55:52 -0700|Claude Code|fix(frontend): Switch from jsdom v27 to happy-dom for Node.js v20 compatibility
+77e9652|2025-10-07 16:49:38 -0700|Claude Code|Add rule interpretations, priority hierarchy, and compliance checklist to CLAUDE.md
+c842902|2025-10-07 16:41:05 -0700|Claude Code|Merge critical parent rules into CLAUDE.md and fix file organization violations
+4fc24bf|2025-10-07 16:33:44 -0700|Claude Code|Update agent operating instructions with professional communication style directive
+0560004|2025-10-07 16:23:42 -0700|Claude Code|Add comprehensive mandatory agent operating instructions to CLAUDE.md
+d723a7b|2025-10-07 01:19:25 -0700|Claude Code|Add comprehensive daily development report for October 6, 2025
+1cd4196|2025-10-06 23:56:39 -0700|Claude Code|Add comprehensive annotation review documentation and checklists
+a244acc|2025-10-06 19:26:41 -0700|Claude Code|Update Claude model to claude-sonnet-4-5-20250629
+e8c84ff|2025-10-06 13:20:38 -0700|Claude Code|Add comprehensive analytics dashboard with tabbed interface
+b96d089|2025-10-06 13:11:26 -0700|Claude Code|Add comprehensive analytics endpoint for annotation review workflow
+ce97e5a|2025-10-06 13:08:50 -0700|Claude Code|Add keyboard shortcuts and automated quality flags for annotation review
+d258220|2025-10-06 13:05:15 -0700|Claude Code|Fix bounding box persistence with optimistic React Query updates
+33406b0|2025-10-06 00:35:05 -0700|Claude Code|Add 7 more daily reports for Sept 8-14 (pre-project phase)
+3a1a54f|2025-10-06 00:32:23 -0700|Claude Code|Add 14 additional daily reports covering Sept 15-28
+9968356|2025-10-06 00:22:37 -0700|Claude Code|Add comprehensive 7-day daily development reports with analysis and visuals
+ff71faa|2025-10-05 22:33:43 -0700|Claude Code|Deploy latest frontend with axios baseURL fix and event handling
+e3d2b10|2025-10-05 22:33:39 -0700|Claude Code|Updates
+f6870c9|2025-10-05 22:33:02 -0700|Claude Code|Fix Router basename for local development
+e9bcd2d|2025-10-05 22:25:19 -0700|Claude Code|Create dedicated axios instance with Railway baseURL for admin hooks
+bbef8a3|2025-10-05 22:24:55 -0700|Claude Code|Updates
+3b3026d|2025-10-05 22:22:27 -0700|Claude Code|Fix axios baseURL configuration for admin pages on GitHub Pages
+1e2e572|2025-10-05 22:21:58 -0700|Claude Code|Updates
+6a9b57c|2025-10-05 22:14:27 -0700|Claude Code|Update GitHub Pages deployment with modal event handling fixes
+033f44c|2025-10-05 21:56:13 -0700|Claude Code|Updates
+229b8c7|2025-10-05 21:53:22 -0700|Claude Code|Fix BoundingBoxEditor event propagation preventing accidental button triggers
+c517985|2025-10-05 21:53:00 -0700|Claude Code|Updates
+f6b6042|2025-10-05 21:44:55 -0700|Claude Code|Copy shared types into backend for Railway deployment
+8e1d87a|2025-10-05 21:40:14 -0700|Claude Code|Fix Railway build: relax TypeScript strict mode and exclude test files
+94e9993|2025-10-05 20:55:37 -0700|Claude Code|Fix annotation review workflow with category-based rejections and bbox updates
+371e14f|2025-10-05 20:53:41 -0700|Claude Code|Updates
+3d3b695|2025-10-05 20:38:50 -0700|Claude Code|Updates
+f8f7d29|2025-10-05 20:37:54 -0700|Claude Code|Updates
+f05e8e4|2025-10-05 20:30:56 -0700|Claude Code|Updates
+5f731cb|2025-10-05 20:27:07 -0700|Claude Code|Updates
+e19ff2c|2025-10-05 20:16:39 -0700|Claude Code|Updates
+a37a289|2025-10-05 20:09:04 -0700|Claude Code|Updates
+fa0d6c5|2025-10-05 19:58:08 -0700|Claude Code|Integrate enhanced rejection modal and bounding box editor into review UI
+fadaeb3|2025-10-05 19:57:34 -0700|Claude Code|Updates
+54f33d5|2025-10-05 19:51:26 -0700|Claude Code|Add comprehensive annotation quality control system
+962e0b8|2025-10-05 19:50:50 -0700|Claude Code|Updates
+904bb68|2025-10-05 19:32:31 -0700|Claude Code|Replace complex AnnotationCanvas with simple div overlay for bounding boxes
+9684e81|2025-10-05 19:31:55 -0700|Claude Code|Updates
+753543d|2025-10-05 19:29:06 -0700|Claude Code|Fix coordinate display to show decimals (.toFixed(2)) and improve debug logging
+aad400a|2025-10-05 19:28:40 -0700|Claude Code|Updates
+301fb83|2025-10-05 19:22:56 -0700|Claude Code|Updates
+c2750b2|2025-10-05 19:17:08 -0700|Claude Code|Fix data mapping from snake_case to camelCase for AnnotationReviewCard
+95ce775|2025-10-05 19:16:32 -0700|Claude Code|Updates
+a03985c|2025-10-05 19:13:22 -0700|Claude Code|Fix login link to use React Router Link component for correct base path
+0534bf0|2025-10-05 19:12:56 -0700|Claude Code|Updates
+f436fae|2025-10-05 19:00:24 -0700|Claude Code|Fix bounding box structure transformation for AnnotationCanvas
+87a86b6|2025-10-05 18:59:55 -0700|Claude Code|Updates
+c9500dc|2025-10-05 18:53:01 -0700|Claude Code|Update 404.html for SPA routing on GitHub Pages
+c1b9586|2025-10-05 18:52:42 -0700|Claude Code|Updates
+dd5ee25|2025-10-05 18:29:00 -0700|Claude Code|Fix bounding_box JSON parsing in admin panel
+d9f497c|2025-10-05 18:28:31 -0700|Claude Code|Updates
+652a075|2025-10-05 01:53:31 -0700|Claude Code|Add Supabase login page for admin authentication
+40db2ef|2025-10-05 01:53:05 -0700|Claude Code|Updates
+490cfdd|2025-10-05 01:38:46 -0700|Claude Code|Fix admin panel to connect directly to Supabase (no backend required)
+fe19dfb|2025-10-05 01:38:17 -0700|Claude Code|Updates
+4cd2ae1|2025-10-05 01:34:36 -0700|Claude Code|Add Admin Annotation Review UI with Supabase integration
+8e5bd33|2025-10-05 01:34:06 -0700|Claude Code|Updates
+5d5efcb|2025-10-05 01:26:04 -0700|Claude Code|Add Unsplash image collection and Claude batch annotation system
+fb27ea6|2025-10-05 01:05:47 -0700|Claude Code|Fix image fetching in VisionAIService with axios
+96bbf1f|2025-10-05 01:01:35 -0700|Claude Code|Integrate Supabase cloud database with Claude Sonnet 4.5
+1281700|2025-10-05 00:40:17 -0700|Claude Code|Migrate from OpenAI to Anthropic Claude Sonnet 4.5
+58b2e27|2025-10-05 00:11:32 -0700|Claude Code|Fix Unsplash image CORS issue with crossOrigin attribute
+b4e2914|2025-10-05 00:11:10 -0700|Claude Code|Updates
+687e96f|2025-10-05 00:08:02 -0700|Claude Code|Fix Pino logger browser compatibility issue
+cbc8181|2025-10-05 00:07:43 -0700|Claude Code|Updates
+d0e3a03|2025-10-05 00:05:22 -0700|Claude Code|Deploy frontend to GitHub Pages with build optimizations
+e6a1365|2025-10-05 00:04:51 -0700|Claude Code|Updates
+4ff009e|2025-10-04 20:54:06 -0700|Claude Code|Configure environment variables for production readiness
+dd43e6c|2025-10-04 00:00:06 -0700|Claude Code|Add comprehensive deployment and action planning documentation
+818ea5f|2025-10-03 15:34:03 -0700|Claude Code|Add comprehensive project status evaluation report
+2df2c12|2025-10-03 10:28:39 -0700|Claude Code|Phase 3 Week 1 Complete: Production Readiness - Testing & Quality Assurance
+dead619|2025-10-02 19:09:33 -0700|Claude Code|Complete Weeks 1-5: Testing, Backend, Type Safety, Performance, and Refactoring
+36bacfc|2025-09-15 17:54:27 -0700|bjpl|Fix navigation issue - hardcode basename to /aves/ for GitHub Pages
+63bacd1|2025-09-15 17:47:37 -0700|bjpl|Fix navigation and routing issues for GitHub Pages
+a390764|2025-09-15 17:46:07 -0700|bjpl|Fix blank page issue - use relative paths for assets
+632f69b|2025-09-15 17:41:37 -0700|bjpl|Fix asset paths for GitHub Pages deployment
+3bbffe1|2025-09-15 17:37:26 -0700|bjpl|Add REAL visible improvements to learning app
+4d7af6b|2025-09-15 17:33:28 -0700|bjpl|Fix data loading paths for GitHub Pages deployment
+37bf3ee|2025-09-15 17:29:16 -0700|bjpl|Add enhanced learning content with visual identification features
+e056ffc|2025-09-15 17:09:10 -0700|bjpl|Update homepage copy with simplified, impactful messaging
+a7bc3f6|2025-09-15 17:05:56 -0700|bjpl|Add .nojekyll to docs folder to ensure proper GitHub Pages deployment
+874ea9b|2025-09-15 17:00:27 -0700|bjpl|Remove root 404.html - not needed for project repository
+9a1f1ce|2025-09-15 16:57:53 -0700|bjpl|Fix GitHub Pages deployment - remove conflicting root index.html
+45fce33|2025-09-15 16:40:58 -0700|bjpl|Fix React Router refresh issue on GitHub Pages
+c00ec30|2025-09-15 15:29:54 -0700|bjpl|Add serverless backend and comprehensive content ingestion system
+8ca5d60|2025-09-15 15:20:34 -0700|bjpl|Add headless CMS integration with Strapi
+8d61d64|2025-09-15 15:06:31 -0700|bjpl|Complete sustainability evaluation and architectural recommendations
+f26ca5b|2025-09-15 14:59:41 -0700|bjpl|Add audio, mobile responsiveness, and seamless learning flow
+63c3b87|2025-09-15 14:54:29 -0700|bjpl|Deploy updated app with progress tracking to GitHub Pages
+ffbb52c|2025-09-15 14:53:31 -0700|bjpl|Implement real user progress tracking and fix data loading
+d879654|2025-09-15 14:44:18 -0700|bjpl|Move built files to root directory for GitHub Pages
+0c2f1f8|2025-09-15 14:41:29 -0700|bjpl|Add .nojekyll file to fix GitHub Pages processing
+771defa|2025-09-15 14:38:19 -0700|bjpl|Deploy Aves to GitHub Pages with static client-side architecture
+387314d|2025-09-15 14:11:04 -0700|bjpl|feat: Implement Image Sourcing Pipeline with SPARC methodology
+85696d6|2025-09-15 14:04:10 -0700|bjpl|feat: Implement Species Browser with SPARC methodology
+fcc3fec|2025-09-15 13:58:16 -0700|bjpl|feat: Implement Task-Based Exercises with SPARC methodology
+86917ca|2025-09-15 13:53:39 -0700|bjpl|refactor: Simplify vocabulary disclosure system
+c29cd3c|2025-09-15 13:37:43 -0700|bjpl|feat: Implement Vocabulary Disclosure System with SPARC methodology
+5b6e986|2025-09-15 13:29:58 -0700|bjpl|feat: Initialize Aves Visual Spanish Bird Learning Platform
+
+FILE CHANGE STATISTICS:
+COMMIT:606f370
+3	3	.claude-flow/metrics/performance.json
+782	0	.claude-flow/metrics/system-metrics.json
+3	3	.claude-flow/metrics/task-metrics.json
+-	-	.swarm/memory.db
+3	3	backend/.claude-flow/metrics/performance.json
+3	3	backend/.claude-flow/metrics/task-metrics.json
+4	0	backend/test-output.log
+1355	0	daily_dev_startup_reports/2025-10-17-comprehensive-dev-startup.md
+
+COMMIT:36c4a80
+0	2	.github/workflows/code-quality.yml
+1	2	.github/workflows/deploy.yml
+2	2	.github/workflows/test.yml
+4	0	.gitignore
+54	0	backend/.env.test.example
+778	0	backend/docs/ADMIN_WORKFLOW_CHECKLIST.md
+624	0	backend/docs/PRODUCTION_VERIFICATION_GUIDE.md
+371	0	backend/docs/QUICK_REFERENCE.md
+417	0	backend/docs/README.md
+583	0	backend/docs/STATS_FIX_TEST_PLAN.md
+495	0	backend/docs/TEST_STABILIZATION_REPORT.md
+708	0	backend/docs/migrations/EXECUTION_REPORT.md
+699	0	backend/docs/migrations/PRODUCTION_MIGRATION_PLAN.md
+137	0	backend/docs/migrations/QUICK_REFERENCE.md
+300	0	backend/docs/migrations/README.md
+421	0	backend/docs/migrations/SQL_QUERIES.sql
+13	0	backend/jest.minimal.config.js
+297	0	backend/scripts/README.md
+309	0	backend/scripts/production-health-check.sh
+69	0	backend/scripts/run-bounding-box-migration.sh
+223	0	backend/src/database/migrations/012_normalize_bounding_box_format.sql
+406	0	docs/migrations/bounding-box-format-migration-guide.md
+165	0	docs/security/2025-10-17-credential-exposure-incident.md
+
+COMMIT:e3477ef
+119	147	.github/workflows/test.yml
+12	1	backend/src/__tests__/services/aiExerciseGenerator.test.ts
+173	0	docs/github-secrets-setup.md
+
+COMMIT:df4e9d5
+3	3	.claude-flow/metrics/performance.json
+0	5114	.claude-flow/metrics/system-metrics.json
+3	3	.claude-flow/metrics/task-metrics.json
+-	-	.swarm/memory.db
+80	2	backend/.claude-flow/metrics/performance.json
+3	3	backend/.claude-flow/metrics/task-metrics.json
+53	0	backend/.env.test
+10	0	backend/jest.config.js
+19	5	backend/src/__tests__/config/aiConfig.test.ts
+130	0	backend/src/__tests__/fixtures/aiResponses.ts
+46	3	backend/src/__tests__/globalTeardown.ts
+45	27	backend/src/__tests__/integration/admin-dashboard-flow.test.ts
+99	21	backend/src/__tests__/integration/setup.ts
+54	0	backend/src/__tests__/mocks/database.ts
+83	148	backend/src/__tests__/services/aiExerciseGenerator.test.ts
+15	0	backend/src/__tests__/setup.ts
+199	0	backend/src/__tests__/utils/asyncTestUtils.ts
+32	0	backend/src/__tests__/utils/index.ts
+155	0	backend/src/__tests__/utils/run-test-migrations.ts
+119	0	backend/src/__tests__/utils/verify-test-schema.ts
+256	0	backend/src/__tests__/utils/workerMocks.ts
+299	0	backend/src/database/migrations/test/001_create_all_test_tables.sql
+30	0	backend/src/database/migrations/test/010_create_species_and_images.sql
+10	0	backend/src/routes/batch.ts
+395	0	daily_dev_startup_reports/2025-10-17-comprehensive-startup-analysis.md
+284	0	daily_reports/2025-10-12.md
+56	0	daily_reports/2025-10-13.md
+56	0	daily_reports/2025-10-14.md
+56	0	daily_reports/2025-10-15.md
+1479	0	daily_reports/2025-10-16.md
+520	0	daily_reports/2025-10-17.md
+106	0	docs/INSTALL-POSTGRESQL.md
+772	0	docs/TEST-SETUP-INSTRUCTIONS.md
+232	0	docs/ai-test-fixes-report.md
+900	0	docs/ai-testing-patterns.md
+750	0	docs/bounding-box-migration-guide.md
+771	0	docs/incremental-test-workflow.md
+87	0	docs/setup-test-database.md
+313	0	docs/test-coordination-report.md
+297	0	docs/test-database-schema-fixes.md
+308	0	docs/test-failure-analysis.md
+190	0	docs/test-fixes-quick-reference.md
+950	0	docs/test-troubleshooting.md
+640	0	docs/test-utilities-overview.md
+111	0	docs/test-verification-2025-10-17.md
+332	0	docs/worker-cleanup-improvements.md
+122	0	scripts/migrate-test-schema.ts
+41	0	scripts/setup-local-test-db.bat
+43	0	scripts/setup-local-test-db.sh
+24	0	scripts/setup-test-schema.sql
+
+COMMIT:6293fe1
+399	0	frontend/src/test-utils/async-test-helpers.ts
+345	0	frontend/src/test-utils/axios-mock-config.ts
+105	0	frontend/src/test-utils/index.ts
+312	0	frontend/src/test-utils/react-query-test-utils.ts
+316	0	tests/INDEX.md
+480	0	tests/README-MIGRATION.md
+276	0	tests/README.md
+672	0	tests/analysis/async-handling-patterns.md
+629	0	tests/analysis/axios-mock-patterns.md
+544	0	tests/analysis/react-query-patterns.md
+318	0	tests/examples/async-handling-examples.test.tsx
+245	0	tests/examples/axios-mock-examples.test.ts
+217	0	tests/examples/react-query-examples.test.tsx
+426	0	tests/migration-cheatsheet.md
+512	0	tests/migration-guide.md
+332	0	tests/migration-script.sh
+388	0	tests/migration-summary.md
+883	0	tests/migration-templates.md
+876	0	tests/specs/async-test-helpers.spec.md
+895	0	tests/specs/axios-mock-config.spec.md
+535	0	tests/specs/react-query-test-utils.spec.md
+228	0	tests/utils/async-test-helpers.ts
+205	0	tests/utils/axios-mock-helpers.ts
+173	0	tests/utils/react-query-helpers.tsx
+294	0	tests/validation/VALIDATION-SUMMARY.md
+137	0	tests/validation/baseline-metrics.json
+99	0	tests/validation/migration-checklist.md
+253	0	tests/validation/migration-strategy.md
+294	0	tests/validation/recommended-migrations.md
+343	0	tests/vscode-snippets.json
+
+COMMIT:90f4d9b
+3	3	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+-	-	.swarm/memory.db
+38	21	frontend/src/__tests__/components/annotations/AnnotationCanvas.test.tsx
+2	0	frontend/src/components/annotation/AnnotationCanvas.tsx
+12	10	frontend/src/config/axios.ts
+67	1	frontend/src/test/setup.ts
+
+COMMIT:393e1ca
+80	2	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+-	-	.swarm/memory.db
+0	1385	docs/ad_hoc_reports/technology_stack.md
+0	1	docs/assets/js/AdminAnnotationReviewPage-CZikKvzk.js
+1	0	docs/assets/js/AdminAnnotationReviewPage-D5ES0D0X.js
+1	1	docs/assets/js/{HomePage-CUxECh6j.js => HomePage-CFmEBx09.js}
+1	1	docs/assets/js/{LoginPage-D0o_0JPR.js => LoginPage-Bm7ukalA.js}
+1	1	docs/assets/js/{SpeciesPage-CISLOR6H.js => SpeciesPage-CweKXEGc.js}
+1	1	docs/assets/js/{apiAdapter-Bub8Mi7Z.js => apiAdapter-BrhxuEAR.js}
+2	2	docs/assets/js/{index-CLBSgpMz.js => index-Dy1s47gK.js}
+1	1	docs/assets/js/{useSupabaseAuth-DgmidNdA.js => useSupabaseAuth-BLg6gJfz.js}
+1	1	docs/index.html
+0	1047	docs/technical-debt-assessment.md
+9	17	frontend/src/__tests__/services/unsplashService.test.ts
+10	7	frontend/src/services/unsplashService.ts
+
+COMMIT:73db130
+1	1	.github/workflows/deploy.yml
+
+COMMIT:449de4c
+1	1	.github/workflows/deploy.yml
+
+COMMIT:01ddf20
+1	0	frontend/package.json
+45	0	package-lock.json
+
+COMMIT:a43ac16
+9	9	backend/src/routes/aiAnnotations.ts
+9	5	frontend/src/pages/admin/AdminAnnotationReviewPage.tsx
+
+COMMIT:8a199a9
+112	53	frontend/src/hooks/useAIAnnotations.ts
+
+COMMIT:d0a4f66
+2	0	frontend/src/hooks/useAIAnnotations.ts
+1	0	frontend/src/pages/admin/AnnotationReviewPage.tsx
+119	0	frontend/src/utils/diagnostics/localStorageDebug.ts
+
+COMMIT:6c81fa8
+50	14	frontend/src/hooks/useAIAnnotations.ts
+
+COMMIT:1347cf6
+46	7	frontend/src/hooks/useAIAnnotations.ts
+13	0	frontend/src/main.tsx
+35	0	frontend/src/utils/diagnostics/testApprove.ts
+
+COMMIT:a1a1625
+2	1	backend/src/database/migrate.ts
+44	0	backend/src/database/migrations/011_create_annotations_table.sql
+
+COMMIT:a01131f
+31	0	backend/scripts/set-admin.sql
+143	0	backend/src/middleware/supabaseAuth.ts
+107	44	backend/src/routes/aiAnnotations.ts
+14	10	frontend/src/__tests__/hooks/useAIAnnotations.test.ts
+54	31	frontend/src/components/admin/AnnotationReviewCard.tsx
+66	10	frontend/src/config/axios.ts
+23	9	frontend/src/hooks/useAIAnnotations.ts
+13	51	frontend/src/pages/admin/AdminAnnotationReviewPage.tsx
+
+COMMIT:049474e
+329	0	daily_reports/2025-10-11.md
+
+COMMIT:f17279c
+1385	0	docs/ad_hoc_reports/technology_stack.md
+
+PROJECT FILES:
+total 580
+drwxrwxrwx 1 brand brand    512 Oct 16 22:11 .
+drwxrwxrwx 1 brand brand    512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand    512 Oct 11 17:06 .claude
+drwxrwxrwx 1 brand brand    512 Sep 15 13:16 .claude-flow
+-rwxrwxrwx 1 brand brand   3713 Oct  4 20:27 .env
+-rwxrwxrwx 1 brand brand   2292 Oct  7 23:16 .env.docker.example
+-rwxrwxrwx 1 brand brand    584 Oct  2 22:42 .env.example
+drwxrwxrwx 1 brand brand    512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand    512 Sep 15 14:27 .github
+-rwxrwxrwx 1 brand brand   1267 Oct 17 17:47 .gitignore
+drwxrwxrwx 1 brand brand    512 Oct 10 20:28 .hive-mind
+-rwxrwxrwx 1 brand brand    656 Oct 10 20:28 .mcp.json
+-rwxrwxrwx 1 brand brand      0 Sep 15 14:44 .nojekyll
+drwxrwxrwx 1 brand brand    512 Oct 17 20:55 .swarm
+-rwxrwxrwx 1 brand brand  13125 Oct 11 17:06 CLAUDE.md
+-rwxrwxrwx 1 brand brand  19587 Oct  4 02:46 README.md
+-rwxrwxrwx 1 brand brand  15434 Oct  2 23:18 README_PHASE2.md
+-rwxrwxrwx 1 brand brand   8488 Oct  4 02:47 SETUP.md
+drwxrwxrwx 1 brand brand    512 Sep 15 15:23 api
+drwxrwxrwx 1 brand brand    512 Sep 15 14:54 assets
+drwxrwxrwx 1 brand brand    512 Oct 17 18:21 backend
+-rwxrwxrwx 1 brand brand   1038 Oct 10 20:28 claude-flow
+-rwxrwxrwx 1 brand brand    997 Oct 11 17:06 claude-flow.cmd
+drwxrwxrwx 1 brand brand    512 Sep 15 15:16 cms
+drwxrwxrwx 1 brand brand    512 Oct 10 20:26 coordination
+drwxrwxrwx 1 brand brand    512 Oct 17 20:54 daily_dev_startup_reports
+drwxrwxrwx 1 brand brand    512 Oct 18 00:00 daily_reports
+drwxrwxrwx 1 brand brand    512 Sep 15 14:43 data
+drwxrwxrwx 1 brand brand    512 Sep 15 13:26 database
+
+PACKAGE.JSON FOUND
+{
+  "name": "aves",
+  "version": "0.1.0",
+  "description": "Visual Spanish Bird Learning Platform",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
+README.MD PREVIEW:
+# Aves - Visual Spanish Bird Learning Platform
+
+🦅 **An AI-powered inductive learning platform for Spanish ornithological vocabulary acquisition through interactive photography**
+
+Aves leverages **visual-spatial memory**, **AI-powered annotations**, and **contextual discovery** to teach Spanish bird terminology through an engaging, image-based interface. Built with modern web technologies and following **SPARC methodology** for systematic feature development.
+
+**🚀 Live Demo**: [https://bjpl.github.io/aves/](https://bjpl.github.io/aves/) (GitHub Pages)
+
+**📊 Project Status**: Phase 3 Week 1 Complete - Production Ready
+- ✅ **95%+ Backend Test Coverage** (production-ready)
+- ✅ **67 Test Files** (264 frontend + 57 E2E + integration tests)
+- ✅ **AI-Powered Features** (Vision AI annotations + GPT-4 exercises)
+- ✅ **Deployed & Live** on GitHub Pages
+
+## ✨ Core Features
+
+### 🤖 **AI-Powered Vision Annotations** (Phase 1)
+- **GPT-4 Vision API** integration for automatic bird feature detection
+- Intelligent annotation generation (anatomy, colors, behavior)
+- Caching system to minimize API costs
+- Batch processing for multiple images
+- Automatic Spanish terminology mapping
+
+### 🎯 **Interactive Image Annotation System**
+- Canvas-based high-performance rendering
+- Interactive bounding box annotations
+- Hover and click detection with coordinate mapping
+- Support for anatomical, color, and behavioral annotations
+- Responsive design with mobile support
+
+### 📚 **Progressive Vocabulary Disclosure**
+- **5-level disclosure system**: Hidden → Hover → Click → Etymology → Examples
+- Session-based progress tracking with React Query
+- Visual feedback for discovered terms
+- Contextual learning without cognitive overload
+- Client-side state persistence with Zustand
+
+### 🎮 **AI-Powered Exercise Generation** (Phase 2)
+- **GPT-4-based intelligent exercise creation**
+- Multiple exercise types:
+  - **Visual Discrimination**: Match images to Spanish terms
+  - **Contextual Fill**: Complete sentences with correct vocabulary
+  - **Term Matching**: Connect Spanish/English pairs
+  - **Translation Practice**: Bidirectional translation
+- Adaptive difficulty based on user performance
+- Real-time feedback and progress tracking
+- User context integration for personalized learning
+- Exercise caching system (95%+ hit rate)
+
+### 🦜 **Species Browser**
+

@@ -1,0 +1,60 @@
+=== ANALYZING: llms_on_my_system ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/llms_on_my_system
+
+COMMITS SINCE AUG 2024: 2
+
+FIRST COMMIT (since Aug 2024): 2025-10-11 17:53:33 -0700
+LAST COMMIT: 2025-10-12 23:12:29 -0700
+
+AUTHORS:
+      1 bjpl
+      1 Brandon JP Lambert
+
+
+BRANCHES:
+* main
+  remotes/origin/main
+
+TAGS:
+
+COMMIT LOG:
+d4e4625|2025-10-12 23:12:29 -0700|bjpl|docs: Add comprehensive technology stack documentation
+e35fc57|2025-10-11 17:53:33 -0700|Brandon JP Lambert|Initial commit: LLM system setup guides and documentation
+
+FILE CHANGE STATISTICS:
+COMMIT:d4e4625
+851	0	docs/ad_hoc_reports/technology_stack.md
+
+COMMIT:e35fc57
+39	0	.gitignore
+470	0	COMPLETE_SETUP_GUIDE.md
+162	0	QUICK_REFERENCE.md
+163	0	UNIFIED_SETUP_README.md
+197	0	daily_reports/PROJECT_STATUS_REPORT.md
+76	0	daily_reports/README.md
+237	0	docs/LLM_System_Inventory.md
+269	0	docs/STORAGE_ARCHITECTURE.md
+11	0	nul
+269	0	scripts/MASTER_SETUP.bat
+294	0	scripts/MASTER_SETUP_FIXED.bat
+429	0	scripts/OLLAMA_MODELS_SETUP.bat
+146	0	scripts/install_all.bat
+209	0	scripts/setup_llm_workspace.bat
+264	0	scripts/test_local_models.py
+
+PROJECT FILES:
+total 32
+drwxrwxrwx 1 brand brand   512 Oct 11 17:53 .
+drwxrwxrwx 1 brand brand   512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand   512 Sep 23 23:00 .claude-flow
+drwxrwxrwx 1 brand brand   512 Oct 18 12:24 .git
+-rwxrwxrwx 1 brand brand   289 Oct 11 17:53 .gitignore
+-rwxrwxrwx 1 brand brand 13627 Sep 23 23:23 COMPLETE_SETUP_GUIDE.md
+-rwxrwxrwx 1 brand brand  3911 Sep 23 23:09 QUICK_REFERENCE.md
+-rwxrwxrwx 1 brand brand  5220 Sep 23 23:24 UNIFIED_SETUP_README.md
+drwxrwxrwx 1 brand brand   512 Oct 17 01:11 daily_reports
+drwxrwxrwx 1 brand brand   512 Oct 12 21:01 docs
+-rwxrwxrwx 1 brand brand   461 Sep 24 00:27 nul
+drwxrwxrwx 1 brand brand   512 Sep 23 23:49 scripts
+

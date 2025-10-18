@@ -19,20 +19,21 @@ from config import BASE_DIR, get_all_projects_with_daily_reports, get_daily_repo
 
 
 def get_git_commit_dates(project_path: Path) -> Set[str]:
-    """Get all dates with git commits in YYYY-MM-DD format"""
-    if not (project_path / ".git").exists():
-        return set()
-
+    """Get all dates with git commits that touched files in this project"""
     try:
+        # Use git log with path filter to only get commits for this project
+        # Use --all to check all branches, and "." to filter by current directory
         result = subprocess.run(
-            ["git", "log", "--all", "--format=%cs"],
+            ["git", "log", "--all", "--format=%cs", "--", "."],
             cwd=project_path,
             capture_output=True,
             text=True,
             check=True
         )
         # Convert to set of unique dates in YYYY-MM-DD format
-        return set(result.stdout.strip().split("\n"))
+        # Filter out empty strings from the split
+        dates = result.stdout.strip().split("\n") if result.stdout.strip() else []
+        return set(d for d in dates if d)
     except subprocess.CalledProcessError:
         return set()
 

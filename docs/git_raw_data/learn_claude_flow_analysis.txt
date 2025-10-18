@@ -1,0 +1,381 @@
+=== ANALYZING: learn_claude_flow ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/learn_claude_flow
+
+COMMITS SINCE AUG 2024: 22
+
+FIRST COMMIT (since Aug 2024): 2025-10-01 12:47:47 -0700
+LAST COMMIT: 2025-10-08 02:14:38 -0700
+
+AUTHORS:
+     22 Brandon Lambert
+
+
+BRANCHES:
+* main
+  remotes/origin/main
+
+TAGS:
+
+COMMIT LOG:
+68e6d84|2025-10-08 02:14:38 -0700|Brandon Lambert|Add comprehensive workflow documentation and automation scripts
+be214db|2025-10-01 15:40:24 -0700|Brandon Lambert|Implement proper document content loading via fetch
+faef81e|2025-10-01 15:36:54 -0700|Brandon Lambert|Fix router to use DocumentationApp instead of empty OverviewDashboard
+08056ee|2025-10-01 15:33:10 -0700|Brandon Lambert|Add .claude documentation to public directory for deployment
+23a3084|2025-10-01 15:29:35 -0700|Brandon Lambert|Add basename to router for GitHub Pages subdirectory
+b6a8b0f|2025-10-01 15:27:37 -0700|Brandon Lambert|Add basename to router for GitHub Pages subdirectory
+ca1a7b3|2025-10-01 15:23:28 -0700|Brandon Lambert|Remove ui-vendor chunk entirely to fix React dependency issue
+60de00f|2025-10-01 15:20:09 -0700|Brandon Lambert|Explicitly keep lucide-react in main bundle
+dcbb9d6|2025-10-01 15:18:34 -0700|Brandon Lambert|Fix lucide-react chunk loading order issue
+56e5ef3|2025-10-01 15:16:36 -0700|Brandon Lambert|Add terser dependency for production builds
+ebcd301|2025-10-01 13:37:27 -0700|Brandon Lambert|Fix all TypeScript build errors with swarm coordination
+348af75|2025-10-01 13:24:32 -0700|Brandon Lambert|Fix example files and Flex component type errors
+be9bea6|2025-10-01 13:16:20 -0700|Brandon Lambert|Fix remaining TypeScript build errors
+60881ec|2025-10-01 13:14:28 -0700|Brandon Lambert|Fix TypeScript build errors
+2500155|2025-10-01 13:08:53 -0700|Brandon Lambert|Fix TypeScript build errors
+fcec5a7|2025-10-01 13:06:56 -0700|Brandon Lambert|Fix extraction script path
+6f9a668|2025-10-01 13:06:22 -0700|Brandon Lambert|Simplify deployment workflow
+f97082d|2025-10-01 13:05:14 -0700|Brandon Lambert|Disable test workflow on push to main
+576a684|2025-10-01 13:04:00 -0700|Brandon Lambert|Fix GitHub Actions: Update to v4 actions
+1d01696|2025-10-01 12:59:50 -0700|Brandon Lambert|Add GitHub Pages deployment
+ccfcc12|2025-10-01 12:56:39 -0700|Brandon Lambert|Initial commit: Learn Claude Flow documentation viewer
+04ce355|2025-10-01 12:47:47 -0700|Brandon Lambert|Initial commit: Learn Claude Flow documentation viewer
+
+FILE CHANGE STATISTICS:
+COMMIT:68e6d84
+363	0	WORKFLOWS.md
+321	0	docs/PRACTICAL_VS_COMPLEX.md
+291	0	docs/RECOMMENDED_WORKFLOWS.md
+437	0	docs/SWARM_ARCHITECTURE_SUMMARY.md
+357	0	docs/WORKFLOW_SCRIPTS_README.md
+422	0	docs/hive-swarm-architecture.md
+430	0	docs/jekyll-quick-reference.md
+445	0	docs/jekyll-workflow-guide.md
+331	0	docs/multi-hive-workflow-guide.md
+281	0	docs/quick-reference.md
+775	0	scripts/jekyll-github-pages-workflow.sh
+386	0	scripts/jekyll-practical-workflow.sh
+746	0	scripts/multi-hive-webapp-workflow.sh
+366	0	scripts/webapp-practical-workflow.sh
+
+COMMIT:be214db
+1	1	src/data/documents.ts
+27	24	src/utils/documentLoader.ts
+
+COMMIT:faef81e
+1	1	src/data/documents.ts
+2	13	src/router/routes.tsx
+
+COMMIT:08056ee
+209	0	public/.claude/agents/analysis/code-analyzer.md
+180	0	public/.claude/agents/analysis/code-review/analyze-code-quality.md
+156	0	public/.claude/agents/architecture/system-design/arch-system-design.md
+42	0	public/.claude/agents/base-template-generator.md
+63	0	public/.claude/agents/consensus/byzantine-coordinator.md
+997	0	public/.claude/agents/consensus/crdt-synchronizer.md
+63	0	public/.claude/agents/consensus/gossip-coordinator.md
+851	0	public/.claude/agents/consensus/performance-benchmarker.md
+823	0	public/.claude/agents/consensus/quorum-manager.md
+63	0	public/.claude/agents/consensus/raft-manager.md
+622	0	public/.claude/agents/consensus/security-manager.md
+266	0	public/.claude/agents/core/coder.md
+168	0	public/.claude/agents/core/planner.md
+190	0	public/.claude/agents/core/researcher.md
+326	0	public/.claude/agents/core/reviewer.md
+319	0	public/.claude/agents/core/tester.md
+193	0	public/.claude/agents/data/ml/data-ml-model.md
+142	0	public/.claude/agents/development/backend/dev-backend-api.md
+164	0	public/.claude/agents/devops/ci-cd/ops-cicd-github.md
+174	0	public/.claude/agents/documentation/api-docs/docs-api-openapi.md
+88	0	public/.claude/agents/flow-nexus/app-store.md
+69	0	public/.claude/agents/flow-nexus/authentication.md
+81	0	public/.claude/agents/flow-nexus/challenges.md
+88	0	public/.claude/agents/flow-nexus/neural-network.md
+83	0	public/.claude/agents/flow-nexus/payments.md
+76	0	public/.claude/agents/flow-nexus/sandbox.md
+76	0	public/.claude/agents/flow-nexus/swarm.md
+96	0	public/.claude/agents/flow-nexus/user-tools.md
+84	0	public/.claude/agents/flow-nexus/workflow.md
+538	0	public/.claude/agents/github/code-review-swarm.md
+173	0	public/.claude/agents/github/github-modes.md
+319	0	public/.claude/agents/github/issue-tracker.md
+553	0	public/.claude/agents/github/multi-repo-swarm.md
+191	0	public/.claude/agents/github/pr-manager.md
+509	0	public/.claude/agents/github/project-board-sync.md
+367	0	public/.claude/agents/github/release-manager.md
+583	0	public/.claude/agents/github/release-swarm.md
+398	0	public/.claude/agents/github/repo-architect.md
+573	0	public/.claude/agents/github/swarm-issue.md
+428	0	public/.claude/agents/github/swarm-pr.md
+452	0	public/.claude/agents/github/sync-coordinator.md
+635	0	public/.claude/agents/github/workflow-automation.md
+446	0	public/.claude/agents/goal/code-goal-planner.md
+168	0	public/.claude/agents/goal/goal-planner.md
+130	0	public/.claude/agents/hive-mind/collective-intelligence-coordinator.md
+203	0	public/.claude/agents/hive-mind/queen-coordinator.md
+242	0	public/.claude/agents/hive-mind/scout-explorer.md
+193	0	public/.claude/agents/hive-mind/swarm-memory-manager.md
+217	0	public/.claude/agents/hive-mind/worker-specialist.md
+74	0	public/.claude/agents/neural/safla-neural.md
+665	0	public/.claude/agents/optimization/benchmark-suite.md
+431	0	public/.claude/agents/optimization/load-balancer.md
+672	0	public/.claude/agents/optimization/performance-monitor.md
+674	0	public/.claude/agents/optimization/resource-allocator.md
+808	0	public/.claude/agents/optimization/topology-optimizer.md
+472	0	public/.claude/agents/sparc/architecture.md
+318	0	public/.claude/agents/sparc/pseudocode.md
+525	0	public/.claude/agents/sparc/refinement.md
+276	0	public/.claude/agents/sparc/specification.md
+226	0	public/.claude/agents/specialized/mobile/spec-mobile-react-native.md
+396	0	public/.claude/agents/swarm/adaptive-coordinator.md
+327	0	public/.claude/agents/swarm/hierarchical-coordinator.md
+392	0	public/.claude/agents/swarm/mesh-coordinator.md
+205	0	public/.claude/agents/templates/automation-smart-agent.md
+105	0	public/.claude/agents/templates/coordinator-swarm-init.md
+177	0	public/.claude/agents/templates/github-pr-manager.md
+259	0	public/.claude/agents/templates/implementer-sparc-coder.md
+187	0	public/.claude/agents/templates/memory-coordinator.md
+746	0	public/.claude/agents/templates/migration-plan.md
+139	0	public/.claude/agents/templates/orchestrator-task.md
+199	0	public/.claude/agents/templates/performance-analyzer.md
+183	0	public/.claude/agents/templates/sparc-coordinator.md
+244	0	public/.claude/agents/testing/unit/tdd-london-swarm.md
+395	0	public/.claude/agents/testing/validation/production-validator.md
+10	0	public/.claude/commands/agents/README.md
+21	0	public/.claude/commands/agents/agent-capabilities.md
+28	0	public/.claude/commands/agents/agent-coordination.md
+28	0	public/.claude/commands/agents/agent-spawning.md
+26	0	public/.claude/commands/agents/agent-types.md
+54	0	public/.claude/commands/analysis/COMMAND_COMPLIANCE_REPORT.md
+9	0	public/.claude/commands/analysis/README.md
+162	0	public/.claude/commands/analysis/bottleneck-detect.md
+59	0	public/.claude/commands/analysis/performance-bottlenecks.md
+25	0	public/.claude/commands/analysis/performance-report.md
+45	0	public/.claude/commands/analysis/token-efficiency.md
+25	0	public/.claude/commands/analysis/token-usage.md
+9	0	public/.claude/commands/automation/README.md
+122	0	public/.claude/commands/automation/auto-agent.md
+106	0	public/.claude/commands/automation/self-healing.md
+90	0	public/.claude/commands/automation/session-memory.md
+73	0	public/.claude/commands/automation/smart-agents.md
+25	0	public/.claude/commands/automation/smart-spawn.md
+25	0	public/.claude/commands/automation/workflow-select.md
+124	0	public/.claude/commands/flow-nexus/app-store.md
+120	0	public/.claude/commands/flow-nexus/challenges.md
+65	0	public/.claude/commands/flow-nexus/login-registration.md
+134	0	public/.claude/commands/flow-nexus/neural-network.md
+116	0	public/.claude/commands/flow-nexus/payments.md
+83	0	public/.claude/commands/flow-nexus/sandbox.md
+87	0	public/.claude/commands/flow-nexus/swarm.md
+152	0	public/.claude/commands/flow-nexus/user-tools.md
+115	0	public/.claude/commands/flow-nexus/workflow.md
+11	0	public/.claude/commands/github/README.md
+514	0	public/.claude/commands/github/code-review-swarm.md
+25	0	public/.claude/commands/github/code-review.md
+147	0	public/.claude/commands/github/github-modes.md
+121	0	public/.claude/commands/github/github-swarm.md
+292	0	public/.claude/commands/github/issue-tracker.md
+25	0	public/.claude/commands/github/issue-triage.md
+519	0	public/.claude/commands/github/multi-repo-swarm.md
+26	0	public/.claude/commands/github/pr-enhance.md
+170	0	public/.claude/commands/github/pr-manager.md
+471	0	public/.claude/commands/github/project-board-sync.md
+338	0	public/.claude/commands/github/release-manager.md
+544	0	public/.claude/commands/github/release-swarm.md
+25	0	public/.claude/commands/github/repo-analyze.md
+367	0	public/.claude/commands/github/repo-architect.md
+482	0	public/.claude/commands/github/swarm-issue.md
+285	0	public/.claude/commands/github/swarm-pr.md
+301	0	public/.claude/commands/github/sync-coordinator.md
+442	0	public/.claude/commands/github/workflow-automation.md
+17	0	public/.claude/commands/hive-mind/README.md
+8	0	public/.claude/commands/hive-mind/hive-mind-consensus.md
+18	0	public/.claude/commands/hive-mind/hive-mind-init.md
+8	0	public/.claude/commands/hive-mind/hive-mind-memory.md
+8	0	public/.claude/commands/hive-mind/hive-mind-metrics.md
+8	0	public/.claude/commands/hive-mind/hive-mind-resume.md
+8	0	public/.claude/commands/hive-mind/hive-mind-sessions.md
+21	0	public/.claude/commands/hive-mind/hive-mind-spawn.md
+8	0	public/.claude/commands/hive-mind/hive-mind-status.md
+8	0	public/.claude/commands/hive-mind/hive-mind-stop.md
+8	0	public/.claude/commands/hive-mind/hive-mind-wizard.md
+27	0	public/.claude/commands/hive-mind/hive-mind.md
+11	0	public/.claude/commands/hooks/README.md
+132	0	public/.claude/commands/hooks/overview.md
+117	0	public/.claude/commands/hooks/post-edit.md
+112	0	public/.claude/commands/hooks/post-task.md
+113	0	public/.claude/commands/hooks/pre-edit.md
+111	0	public/.claude/commands/hooks/pre-task.md
+118	0	public/.claude/commands/hooks/session-end.md
+103	0	public/.claude/commands/hooks/setup.md
+9	0	public/.claude/commands/monitoring/README.md
+25	0	public/.claude/commands/monitoring/agent-metrics.md
+44	0	public/.claude/commands/monitoring/agents.md
+25	0	public/.claude/commands/monitoring/real-time-view.md
+46	0	public/.claude/commands/monitoring/status.md
+25	0	public/.claude/commands/monitoring/swarm-monitor.md
+9	0	public/.claude/commands/optimization/README.md
+62	0	public/.claude/commands/optimization/auto-topology.md
+25	0	public/.claude/commands/optimization/cache-manage.md
+25	0	public/.claude/commands/optimization/parallel-execute.md
+50	0	public/.claude/commands/optimization/parallel-execution.md
+25	0	public/.claude/commands/optimization/topology-optimize.md
+546	0	public/.claude/commands/pair/commands.md
+510	0	public/.claude/commands/pair/config.md
+512	0	public/.claude/commands/pair/examples.md
+348	0	public/.claude/commands/pair/modes.md
+407	0	public/.claude/commands/pair/session.md
+209	0	public/.claude/commands/pair/start.md
+52	0	public/.claude/commands/sparc/analyzer.md
+53	0	public/.claude/commands/sparc/architect.md
+54	0	public/.claude/commands/sparc/batch-executor.md
+54	0	public/.claude/commands/sparc/coder.md
+54	0	public/.claude/commands/sparc/debugger.md
+53	0	public/.claude/commands/sparc/designer.md
+54	0	public/.claude/commands/sparc/documenter.md
+54	0	public/.claude/commands/sparc/innovator.md
+54	0	public/.claude/commands/sparc/memory-manager.md
+54	0	public/.claude/commands/sparc/optimizer.md
+132	0	public/.claude/commands/sparc/orchestrator.md
+54	0	public/.claude/commands/sparc/researcher.md
+54	0	public/.claude/commands/sparc/reviewer.md
+174	0	public/.claude/commands/sparc/sparc-modes.md
+54	0	public/.claude/commands/sparc/swarm-coordinator.md
+54	0	public/.claude/commands/sparc/tdd.md
+
+PROJECT FILES:
+total 388
+drwxrwxrwx 1 brand brand    512 Oct  2 18:34 .
+drwxrwxrwx 1 brand brand    512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand    512 Sep 30 14:51 .claude
+drwxrwxrwx 1 brand brand    512 Sep 30 14:02 .claude-flow
+-rwxrwxrwx 1 brand brand     75 Sep 30 14:04 .env
+-rwxrwxrwx 1 brand brand    360 Sep 30 14:38 .env.example
+-rwxrwxrwx 1 brand brand    566 Sep 30 14:37 .eslintrc.cjs
+drwxrwxrwx 1 brand brand    512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand    512 Sep 30 21:31 .github
+-rwxrwxrwx 1 brand brand    993 Oct  1 12:46 .gitignore
+drwxrwxrwx 1 brand brand    512 Sep 30 14:51 .hive-mind
+-rwxrwxrwx 1 brand brand    656 Sep 30 14:51 .mcp.json
+drwxrwxrwx 1 brand brand    512 Oct  8 20:37 .swarm
+drwxrwxrwx 1 brand brand    512 Sep 30 14:38 .vscode
+-rwxrwxrwx 1 brand brand  13125 Sep 30 14:51 CLAUDE.md
+-rwxrwxrwx 1 brand brand   5778 Sep 30 14:38 README.md
+-rwxrwxrwx 1 brand brand  10120 Oct  2 18:34 WORKFLOWS.md
+-rwxrwxrwx 1 brand brand   1038 Sep 30 14:51 claude-flow
+drwxrwxrwx 1 brand brand    512 Oct  1 15:23 config
+drwxrwxrwx 1 brand brand    512 Oct  1 15:40 dist
+drwxrwxrwx 1 brand brand    512 Oct  2 18:54 docs
+drwxrwxrwx 1 brand brand    512 Sep 30 14:31 docs-viewer
+-rwxrwxrwx 1 brand brand    487 Sep 30 17:30 index.html
+drwxrwxrwx 1 brand brand    512 Oct  1 15:16 node_modules
+-rwxrwxrwx 1 brand brand 324744 Oct  1 15:16 package-lock.json
+-rwxrwxrwx 1 brand brand   3225 Oct  1 15:16 package.json
+-rwxrwxrwx 1 brand brand     80 Sep 30 14:37 postcss.config.js
+drwxrwxrwx 1 brand brand    512 Oct  1 15:31 public
+drwxrwxrwx 1 brand brand    512 Oct  2 18:51 scripts
+
+PACKAGE.JSON FOUND
+{
+  "name": "learn-claude-flow",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive learning tool for Claude Flow documentation with integrated PDF viewer and search",
+  "scripts": {
+    "dev": "vite --config config/vite.config.ts",
+    "dev:docs": "vite --config config/vite.config.ts --mode docs",
+    "build": "npm run extract-docs && tsc && vite build --config config/vite.config.ts",
+    "build:docs": "npm run extract-docs && tsc && vite build --config config/vite.config.ts --mode docs",
+    "build:analyze": "npm run build && npx vite-bundle-visualizer",
+    "preview": "vite preview --config config/vite.config.ts",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest --config config/vitest.config.ts",
+    "test:ui": "vitest --config config/vitest.config.ts --ui",
+    "test:unit": "vitest --config config/vitest.config.ts run src/tests/unit",
+    "test:integration": "vitest --config config/vitest.config.ts run src/tests/integration",
+    "test:a11y": "vitest --config config/vitest.config.ts run src/tests/accessibility",
+    "test:performance": "vitest --config config/vitest.config.ts run src/tests/performance",
+    "test:coverage": "vitest --config config/vitest.config.ts run --coverage",
+    "test:coverage:check": "vitest --config config/vitest.config.ts run --coverage --reporter=json --reporter=text",
+    "test:watch": "vitest --config config/vitest.config.ts watch",
+    "typecheck": "tsc --noEmit",
+    "extract-pdf": "node scripts/extractPdfContent.js",
+    "extract-docs": "npx tsx scripts/extractDocumentation.ts",
+    "prepare-docs": "npm run extract-pdf && npm run extract-docs",
+    "analyze:bundle": "npm run build && du -sh dist/assets/*.js | sort -h"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
+    "clsx": "^2.1.1",
+    "fuse.js": "^7.0.0",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-pdf": "^9.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "@testing-library/jest-dom": "^6.9.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest-axe": "^3.5.9",
+    "@types/node": "^24.6.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+
+README.MD PREVIEW:
+# Learn Claude Flow - Documentation Viewer
+
+An interactive React-based learning tool for Claude Flow documentation with integrated PDF viewer, advanced search capabilities, and bookmark features.
+
+## Features
+
+- **PDF Viewing**: High-performance PDF rendering with react-pdf
+- **Advanced Search**: Fuzzy search across all documents using Fuse.js
+- **Bookmarks**: Save and organize important sections
+- **Reading Progress**: Track your progress across documents
+- **Responsive Design**: Works on desktop and mobile devices
+- **Dark Mode**: Toggle between light and dark themes
+- **Keyboard Navigation**: Full keyboard support for accessibility
+
+## Tech Stack
+
+- **React 18** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **Zustand** - State management
+- **react-pdf** - PDF rendering
+- **Fuse.js** - Fuzzy search
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm
+
+### Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Extract PDF content (optional - creates search index)
+npm run prepare-docs
+
+# Start development server
+npm run dev
+```
+
+The application will open at [http://localhost:3000](http://localhost:3000)
+
+### Build for Production
+
+```bash
+# Build optimized production bundle
+

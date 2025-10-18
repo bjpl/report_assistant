@@ -1,0 +1,590 @@
+=== ANALYZING: brandonjplambert ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/brandonjplambert
+
+COMMITS SINCE AUG 2024: 238
+
+FIRST COMMIT (since Aug 2024): 2025-09-01 16:36:59 -0700
+LAST COMMIT: 2025-10-16 19:03:11 -0700
+
+AUTHORS:
+    236 bjpl
+      2 Brandon JP Lambert
+
+
+BRANCHES:
+  align-daily-reports-execution
+* main
+  remotes/origin/align-daily-reports-execution
+  remotes/origin/main
+
+TAGS:
+
+COMMIT LOG:
+e48e4a9|2025-10-16 19:03:11 -0700|bjpl|refactor: Organize /docs root files into subdirectories
+aab2996|2025-10-16 16:15:57 -0700|bjpl|feat: Add comprehensive swarm coordination system with MCP integration
+6bb9a72|2025-10-12 23:09:54 -0700|bjpl|docs: Add comprehensive technology stack documentation
+a1825a2|2025-10-11 17:05:53 -0700|Brandon JP Lambert|feat: Align daily reports to unified format
+89b71cc|2025-10-11 16:47:12 -0700|Brandon JP Lambert|docs: Align October 8 daily report with standard template
+1c088ea|2025-10-08 22:54:30 -0700|bjpl|Comprehensive mobile UX optimization (18 critical fixes)
+15a682d|2025-10-08 22:35:41 -0700|bjpl|Update October 8 daily report with documentation synchronization session
+9797f1d|2025-10-08 22:26:56 -0700|bjpl|Update documentation to reflect October 8, 2025 technical debt elimination
+71ee576|2025-10-08 22:11:15 -0700|bjpl|Add daily report for October 8, 2025 - Plan B technical debt reduction
+79db8c4|2025-10-08 21:56:17 -0700|bjpl|Eliminate navigation duplication and refactor language switcher
+9f759f7|2025-10-08 21:44:21 -0700|bjpl|Extract inline CSS from ai-projects.html to _sass/_components.scss
+3af9e27|2025-10-08 21:34:45 -0700|bjpl|Extract inline JavaScript from ai-projects.html to external modules
+381bd80|2025-10-08 02:09:07 -0700|bjpl|Add daily reports, style guides, and enhanced AI project metadata
+ec84abb|2025-10-07 23:06:43 -0700|bjpl|Add daily report for October 7, 2025 - Demo deployment session
+7e70944|2025-10-07 23:05:03 -0700|bjpl|Add aves demo URL and remove broken subjunctive-practice link
+877b73d|2025-10-07 22:22:35 -0700|bjpl|Update CLAUDE.md v1.2: Add critical swarm orchestration notice
+23aaee9|2025-10-07 17:56:18 -0700|bjpl|Fix Liquid syntax error in daily report
+231fecc|2025-10-07 17:54:40 -0700|bjpl|Add 3 more demo URLs - Spanish learning tools now live (6/15 → 7/15)
+2131d25|2025-10-07 17:52:25 -0700|bjpl|Add demo URLs for 3 live projects (0/15 → 3/15 deployed)
+0639cda|2025-10-07 17:50:05 -0700|bjpl|Add comprehensive portfolio review documentation (9 files, 170KB)
+e19bf28|2025-10-07 17:49:41 -0700|bjpl|Refine technology stack details for multiple projects
+5480814|2025-10-07 16:52:07 -0700|bjpl|Add Reference Documentation index to CLAUDE.md
+0a5c077|2025-10-07 16:39:13 -0700|bjpl|Enhance CLAUDE.md: Add scope separation and cross-references
+0ca19d2|2025-10-07 16:33:41 -0700|bjpl|Add MANDATORY-2: Professional Communication Style directive
+d89adfe|2025-10-07 16:27:46 -0700|bjpl|Add comprehensive CLAUDE.md with 24 mandatory agent operating directives
+b8c1250|2025-09-27 20:45:45 -0700|bjpl|Align design system with style guide: Add missing variables and navigation link
+642cd6e|2025-09-26 19:54:11 -0700|bjpl|Update Fancy Monkey status to Live
+2ec1653|2025-09-26 19:40:06 -0700|bjpl|Add brandonjplambert.com portfolio project to AI projects showcase
+3026593|2025-09-26 19:37:01 -0700|bjpl|Apply comprehensive review feedback to all AI projects
+35a6a1a|2025-09-26 19:09:48 -0700|bjpl|Add launcher script for AI projects review interface
+bfaefa3|2025-09-26 19:07:28 -0700|bjpl|Update AI projects review interface with latest project data
+6ae0da3|2025-09-26 18:32:23 -0700|bjpl|Fix mini-gallery template to properly display project images
+f9bb2bc|2025-09-26 18:25:20 -0700|bjpl|Restore image references for projects with existing images
+87350ae|2025-09-26 18:21:08 -0700|bjpl|Remove non-existent image references and create projects image directory
+ed41641|2025-09-26 18:19:06 -0700|bjpl|Update image placeholder styling for cleaner appearance
+e785a88|2025-09-26 18:16:42 -0700|bjpl|Remove debug styling from AI projects page and improve image fallback
+aa84a5d|2025-09-26 18:12:36 -0700|bjpl|Fix Jekyll build errors: Remove HTML comment from timezone config and escape Liquid include in mini-gallery
+3164dbc|2025-09-26 18:08:25 -0700|bjpl|Simplify mini-gallery to fix Jekyll nesting error and enable deployment
+4f9adb8|2025-09-26 18:05:36 -0700|bjpl|Trigger GitHub Pages rebuild with direct branch deployment
+d8168ef|2025-09-26 18:05:13 -0700|bjpl|Disable Actions workflow: Switch to direct branch deployment for GitHub Pages
+11cba53|2025-09-26 18:00:07 -0700|bjpl|Force GitHub Pages rebuild to deploy updated AI projects content
+b63caaa|2025-09-26 17:51:33 -0700|bjpl|Add post-revision AI projects review interface with JSON data
+bd61f71|2025-09-26 17:43:41 -0700|bjpl|Create universal data review template from AI projects GUI
+4eae1f6|2025-09-26 17:35:59 -0700|bjpl|Refine AI projects: Remove marketing language, add authentic project narratives
+9f7a4ab|2025-09-18 22:55:37 -0700|bjpl|Pre-reorganization snapshot: Updated configuration and added Spanish AI projects data
+e5e605a|2025-09-17 15:50:27 -0700|bjpl|Remove MA-TESOL references from both English and Spanish home pages
+9c0c7c8|2025-09-17 15:43:29 -0700|bjpl|Hide broken entertainment accounts: Remove URLs to prevent display
+7f52b41|2025-09-17 15:36:17 -0700|bjpl|Complete Spanish accounts categorization: Add comprehensive filter categories
+3636ce0|2025-09-17 15:15:55 -0700|bjpl|Add Telecommunications and Utilities filter categories for new Spanish accounts
+a52a9c5|2025-09-17 15:11:08 -0700|bjpl|Claude Flow Swarm: Comprehensive Spanish company accounts integration
+8fca17a|2025-09-17 15:03:49 -0700|bjpl|Fix Spanish learning tools URLs: Add missing website links to Spanish tools
+4967037|2025-09-17 14:54:09 -0700|bjpl|Fix fancy-monkey gallery and add website URLs to English learning tools
+d86d88d|2025-09-17 14:40:08 -0700|bjpl|Fix Describe It image paths: Remove broken gallery, use single image fallback
+af7ada9|2025-09-17 14:35:38 -0700|bjpl|FINAL FIX: Resolve Spanish translation issue with proper data file structure
+69fc8a9|2025-09-17 14:23:50 -0700|bjpl|Complete Spanish translations: Fix remaining English content in ES projects
+22a8fa8|2025-09-17 14:14:24 -0700|bjpl|Add brandonjplambert.com portfolio project and comprehensive demo URLs
+ecef32c|2025-09-16 22:43:27 -0700|bjpl|FINAL SOLUTION: Inline gallery bypasses Jekyll include issues
+6db7e81|2025-09-16 22:39:38 -0700|bjpl|Deploy final clean gallery system - Debug confirmed working
+0d4bdae|2025-09-16 22:37:00 -0700|bjpl|BREAKTHROUGH: Gallery works locally - Deploy direct data test to force rebuild
+81e6af3|2025-09-16 22:32:25 -0700|bjpl|Fix Spanish page data reference: Change from ai_projects_es to ai_projects
+fb253f4|2025-09-16 22:29:53 -0700|bjpl|Fix gallery data file issue: Update correct Spanish data file
+98ae549|2025-09-16 22:21:41 -0700|bjpl|Add explicit gallery test component for debugging
+b65540b|2025-09-16 22:19:24 -0700|bjpl|Add debug output to diagnose gallery issue
+2781256|2025-09-16 22:09:15 -0700|bjpl|Complete gallery implementation with working image paths and functionality
+5916fb7|2025-09-16 21:53:20 -0700|bjpl|Fix Jekyll build error: Replace complex gallery with simple version
+e186ab3|2025-09-16 21:45:46 -0700|bjpl|Force Jekyll rebuild to deploy gallery system
+4f46db2|2025-09-16 21:39:03 -0700|bjpl|Add debug version to troubleshoot gallery integration
+fc62c06|2025-09-16 21:34:14 -0700|bjpl|Fix gallery image paths and add test gallery with multiple images
+544b2fe|2025-09-16 21:30:17 -0700|bjpl|Add elegant multi-media gallery system for AI projects
+b731f13|2025-09-16 21:12:24 -0700|bjpl|Add AI projects review GUI with field-by-field interface
+fbb4ff4|2025-09-15 18:37:28 -0700|bjpl|Add tooltips to project category pills
+3be2d97|2025-09-15 16:48:16 -0700|bjpl|Restore personalized learning tools content
+376fba6|2025-09-15 16:45:45 -0700|bjpl|Restore concise learning tool descriptions
+b74e4bb|2025-09-15 16:39:14 -0700|bjpl|Filter out Spanish accounts without links on Resources pages
+e672eb8|2025-09-15 15:29:54 -0700|bjpl|Add Spanish translations for AI projects page
+8b43518|2025-09-15 15:25:56 -0700|bjpl|Fix Spanish AI projects page permalink
+53ba980|2025-09-15 15:19:49 -0700|bjpl|Add 10 more public projects from GitHub
+a55ca77|2025-09-15 15:17:49 -0700|bjpl|Fix Spanish AI projects page with inline JavaScript
+d7527b5|2025-09-15 15:14:58 -0700|bjpl|Replace Jekyll include with inline JavaScript for AI projects
+8875c1c|2025-09-15 15:07:27 -0700|bjpl|CRITICAL FIX: Copy Spanish AI projects to correct deployment location
+24df5f8|2025-09-15 15:05:06 -0700|bjpl|Complete rewrite of AI projects JavaScript - simplified approach
+5551b98|2025-09-15 14:57:04 -0700|bjpl|Fix project list menu visibility on AI projects pages
+aa21878|2025-09-15 14:51:59 -0700|bjpl|Simplify and fix AI projects pages JavaScript initialization
+235f147|2025-09-15 14:47:54 -0700|bjpl|Fix AI projects pages - improve placeholder handling and JS initialization
+c7ea6c0|2025-09-15 14:37:56 -0700|bjpl|Restore AI projects pages with full functionality
+f79ce21|2025-09-15 14:19:37 -0700|bjpl|Fix Spanish AI projects page layout and restore filtering
+6fadea4|2025-09-15 14:14:07 -0700|bjpl|Complete Spanish translations for all 519 accounts
+31be329|2025-09-15 14:06:56 -0700|bjpl|Add back-to-top button with best practices
+f8417af|2025-09-15 13:59:51 -0700|bjpl|Fix Spanish translations by moving data files to main _data folder
+1fd87fb|2025-09-15 13:53:09 -0700|bjpl|Fix Spanish pages to use translated data and update account descriptions
+59db71e|2025-09-15 13:42:43 -0700|bjpl|Add Spanish translations for all social media account descriptions
+489e7db|2025-09-15 13:33:41 -0700|bjpl|Add Spanish translations for AI projects and learning tools
+dc26b40|2025-09-15 11:18:33 -0700|bjpl|Add AI projects review files (CSV and Markdown) for content revision
+437f161|2025-09-15 00:30:04 -0700|bjpl|Update AI projects with all 12 public GitHub repositories
+0aaf613|2025-09-15 00:24:35 -0700|bjpl|Fix excessive spacing between filter buttons and project list
+9f9b7b0|2025-09-15 00:21:11 -0700|bjpl|Aggressively fix spacing between project menu and cards
+e989cbb|2025-09-15 00:17:46 -0700|bjpl|Fix spacing issues on AI Projects pages
+a54a600|2025-09-15 00:14:26 -0700|bjpl|Restore all AI projects that were accidentally removed
+ee067fa|2025-09-15 00:10:08 -0700|bjpl|Add project navigation menu to AI Projects pages
+8a53c8b|2025-09-15 00:03:00 -0700|bjpl|Fix English Resources page with personalized content
+573c8fd|2025-09-14 23:55:10 -0700|bjpl|Trigger rebuild to update Resources page cache
+b945edc|2025-09-14 23:44:11 -0700|bjpl|Fix Spanish resources page to display translated tool categories
+aa1ee80|2025-09-14 23:12:26 -0700|bjpl|Fix Spanish AI projects page to match English version completely
+055d254|2025-09-14 23:03:09 -0700|bjpl|Filter Spanish accounts to only show those with links
+88f639a|2025-09-14 22:45:46 -0700|bjpl|Add all remaining public GitHub repositories to AI projects
+c81148b|2025-09-14 22:36:49 -0700|bjpl|Add comprehensive Spanish translations for AI projects
+3896ec9|2025-09-14 22:32:13 -0700|bjpl|Fix Spanish AI projects page to match English version
+4b0bb20|2025-09-14 22:25:44 -0700|bjpl|Update Spanish learning resources with detailed personal stack
+23437be|2025-09-14 21:25:43 -0700|bjpl|Merge branch 'main' of https://github.com/bjpl/brandonjplambert
+d0f28e8|2025-09-14 21:25:30 -0700|bjpl|Initial commit of brandonjplambert portfolio site
+991fd20|2025-09-12 19:13:19 -0700|bjpl|Improve info icon readability on technology pills
+77d50d5|2025-09-12 18:40:19 -0700|bjpl|Trigger GitHub Pages deployment
+c97a54e|2025-09-12 18:17:57 -0700|bjpl|Organize directory structure for better maintainability
+9b3d62d|2025-09-12 14:04:08 -0700|bjpl|🚀 DEPLOYMENT: Trigger new Jekyll workflow - Spanish page fix incoming!
+94b987f|2025-09-12 14:02:02 -0700|bjpl|Create jekyll.yml
+e59c22d|2025-09-12 13:45:16 -0700|bjpl|Remove old deploy workflow - using GitHub's Jekyll workflow instead
+52a07c2|2025-09-12 11:42:29 -0700|bjpl|URGENT: Add deployment test file - RED background should appear
+52a7ac9|2025-09-12 11:38:23 -0700|bjpl|Trigger GitHub Actions workflow after enabling Actions deployment
+af5b971|2025-09-12 11:34:31 -0700|bjpl|Trigger deployment with GitHub Actions - updated timestamp
+b6b914a|2025-09-12 11:29:57 -0700|bjpl|Force complete Jekyll rebuild - deployment not working
+051e416|2025-09-12 11:25:36 -0700|bjpl|CRITICAL FIX: Remove grid classes, force flexbox with inline styles
+e221f7e|2025-09-12 11:17:46 -0700|bjpl|Copy English page exactly and translate to Spanish
+9d7754a|2025-09-12 01:14:22 -0700|bjpl|Complete rebuild of Spanish AI projects page - NO GRID CLASSES
+bf5fd8f|2025-09-12 01:09:38 -0700|bjpl|Add missing CSS for image placeholders and history buttons on Spanish page
+39ea4ce|2025-09-12 01:05:41 -0700|bjpl|Update timestamp to force history button deployment
+72688ae|2025-09-12 01:03:03 -0700|bjpl|Fix Spanish page: remove grid classes and ensure history buttons show
+e298d85|2025-09-12 00:59:09 -0700|bjpl|Remove .nojekyll - using GitHub Actions for deployment
+fe792ce|2025-09-12 00:57:33 -0700|bjpl|Force Jekyll rebuild with timestamp and regenerate flag
+3995705|2025-09-12 00:34:49 -0700|bjpl|Complete rebuild of Spanish AI projects page - fix layout and history buttons
+ab12e6d|2025-09-12 00:30:53 -0700|bjpl|Force single column layout on Spanish AI projects page with explicit CSS
+74be6d4|2025-09-12 00:27:40 -0700|bjpl|Force GitHub Pages rebuild - fix deployment issue
+a649cb9|2025-09-12 00:24:20 -0700|bjpl|Fix filter categories and ensure single-column layout on both AI project pages
+ad872a7|2025-09-12 00:20:49 -0700|bjpl|Fix Spanish AI projects page to single column layout
+e9625bd|2025-09-12 00:17:56 -0700|bjpl|Fix Spanish filter categories to match English page values
+d09cc5f|2025-09-12 00:13:57 -0700|bjpl|Add detailed project histories and Spanish translations
+e83f4cb|2025-09-12 00:02:44 -0700|bjpl|Refine and standardize project histories with accurate data
+8f24200|2025-09-11 23:52:40 -0700|bjpl|Fix tooltip text wrapping and positioning
+8a375a8|2025-09-11 23:50:16 -0700|bjpl|Add elegant tech tooltips with info icons
+c4df9c3|2025-09-11 23:46:22 -0700|bjpl|Fix double bullets in project card features section
+ced29e4|2025-09-11 23:43:44 -0700|bjpl|Add Internet Infrastructure Map development history
+ebd9099|2025-09-11 23:40:32 -0700|bjpl|Add Fancy Monkey development history
+cd39b90|2025-09-11 23:38:32 -0700|bjpl|Fix modal styling and add Letratos development history
+26cb8d4|2025-09-11 23:33:55 -0700|bjpl|Update AI projects layout to single column for better readability
+9bf5412|2025-09-11 23:31:59 -0700|bjpl|Complete AI projects portfolio with development histories
+a374528|2025-09-11 23:23:50 -0700|bjpl|Add AI projects portfolio with 3 new projects
+9d07ffe|2025-09-11 21:48:00 -0700|bjpl|Add Team Foods Mexico Instagram URL
+8040ee0|2025-09-11 21:47:07 -0700|bjpl|Add Domino's Pizza Colombia with correct Instagram URL
+689be2b|2025-09-11 21:44:58 -0700|bjpl|Massive update: Add 56 verified accounts - 76.8% Instagram coverage!
+2dba38f|2025-09-11 21:35:54 -0700|bjpl|Add Grupo Modelo YouTube URL @grupomodelo7363
+ee19166|2025-09-11 21:24:53 -0700|bjpl|Fix TransMilenio Instagram handle to @oficialtransmilenio
+1c9b562|2025-09-11 21:19:21 -0700|bjpl|Add 9 more verified Instagram accounts - 74.0% coverage achieved!
+bbf9222|2025-09-11 21:15:50 -0700|bjpl|Add 10 new verified Instagram accounts - 73.5% coverage
+89fbf85|2025-09-11 21:11:29 -0700|bjpl|Final Instagram batch: 72.9% coverage achieved!
+78872d5|2025-09-11 21:01:20 -0700|bjpl|Add 31 more confirmed Instagram accounts with follower counts
+0ad474e|2025-09-11 20:55:38 -0700|bjpl|Add 22 manually confirmed Instagram accounts
+ffbd662|2025-09-11 20:39:16 -0700|bjpl|Remove 192 broken/inactive social media links
+455d22b|2025-09-11 20:37:26 -0700|bjpl|Fix critical bug: Remove 303 incorrectly mapped YouTube URLs
+70706f5|2025-09-11 20:34:23 -0700|bjpl|Add Spanish account verification system and enrich dataset
+f0235a8|2025-09-10 15:24:44 -0700|bjpl|Tighten hero grid spacing for more compact layout
+36ebe0e|2025-09-10 15:20:12 -0700|bjpl|Balance hero grid spacing - reduce excessive gaps
+a02b385|2025-09-10 15:16:51 -0700|bjpl|Fix hero grid cramping with proper width and spacing
+37b5cdb|2025-09-10 15:04:56 -0700|bjpl|Fix hero description spacing to prevent text cramping
+43c0157|2025-09-10 15:02:02 -0700|bjpl|Fix hero buttons to display horizontally on desktop
+f942007|2025-09-10 14:56:06 -0700|bjpl|Fix hero section layout for horizontal display on desktop
+e2c90c7|2025-09-10 14:48:06 -0700|bjpl|Apply same mobile formatting fixes to Spanish work page
+7c7c971|2025-09-10 14:44:27 -0700|bjpl|Fix mobile formatting for dates and hero description spacing
+f4e0170|2025-09-07 16:20:56 -0700|bjpl|Update teaching principles with revised content and Spanish translations
+8a23666|2025-09-07 15:52:19 -0700|bjpl|Fix final Spanish text in English description
+cbfd3af|2025-09-07 15:49:11 -0700|bjpl|Fix language mixing in career timeline descriptions
+2c8ba74|2025-09-07 15:39:15 -0700|bjpl|Add bilingual support for career timeline
+f4fb7a2|2025-09-07 15:24:07 -0700|bjpl|Fix Spanish content appearing on English work page
+99c30db|2025-09-07 15:21:43 -0700|bjpl|Add period to contact page descriptions
+76c08bc|2025-09-07 15:18:22 -0700|bjpl|Streamline contact page layout
+a41b187|2025-09-07 15:13:34 -0700|bjpl|Fix contact page CSS variables and add GitHub card
+fb4c9b1|2025-09-07 15:09:12 -0700|bjpl|Fix contact page CSS variable reference
+cadb1f8|2025-09-07 15:00:27 -0700|bjpl|Fix UTF-8 character encoding issues on Spanish pages
+a0945e6|2025-09-07 14:54:40 -0700|bjpl|Simplify homepage with clean hero-only design
+863a174|2025-09-07 14:49:40 -0700|bjpl|Match homepage width with other pages using container-narrow
+c83552a|2025-09-07 14:46:25 -0700|bjpl|Fix hero section width to match other page sections
+3444696|2025-09-07 13:45:51 -0700|bjpl|Lower desktop breakpoint to 992px for two-column hero layout
+e9651bf|2025-09-07 13:42:12 -0700|bjpl|Fix hero section width consistency with other pages
+7853b95|2025-09-07 13:20:35 -0700|bjpl|Implement two-column hero layout and reorganize contact buttons
+2f820b4|2025-09-07 13:02:50 -0700|bjpl|Refine hero section for professional, understated appearance
+9b2fc3c|2025-09-07 12:55:35 -0700|bjpl|Add professional enhancements to work timeline and resources
+efc4198|2025-09-07 12:44:11 -0700|bjpl|Remove redundant call-to-action from contact pages
+fb2a7c2|2025-09-07 12:38:47 -0700|bjpl|Complete Spanish localization for trabajo page with professional formatting
+5b7653e|2025-09-07 12:28:28 -0700|bjpl|Fix career timeline date formatting to display as "May 2023" format
+8b79172|2025-09-07 12:25:27 -0700|bjpl|Fix date formatting and mobile display for work/education pages
+0f1d053|2025-09-07 12:18:00 -0700|bjpl|Remove outdated effectiveness ratings text from resource pages
+a60b58f|2025-09-07 12:12:10 -0700|bjpl|Add images for 5 learning resource tools
+c15a168|2025-09-07 00:13:21 -0700|bjpl|Align Spanish pages with English version improvements
+312353f|2025-09-06 23:30:54 -0700|bjpl|Add 208 new Spanish accounts across 17 categories
+b9afc41|2025-09-06 21:56:07 -0700|bjpl|Consolidate Travel and Tourism categories into single Tourism category
+7aed3a2|2025-09-06 21:55:05 -0700|bjpl|Remove effectiveness ratings from learning tool cards
+db25e33|2025-09-06 21:51:25 -0700|bjpl|Add Instagram URLs for 98 Spanish accounts and fix Visit Panama YouTube
+9a2477b|2025-09-06 21:32:52 -0700|bjpl|Fix broken YouTube URLs in Spanish accounts
+08f330e|2025-09-06 21:06:56 -0700|bjpl|Fix Spanish accounts display and filtering issues
+127e788|2025-09-06 21:00:33 -0700|bjpl|Massive expansion of Spanish accounts: Add 207 new accounts with YouTube URLs
+e95d8ba|2025-09-06 17:56:37 -0700|bjpl|Add visual examples to more learning tools
+c888c80|2025-09-06 17:16:20 -0700|bjpl|Integrate images directly into learning tool cards
+20028df|2025-09-06 17:08:26 -0700|bjpl|Reorder work page sections and add learning resource images
+8822e30|2025-09-06 16:09:13 -0700|bjpl|Fix line breaks in career timeline metadata fields
+bf17a07|2025-09-06 16:04:30 -0700|bjpl|Fix hero section centering and career timeline formatting
+9c4e796|2025-09-06 15:58:01 -0700|bjpl|Fix font preferences and enable markdown rendering in career timeline
+c995eae|2025-09-06 15:53:59 -0700|bjpl|Refactor site content and styling for improved professionalism
+9273444|2025-09-04 16:46:02 -0700|bjpl|Remove all debug alerts from mobile menu
+045ac01|2025-09-04 16:43:25 -0700|bjpl|Remove debug alerts from mobile menu - working solution confirmed
+20e9a29|2025-09-04 16:41:39 -0700|bjpl|Bulletproof mobile menu: separate overlay div with inline styles, guaranteed to work
+78ef019|2025-09-04 16:37:54 -0700|bjpl|Complete fix: mobile menu with proper breakpoints, no CSS conflicts, tablet support
+1a5a6cb|2025-09-04 16:34:17 -0700|bjpl|Add debugging and bulletproof mobile menu with cssText and console logging
+443b2a2|2025-09-04 16:32:29 -0700|bjpl|Fix mobile menu with JavaScript inline styles for guaranteed visibility
+7aa7176|2025-09-04 16:30:43 -0700|bjpl|Fix mobile nav with mobile-first approach - move desktop styles to media query
+b2f5803|2025-09-04 16:28:29 -0700|bjpl|Fix mobile menu display with important flags for visibility
+d6be6ee|2025-09-04 16:26:00 -0700|bjpl|Fix mobile navigation with white background overlay and hamburger menu visibility
+a41d399|2025-09-03 23:15:19 -0700|bjpl|Update CNAME to use www subdomain as primary
+2c669b6|2025-09-03 23:11:24 -0700|bjpl|Merge and resolve CNAME conflict - use apex domain
+4247263|2025-09-03 23:10:57 -0700|bjpl|Configure site for custom domain brandonjplambert.com
+c8adf7b|2025-09-03 22:05:33 -0700|bjpl|Create CNAME
+71f2799|2025-09-03 21:31:32 -0700|bjpl|Fix work timeline paragraph formatting and line breaks
+ef7c747|2025-09-03 21:19:44 -0700|bjpl|Fix formatting and line breaks in work history
+6b671d1|2025-09-03 21:04:11 -0700|bjpl|Update work history with complete career details from LinkedIn resume
+90f9baf|2025-09-01 23:21:47 -0700|bjpl|Fix navigation alignment with simplified flexbox approach
+5c962d1|2025-09-01 23:17:36 -0700|bjpl|Add cache busting to CSS to ensure latest styles are loaded
+dbce60e|2025-09-01 23:14:55 -0700|bjpl|Fix navigation spacing and underline alignment using pseudo-element
+d3213f1|2025-09-01 23:11:26 -0700|bjpl|Force navigation to display horizontally with flexbox and important flags
+21de53c|2025-09-01 23:06:27 -0700|bjpl|Fix navigation alignment - reduce font sizes and spacing to prevent Contact link wrapping
+b7194ad|2025-09-01 23:00:15 -0700|bjpl|Fix navigation alignment by adjusting responsive breakpoints
+036b073|2025-09-01 22:57:37 -0700|bjpl|Force navigation horizontal alignment using table display
+9dc798f|2025-09-01 22:55:20 -0700|bjpl|Further reduce navigation spacing to prevent Contact link wrapping
+e6c68dd|2025-09-01 22:49:39 -0700|bjpl|Fix Spanish navigation URLs to display correctly
+91f2778|2025-09-01 22:47:17 -0700|bjpl|Fix navigation Contact link wrapping issue
+0efb73e|2025-09-01 22:40:14 -0700|bjpl|Fix navigation alignment issues - ensure all nav items are properly aligned
+5ad5c89|2025-09-01 22:30:13 -0700|bjpl|Implement persistent language preference across all pages
+2472a25|2025-09-01 21:44:40 -0700|bjpl|Add complete Spanish translation for bilingual site functionality
+330e316|2025-09-01 21:37:41 -0700|bjpl|Fix asset paths and CMS configuration for GitHub Pages subdirectory
+0ad2ed3|2025-09-01 21:36:05 -0700|bjpl|Fix baseurl configuration for GitHub Pages deployment
+7760676|2025-09-01 21:29:58 -0700|bjpl|Initial portfolio launch - Jekyll site with academic design
+21f8db8|2025-09-01 16:36:59 -0700|bjpl|Initial commit - fresh start
+
+FILE CHANGE STATISTICS:
+COMMIT:e48e4a9
+0	0	docs/{ => ad_hoc_reports}/MOBILE-OPTIMIZATION-2025-10-08.md
+0	0	docs/{ => ad_hoc_reports}/instagram_verification_report_20250926_165257.json
+0	0	docs/{ => data}/spanish_accounts_complete.csv
+0	0	docs/{ => data}/spanish_accounts_full_list.csv
+0	0	docs/{ => style-guides}/style-guide-complete.html
+0	0	docs/{ => style-guides}/style-guide-elegant.html
+0	0	docs/{ => style-guides}/style-guide-pro.html
+0	0	docs/{ => style-guides}/style-guide-professional.html
+0	0	docs/{ => style-guides}/style-guide-ultimate.html
+0	0	docs/{ => style-guides}/style-guide.html
+
+COMMIT:aab2996
+209	0	.claude/agents/analysis/code-analyzer.md
+180	0	.claude/agents/analysis/code-review/analyze-code-quality.md
+156	0	.claude/agents/architecture/system-design/arch-system-design.md
+42	0	.claude/agents/base-template-generator.md
+63	0	.claude/agents/consensus/byzantine-coordinator.md
+997	0	.claude/agents/consensus/crdt-synchronizer.md
+63	0	.claude/agents/consensus/gossip-coordinator.md
+851	0	.claude/agents/consensus/performance-benchmarker.md
+823	0	.claude/agents/consensus/quorum-manager.md
+63	0	.claude/agents/consensus/raft-manager.md
+622	0	.claude/agents/consensus/security-manager.md
+266	0	.claude/agents/core/coder.md
+168	0	.claude/agents/core/planner.md
+190	0	.claude/agents/core/researcher.md
+326	0	.claude/agents/core/reviewer.md
+319	0	.claude/agents/core/tester.md
+193	0	.claude/agents/data/ml/data-ml-model.md
+142	0	.claude/agents/development/backend/dev-backend-api.md
+164	0	.claude/agents/devops/ci-cd/ops-cicd-github.md
+174	0	.claude/agents/documentation/api-docs/docs-api-openapi.md
+88	0	.claude/agents/flow-nexus/app-store.md
+69	0	.claude/agents/flow-nexus/authentication.md
+81	0	.claude/agents/flow-nexus/challenges.md
+88	0	.claude/agents/flow-nexus/neural-network.md
+83	0	.claude/agents/flow-nexus/payments.md
+76	0	.claude/agents/flow-nexus/sandbox.md
+76	0	.claude/agents/flow-nexus/swarm.md
+96	0	.claude/agents/flow-nexus/user-tools.md
+84	0	.claude/agents/flow-nexus/workflow.md
+538	0	.claude/agents/github/code-review-swarm.md
+173	0	.claude/agents/github/github-modes.md
+319	0	.claude/agents/github/issue-tracker.md
+553	0	.claude/agents/github/multi-repo-swarm.md
+191	0	.claude/agents/github/pr-manager.md
+509	0	.claude/agents/github/project-board-sync.md
+367	0	.claude/agents/github/release-manager.md
+583	0	.claude/agents/github/release-swarm.md
+398	0	.claude/agents/github/repo-architect.md
+573	0	.claude/agents/github/swarm-issue.md
+428	0	.claude/agents/github/swarm-pr.md
+452	0	.claude/agents/github/sync-coordinator.md
+635	0	.claude/agents/github/workflow-automation.md
+446	0	.claude/agents/goal/code-goal-planner.md
+73	0	.claude/agents/goal/goal-planner.md
+130	0	.claude/agents/hive-mind/collective-intelligence-coordinator.md
+203	0	.claude/agents/hive-mind/queen-coordinator.md
+242	0	.claude/agents/hive-mind/scout-explorer.md
+193	0	.claude/agents/hive-mind/swarm-memory-manager.md
+217	0	.claude/agents/hive-mind/worker-specialist.md
+74	0	.claude/agents/neural/safla-neural.md
+665	0	.claude/agents/optimization/benchmark-suite.md
+431	0	.claude/agents/optimization/load-balancer.md
+672	0	.claude/agents/optimization/performance-monitor.md
+674	0	.claude/agents/optimization/resource-allocator.md
+808	0	.claude/agents/optimization/topology-optimizer.md
+472	0	.claude/agents/sparc/architecture.md
+318	0	.claude/agents/sparc/pseudocode.md
+525	0	.claude/agents/sparc/refinement.md
+276	0	.claude/agents/sparc/specification.md
+226	0	.claude/agents/specialized/mobile/spec-mobile-react-native.md
+396	0	.claude/agents/swarm/adaptive-coordinator.md
+327	0	.claude/agents/swarm/hierarchical-coordinator.md
+392	0	.claude/agents/swarm/mesh-coordinator.md
+205	0	.claude/agents/templates/automation-smart-agent.md
+105	0	.claude/agents/templates/coordinator-swarm-init.md
+177	0	.claude/agents/templates/github-pr-manager.md
+259	0	.claude/agents/templates/implementer-sparc-coder.md
+187	0	.claude/agents/templates/memory-coordinator.md
+746	0	.claude/agents/templates/migration-plan.md
+139	0	.claude/agents/templates/orchestrator-task.md
+199	0	.claude/agents/templates/performance-analyzer.md
+183	0	.claude/agents/templates/sparc-coordinator.md
+244	0	.claude/agents/testing/unit/tdd-london-swarm.md
+395	0	.claude/agents/testing/validation/production-validator.md
+10	0	.claude/commands/agents/README.md
+21	0	.claude/commands/agents/agent-capabilities.md
+28	0	.claude/commands/agents/agent-coordination.md
+28	0	.claude/commands/agents/agent-spawning.md
+26	0	.claude/commands/agents/agent-types.md
+17	0	.claude/commands/hive-mind/README.md
+8	0	.claude/commands/hive-mind/hive-mind-consensus.md
+18	0	.claude/commands/hive-mind/hive-mind-init.md
+8	0	.claude/commands/hive-mind/hive-mind-memory.md
+8	0	.claude/commands/hive-mind/hive-mind-metrics.md
+8	0	.claude/commands/hive-mind/hive-mind-resume.md
+8	0	.claude/commands/hive-mind/hive-mind-sessions.md
+21	0	.claude/commands/hive-mind/hive-mind-spawn.md
+8	0	.claude/commands/hive-mind/hive-mind-status.md
+8	0	.claude/commands/hive-mind/hive-mind-stop.md
+8	0	.claude/commands/hive-mind/hive-mind-wizard.md
+27	0	.claude/commands/hive-mind/hive-mind.md
+84	10	.claude/commands/hooks/overview.md
+15	0	.claude/commands/swarm/README.md
+8	0	.claude/commands/swarm/swarm-analysis.md
+8	0	.claude/commands/swarm/swarm-background.md
+19	0	.claude/commands/swarm/swarm-init.md
+8	0	.claude/commands/swarm/swarm-modes.md
+8	0	.claude/commands/swarm/swarm-monitor.md
+19	0	.claude/commands/swarm/swarm-spawn.md
+8	0	.claude/commands/swarm/swarm-status.md
+8	0	.claude/commands/swarm/swarm-strategies.md
+27	0	.claude/commands/swarm/swarm.md
+251	0	.claude/helpers/checkpoint-manager.sh
+106	0	.claude/helpers/github-safe.js
+28	0	.claude/helpers/github-setup.sh
+19	0	.claude/helpers/quick-start.sh
+18	0	.claude/helpers/setup-mcp.sh
+179	0	.claude/helpers/standard-checkpoint-hooks.sh
+30	77	.claude/settings.json
+8	1	.claude/settings.local.json
+9	2	.gitignore
+317	510	CLAUDE.md
+198	0	daily_reports/2025-10-11.md
+
+COMMIT:6bb9a72
+901	0	docs/ad_hoc_reports/technology_stack.md
+
+COMMIT:a1825a2
+COMMIT:89b71cc
+432	0	daily_reports/2025-10-08-aligned.md
+
+COMMIT:1c088ea
+1	65	_pages/contact.html
+1	49	_pages/resources.html
+1	9	_pages/work.html
+124	12	_sass/_components.scss
+18	12	_sass/_layout.scss
+11	87	_sass/_responsive.scss
+30	0	assets/js/contact-page.js
+55	0	assets/js/resources-page.js
+18	0	assets/js/work-page.js
+248	0	docs/MOBILE-OPTIMIZATION-2025-10-08.md
+
+COMMIT:15a682d
+112	4	daily_reports/2025-10-08.md
+
+COMMIT:9797f1d
+23	21	CLAUDE.md
+1	1	README.md
+418	0	assets/js/README.md
+53	51	docs/portfolio-review/03-technical-implementation.md
+18	18	docs/portfolio-review/MASTER-CHECKLIST.md
+
+COMMIT:71ee576
+1141	0	daily_reports/2025-10-08.md
+
+COMMIT:79db8c4
+34	0	_includes/nav-items.html
+26	227	_layouts/default.html
+54	0	_sass/_layout.scss
+171	0	assets/js/site-navigation.js
+
+COMMIT:9f759f7
+0	495	_pages/ai-projects.html
+490	0	_sass/_components.scss
+
+COMMIT:3af9e27
+8	340	_pages/ai-projects.html
+113	0	assets/js/project-modal.js
+118	0	assets/js/projects-filter.js
+115	0	assets/js/tech-tooltips.js
+
+COMMIT:381bd80
+727	0	_sass/design-system-pro.scss
+27	20	ai-projects-review-updated/ai_projects.json
+528	0	daily_reports/2025-09-01.md
+433	0	daily_reports/2025-09-03.md
+700	0	daily_reports/2025-09-04.md
+772	0	daily_reports/2025-09-06.md
+941	0	daily_reports/2025-09-07.md
+142	0	daily_reports/2025-09-10.md
+365	0	daily_reports/2025-09-11.md
+344	0	daily_reports/2025-09-12.md
+402	0	daily_reports/2025-09-15.md
+295	0	daily_reports/2025-09-16.md
+328	0	daily_reports/2025-09-17.md
+300	0	daily_reports/2025-09-18.md
+463	0	daily_reports/2025-09-26.md
+410	0	daily_reports/2025-09-27.md
+1528	0	docs/style-guide-complete.html
+1350	0	docs/style-guide-elegant.html
+1901	0	docs/style-guide-pro.html
+1727	0	docs/style-guide-professional.html
+1680	0	docs/style-guide-ultimate.html
+31	0	scripts/launch-professional-guide.bat
+20	0	scripts/launch-style-guide.bat
+34	0	scripts/launch-ultimate-guide.bat
+
+PROJECT FILES:
+total 289
+drwxrwxrwx 1 brand brand    512 Oct 10 20:29 .
+drwxrwxrwx 1 brand brand    512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand    512 Oct 10 20:29 .claude
+drwxrwxrwx 1 brand brand    512 Sep 14 18:03 .claude-flow
+drwxrwxrwx 1 brand brand    512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand    512 Sep 14 18:03 .github
+-rwxrwxrwx 1 brand brand   1325 Oct 10 20:43 .gitignore
+drwxrwxrwx 1 brand brand    512 Oct 10 20:43 .hive-mind
+-rwxrwxrwx 1 brand brand    656 Oct 10 20:43 .mcp.json
+drwxrwxrwx 1 brand brand    512 Oct 16 19:03 .swarm
+-rwxrwxrwx 1 brand brand  13125 Oct 10 20:43 CLAUDE.md
+-rwxrwxrwx 1 brand brand     24 Sep 14 18:03 CNAME
+-rwxrwxrwx 1 brand brand    708 Sep 14 18:03 Gemfile
+-rwxrwxrwx 1 brand brand   8242 Sep 14 18:03 Gemfile.lock
+-rwxrwxrwx 1 brand brand   7784 Oct  8 22:24 README.md
+drwxrwxrwx 1 brand brand    512 Sep 11 15:05 __pycache__
+-rwxrwxrwx 1 brand brand   2109 Sep 26 18:10 _config.yml
+drwxrwxrwx 1 brand brand    512 Oct  7 23:04 _data
+drwxrwxrwx 1 brand brand    512 Oct  8 21:47 _includes
+drwxrwxrwx 1 brand brand    512 Oct  8 21:54 _layouts
+drwxrwxrwx 1 brand brand    512 Oct  8 22:51 _pages
+drwxrwxrwx 1 brand brand    512 Sep  1 20:08 _posts
+drwxrwxrwx 1 brand brand    512 Oct  8 22:51 _sass
+drwxrwxrwx 1 brand brand    512 Oct  8 22:52 _site
+drwxrwxrwx 1 brand brand    512 Sep 14 18:03 admin
+drwxrwxrwx 1 brand brand    512 Sep 26 17:39 ai-projects-review-gui
+drwxrwxrwx 1 brand brand    512 Sep 27 18:53 ai-projects-review-updated
+-rwxrwxrwx 1 brand brand  17769 Sep 15 11:18 ai_projects_formatted.md
+-rwxrwxrwx 1 brand brand  15913 Sep 15 11:17 ai_projects_review.csv
+
+PACKAGE.JSON FOUND
+{
+  "name": "brandonjplambert",
+  "version": "1.0.0",
+  "description": "A sophisticated academic portfolio and educational resource platform built with Jekyll 4.3+, featuring bilingual support, Sveltia CMS integration, and an elegant academic design system. Fully deployable on GitHub Pages with zero external dependencies.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "sparc:modes": "npx claude-flow@alpha sparc modes",
+    "sparc:run": "npx claude-flow@alpha sparc run",
+    "sparc:tdd": "npx claude-flow@alpha sparc tdd",
+    "sparc:info": "npx claude-flow@alpha sparc info",
+    "sparc:batch": "npx claude-flow@alpha sparc batch",
+    "sparc:pipeline": "npx claude-flow@alpha sparc pipeline",
+    "flow:start": "npx claude-flow@alpha start",
+    "flow:status": "npx claude-flow@alpha status",
+    "flow:memory": "npx claude-flow@alpha memory",
+    "swarm:init": "npx claude-flow@alpha swarm init",
+    "swarm:status": "npx claude-flow@alpha swarm status"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.5.2",
+    "eslint": "^9.36.0",
+    "jest": "^30.1.3",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.4",
+    "typescript": "^5.9.2"
+  }
+}
+
+README.MD PREVIEW:
+# Brandon JP Lambert - Personal Portfolio & Educational Resources
+
+A sophisticated academic portfolio and educational resource platform built with Jekyll 4.3+, featuring bilingual support, Sveltia CMS integration, and an elegant academic design system. Fully deployable on GitHub Pages with zero external dependencies.
+
+## 🌟 Features
+
+### Core Functionality
+- **Bilingual Support**: Full Spanish/English language switching with localStorage persistence
+- **Academic Design System**: Refined typography using Crimson Text/Inter, 8px grid spacing, minimal aesthetic
+- **Sveltia CMS**: Git-based content management accessible at `/admin` with GitHub authentication
+- **Responsive Design**: Mobile-first approach with breakpoints at 320px, 640px, 1024px, 1440px
+- **Performance Optimized**: 95+ Lighthouse scores, lazy loading, critical CSS inlining
+- **SEO Ready**: Automatic sitemap, meta tags, Open Graph data, hreflang tags
+- **Accessibility**: WCAG AAA compliant, keyboard navigation, ARIA labels, reduced motion support
+
+### Content Sections
+- **Homepage**: Hero section with profile, featured work highlights, recent projects
+- **Work**: Teaching philosophy (10 principles), career timeline, education history
+- **AI Projects**: Filterable project cards with GitHub links and tech stacks
+- **Resources**: Spanish learning tools with effectiveness ratings, curated Instagram accounts
+- **Contact**: Professional contact information and areas of interest
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Ruby 3.0+ and Bundler
+- Git
+- GitHub account (for CMS and deployment)
+
+### Local Development
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/bjpl/bjpl.github.io.git
+   cd bjpl.github.io
+   ```
+
+2. **Install dependencies**
+   ```bash
+   bundle install
+   ```
+
+3. **Run local server**
+   ```bash
+   bundle exec jekyll serve --livereload
+   ```
+   
+   Site will be available at `http://localhost:4000`
+
+4. **Build for production**
+

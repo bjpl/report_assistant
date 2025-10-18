@@ -1,0 +1,617 @@
+=== ANALYZING: colombia_puzzle_game ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/colombia_puzzle_game
+
+COMMITS SINCE AUG 2024: 250
+
+FIRST COMMIT (since Aug 2024): 2025-09-18 22:55:06 -0700
+LAST COMMIT: 2025-10-16 20:22:53 -0700
+
+AUTHORS:
+    232 bjpl
+     18 Brandon JP Lambert
+
+
+BRANCHES:
+  documentation-reorganization-backup
+  feature/daily-reports-standardization
+  feature/supabase-auth-integration
+  gh-pages
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/feature/daily-reports-standardization
+  remotes/origin/gh-pages
+  remotes/origin/main
+
+TAGS:
+
+COMMIT LOG:
+f1807f2|2025-10-16 20:22:53 -0700|bjpl|chore: Update claude-flow session metrics
+d310935|2025-10-16 19:49:11 -0700|bjpl|docs: Organize ad_hoc_reports into 10 thematic subdirectories
+0dcd4fd|2025-10-16 19:38:28 -0700|bjpl|docs: Reorganize documentation into logical subdirectories
+b47bb5c|2025-10-16 16:31:14 -0700|bjpl|chore: Update claude-flow performance metrics
+093dee4|2025-10-16 16:15:54 -0700|bjpl|feat: Implement comprehensive authentication system with Supabase integration
+42c5574|2025-10-12 23:12:15 -0700|bjpl|docs: Add comprehensive technology stack documentation
+5a375b8|2025-10-11 17:07:11 -0700|Brandon JP Lambert|feat: Align daily reports to unified format
+09b93af|2025-10-11 17:07:07 -0700|Brandon JP Lambert|WIP on feature/daily-reports-standardization: a0cd28f docs: Standardize daily report format across all reports
+62b9932|2025-10-11 17:07:07 -0700|Brandon JP Lambert|index on feature/daily-reports-standardization: a0cd28f docs: Standardize daily report format across all reports
+a0cd28f|2025-10-11 16:47:26 -0700|Brandon JP Lambert|docs: Standardize daily report format across all reports
+aab8992|2025-10-11 15:31:59 -0700|Brandon JP Lambert|feat: Add Supabase authentication foundation
+b2c3392|2025-10-11 13:38:31 -0700|Brandon JP Lambert|Merge feature/plan-e-week1-quality-fixes: Quality improvements and deployment prep
+33e5a86|2025-10-11 13:33:23 -0700|Brandon JP Lambert|test: Run test suite and prepare for deployment
+6391dd6|2025-10-11 13:09:30 -0700|Brandon JP Lambert|chore: Clean up debug console statements from production code
+df14716|2025-10-11 13:07:14 -0700|Brandon JP Lambert|docs: Setup TypeDoc API documentation with optimized configuration
+a56cb94|2025-10-11 12:21:36 -0700|Brandon JP Lambert|docs: Add dependency update report for 2025-10-11
+df802d1|2025-10-11 12:20:26 -0700|Brandon JP Lambert|fix(deps): Upgrade vitest to 3.2.4 to fix remaining CVE
+26528c5|2025-10-11 12:17:07 -0700|Brandon JP Lambert|fix(deps): Upgrade vite to 7.1.9 to fix moderate CVE
+edcb962|2025-10-11 12:14:53 -0700|Brandon JP Lambert|chore(deps): Update safe dependencies (patch versions)
+5363ce2|2025-10-11 12:05:30 -0700|Brandon JP Lambert|docs: Add comprehensive color consolidation summary report
+c958c49|2025-10-11 12:04:07 -0700|Brandon JP Lambert|refactor: Consolidate color system to single source of truth
+9359b73|2025-10-11 11:58:06 -0700|Brandon JP Lambert|chore: Update .gitignore for generated files
+b9d628a|2025-10-11 11:56:54 -0700|Brandon JP Lambert|docs: Add MCP tool integration to agent documentation
+ddebca1|2025-10-11 11:56:14 -0700|Brandon JP Lambert|feat: Add hive-mind agents, GOAP planner, and comprehensive audit reports
+427c397|2025-10-09 20:16:53 -0700|bjpl|fix: Sync deviceDetection breakpoints with responsive.ts (768→1023px)
+ac836e2|2025-10-09 20:15:48 -0700|bjpl|Updates
+781f83e|2025-10-09 20:09:35 -0700|bjpl|Updates
+29495da|2025-10-09 19:56:32 -0700|bjpl|Updates
+3a8c2be|2025-10-09 19:49:52 -0700|bjpl|docs: Add mobile cache clearing instructions for users
+f9007aa|2025-10-09 19:46:47 -0700|bjpl|Updates
+bcf45e3|2025-10-09 19:45:31 -0700|bjpl|Updates
+23ca770|2025-10-09 19:44:27 -0700|bjpl|fix: Increase mobile breakpoint to catch phones in landscape mode
+b4e9802|2025-10-09 19:43:22 -0700|bjpl|Updates
+f18c350|2025-10-09 19:38:39 -0700|bjpl|Updates
+3249f3a|2025-10-09 19:37:03 -0700|bjpl|Updates
+d7000b1|2025-10-09 17:24:09 -0700|bjpl|test: Fix critical test failures + honest production assessment
+a041450|2025-10-09 14:17:42 -0700|bjpl|docs: Align documentation with Oct 9 achievements - zero error milestone
+11931fa|2025-10-09 14:15:10 -0700|bjpl|refactor: Achieve zero ESLint errors + 18% warning reduction
+b24fe38|2025-10-09 13:53:45 -0700|bjpl|chore: Complete code quality polish - ESLint cleanup + TypeDoc + documentation
+938691e|2025-10-09 13:19:39 -0700|bjpl|feat: Code quality sprint + UI/UX fixes + comprehensive documentation
+d3fb437|2025-10-09 01:55:33 -0700|bjpl|docs: Align documentation with completed design system and colorblind work
+810bc0e|2025-10-09 01:51:32 -0700|bjpl|feat: Research-based colorblind palettes with WCAG AAA compliance
+937c38a|2025-10-09 01:05:00 -0700|bjpl|docs: Design system migration completion report
+3dd2fa3|2025-10-09 01:02:55 -0700|bjpl|feat: Complete design system migration - all components unified
+3929ed1|2025-10-08 23:10:17 -0700|bjpl|feat: Complete design system token foundation
+ca844d1|2025-10-08 23:02:38 -0700|bjpl|docs: Add comprehensive design system and style guide documentation
+e647d95|2025-10-08 22:51:04 -0700|bjpl|docs: Fix code examples and add critical documentation (A-grade)
+07881c3|2025-10-08 21:47:22 -0700|bjpl|feat: Production readiness infrastructure and comprehensive documentation
+1f02b3e|2025-10-07 21:55:23 -0700|bjpl|Enhance CLAUDE.md with prominent swarm orchestration architecture
+6941e5b|2025-10-07 18:30:58 -0700|bjpl|Implement comprehensive performance optimizations (24% bundle reduction)
+2fa6e8a|2025-10-07 18:06:47 -0700|bjpl|Fix test assertions and eliminate CSS build warnings
+e9a6ef7|2025-10-07 17:20:41 -0700|bjpl|Add keyword triggers and condensed summaries for reference file loading
+25a3339|2025-10-07 17:07:37 -0700|bjpl|Move reference file loading directive to top of CLAUDE.md
+b1b7e03|2025-10-07 17:06:51 -0700|bjpl|Add mandatory reference file loading instructions to CLAUDE.md
+4463629|2025-10-07 16:52:05 -0700|bjpl|Fix auto-loading issue: Embed MANDATORY directives in CLAUDE.md
+bd60a38|2025-10-07 16:49:08 -0700|bjpl|Reorganize CLAUDE.md into multi-file structure for better maintainability
+ebf9a65|2025-10-07 16:33:05 -0700|bjpl|Add MANDATORY-2 Professional Communication Style directive
+824946f|2025-10-07 16:26:16 -0700|bjpl|Add comprehensive Agent Operating Instructions to CLAUDE.md
+19d2ea9|2025-10-07 01:05:02 -0700|bjpl|Add daily log for Oct 6 - Mobile support v1.0 implementation
+7056c99|2025-10-06 18:05:34 -0700|bjpl|feat: Mobile support v1.0 - Touch-optimized gameplay with PWA
+18836bf|2025-10-06 14:23:50 -0700|bjpl|Update Oct 4 daily log with test fixes and CI/CD achievements
+019558d|2025-10-06 14:23:11 -0700|bjpl|Add GitHub Actions CI/CD workflows
+1b8281f|2025-10-06 14:20:46 -0700|bjpl|Fix all 143 failing tests - achieve 100% pass rate (723/723)
+7989dff|2025-10-06 13:44:29 -0700|bjpl|Add daily development logs for entire project history
+c907fe6|2025-10-04 22:44:17 -0700|bjpl|Add comprehensive test coverage - 495 new tests via AI agent swarm
+3a0340d|2025-10-04 15:09:00 -0700|bjpl|Add testing guide for solo dev workflow
+765e09f|2025-10-04 15:04:13 -0700|bjpl|Add comprehensive test infrastructure with unit and E2E tests
+eefbf6e|2025-09-25 21:50:58 -0700|bjpl|feat: Temporarily disable photography section
+7f4f2c2|2025-09-20 13:07:16 -0700|bjpl|Checkpoint: Pre-MCP configuration update 2025-09-20_13-07-16
+5863555|2025-09-22 23:36:50 -0700|bjpl|fix: Complete KeyboardCursor color references fix
+03940f1|2025-09-22 23:33:44 -0700|bjpl|fix: Resolve KeyboardCursor error when selecting departments with Enter
+5909740|2025-09-22 23:27:12 -0700|bjpl|fix: Connect 'a' keyboard shortcut to accessibility settings
+d1ce57d|2025-09-22 23:19:40 -0700|bjpl|fix: Use hardcoded color values for placement feedback background
+8a9d121|2025-09-22 22:48:04 -0700|bjpl|fix: Fix invisible text in placement feedback
+878a77f|2025-09-22 22:42:56 -0700|bjpl|debug: Add console logging to diagnose empty feedback issue
+fa88847|2025-09-22 22:39:08 -0700|bjpl|fix: Improve department name resolution in placement feedback
+83aba8c|2025-09-22 22:35:07 -0700|bjpl|fix: Ensure department name always appears in placement feedback
+04873be|2025-09-22 22:30:28 -0700|bjpl|fix: Fix placement feedback not showing department name on incorrect drops
+0cb82de|2025-09-22 20:38:33 -0700|bjpl|fix: Prevent descenders from being cut off in game mode title
+ae51fb0|2025-09-22 20:06:34 -0700|bjpl|fix: Resolve region label overlapping with department buttons
+66016fe|2025-09-22 19:14:48 -0700|bjpl|fix: Improve study mode layout and fix overlapping issues
+97cbae6|2025-09-22 19:01:20 -0700|bjpl|fix: Remove all automatic modal triggers to prevent queue issues
+76ee6dc|2025-09-22 15:49:16 -0700|bjpl|fix: Prevent modal queue issues when clicking Study Mode
+6cdc431|2025-09-22 15:44:47 -0700|bjpl|fix: Prevent game mode selector from appearing after closing study mode
+cfeedad|2025-09-22 15:34:40 -0700|bjpl|fix: Improve region card formatting and spacing in GameModeSelector
+2a1666f|2025-09-22 15:28:56 -0700|bjpl|fix: Resolve textStyles references and improve regional color distinctiveness
+d258721|2025-09-22 14:59:18 -0700|bjpl|fix: Improve regional color differentiation for better visual distinction
+3dde205|2025-09-22 14:50:24 -0700|bjpl|feat: Implement WCAG AAA compliant color system for all accessibility modes
+a5381e8|2025-09-22 14:32:30 -0700|bjpl|fix: Correct all textStyles property references
+7dcb195|2025-09-22 14:28:32 -0700|bjpl|fix: Critical design system import errors - replaced colors.neutral with colors.gray
+e82972f|2025-09-22 14:23:21 -0700|bjpl|feat: Complete 100% design system alignment across entire application
+bb02b23|2025-09-22 01:17:57 -0700|bjpl|feat: Implement unified design system with modern color palette
+c9e636d|2025-09-22 00:03:41 -0700|bjpl|feat: Position keyboard label in upper center
+aa486ce|2025-09-22 00:01:15 -0700|bjpl|chore: Update metrics
+7a183d7|2025-09-22 00:00:39 -0700|bjpl|chore: Update system metrics
+c7ba0ed|2025-09-21 23:59:54 -0700|bjpl|feat: Cleaner keyboard UI - separate label from crosshair
+a3a41f7|2025-09-21 23:54:35 -0700|bjpl|chore: Update system metrics
+0a82989|2025-09-21 23:51:21 -0700|bjpl|fix: Resolve map loading error - shouldHighlight scope issue
+d62c734|2025-09-21 23:40:42 -0700|bjpl|feat: Elegant keyboard targeting with subtle visual feedback
+6df9a7c|2025-09-21 23:35:11 -0700|bjpl|fix: Critical - Enable full SVG department area detection
+5eb73aa|2025-09-21 23:29:24 -0700|bjpl|feat: Add enhanced debug logging for keyboard navigation
+976c9cf|2025-09-21 23:16:59 -0700|bjpl|fix: Resolve keyboard navigation targeting mismatch
+acea55b|2025-09-21 23:12:46 -0700|bjpl|chore: Update system metrics
+8bb3de6|2025-09-21 23:10:19 -0700|bjpl|feat: Add clear crosshair targeting indicator to keyboard cursor
+f0930a8|2025-09-21 23:05:45 -0700|bjpl|feat: Improve keyboard navigation targeting accuracy
+1360162|2025-09-21 23:00:48 -0700|bjpl|fix: Critical app crash - correct Pacífica to Pacífico references
+e8f5b18|2025-09-21 22:52:54 -0700|bjpl|fix: Clear keyboard navigation outline when switching to mouse
+718447c|2025-09-21 22:14:41 -0700|bjpl|fix: Make Andina and Pacífico regions visually distinct
+3a79ce7|2025-09-21 22:10:13 -0700|bjpl|fix: Improve keyboard navigation targeting accuracy
+02375e2|2025-09-21 22:03:46 -0700|bjpl|fix: Remove answer-revealing logic from keyboard navigation
+ecd5133|2025-09-21 21:58:25 -0700|bjpl|fix: Improve drop zone detection for keyboard navigation
+1cafb17|2025-09-21 21:53:58 -0700|bjpl|fix: Enable visual feedback for keyboard navigation placement
+6d0f290|2025-09-21 21:48:22 -0700|bjpl|fix: Critical keyboard navigation stability fix
+24f8dd1|2025-09-21 21:44:09 -0700|bjpl|fix: Resolve keyboard navigation crashes and scrolling conflicts
+8c688c9|2025-09-21 21:39:45 -0700|bjpl|fix: Aggressively remove stuck blue overlay boxes
+2d2ba51|2025-09-21 21:34:59 -0700|bjpl|fix: Remove duplicate keyboard navigation overlay
+c8f1c6c|2025-09-21 21:30:04 -0700|bjpl|chore: Update system metrics
+62b390e|2025-09-21 21:29:10 -0700|bjpl|fix: Debug and fix keyboard navigation placement issues
+59b4dc0|2025-09-21 21:23:30 -0700|bjpl|chore: Update system metrics
+e6a2093|2025-09-21 21:22:36 -0700|bjpl|fix: Remove static blue box and fix keyboard placement feedback
+a0db159|2025-09-21 17:19:52 -0700|bjpl|fix: Remove large blue box from keyboard navigation
+038ec90|2025-09-21 17:13:35 -0700|bjpl|chore: Update system metrics
+a4a482a|2025-09-21 17:12:56 -0700|bjpl|revert: Remove accidentally added Resources page
+97dcd37|2025-09-21 17:07:42 -0700|bjpl|feat: Add comprehensive educational resources page
+cfd69d2|2025-09-21 16:59:14 -0700|bjpl|fix: Remove visual clutter from keyboard navigation
+e150799|2025-09-21 16:56:13 -0700|bjpl|fix: Improve keyboard navigation visuals and usability
+8fca02f|2025-09-21 16:52:13 -0700|bjpl|chore: Update system metrics
+9cbae78|2025-09-21 16:49:58 -0700|bjpl|fix: Properly fix arrow key scrolling and Enter placement in keyboard navigation
+3a1bd28|2025-09-21 16:45:09 -0700|bjpl|fix: Prevent arrow key scrolling during keyboard navigation and fix placement
+bbb7dd4|2025-09-21 16:37:22 -0700|bjpl|fix: Restore Tab+drag functionality and add intuitive scroll controls
+f1b913d|2025-09-21 16:34:57 -0700|bjpl|fix: Tab navigation now starts from top (Amazonía) in logical order
+6f78573|2025-09-21 16:31:45 -0700|bjpl|fix: Properly separate keyboard from drag and eliminate sidebar whitespace
+2f6aff9|2025-09-21 16:27:07 -0700|bjpl|fix: Separate keyboard navigation from mouse drag and remove sidebar whitespace
+751509e|2025-09-21 16:19:31 -0700|bjpl|feat: Implement elegant keyboard-based drag and drop system
+30ae565|2025-09-21 16:14:12 -0700|bjpl|fix: Connect keyboard shortcuts to game - they now actually work!
+c317c0d|2025-09-21 16:08:11 -0700|bjpl|refactor: Simplify keyboard system - remove overengineering
+9504f0a|2025-09-21 16:00:06 -0700|bjpl|feat: Implement comprehensive keyboard shortcut system with advanced navigation
+209e80f|2025-09-21 02:29:59 -0700|bjpl|fix: Eliminate unnecessary whitespace scrolling in sidebars
+0f26563|2025-09-21 02:25:58 -0700|bjpl|fix: Remove phantom pills and horizontal scrolling issues
+07160cc|2025-09-21 02:21:49 -0700|bjpl|fix: Resolve major drag and drop visual issues across all accessibility modes
+5dab526|2025-09-21 02:18:55 -0700|bjpl|fix: Improve color distinctiveness and high contrast visibility
+3bd3684|2025-09-21 02:16:15 -0700|bjpl|fix: Resolve high contrast mode crash and drag functionality issues
+7f19adf|2025-09-21 02:12:29 -0700|bjpl|fix: Complete accessibility improvements for color vision modes
+c767460|2025-09-21 02:02:40 -0700|bjpl|fix: Make color mode changes properly update component colors
+8830faf|2025-09-21 01:58:26 -0700|bjpl|fix: Remove invalid jsx attribute from style tags
+ac39134|2025-09-21 01:55:54 -0700|bjpl|fix: Add missing COLORBLIND_PALETTES export to fix build error
+485d866|2025-09-21 01:52:19 -0700|bjpl|fix: Connect accessibility context to all game components for color mode changes
+eef8193|2025-09-21 01:43:57 -0700|bjpl|feat: Implement fully functional accessibility system with context API
+d24ac55|2025-09-21 01:34:33 -0700|bjpl|fix: Resolve accessibility panel display and positioning issues
+a0d5212|2025-09-21 01:25:28 -0700|bjpl|feat: Implement modern beautiful accessible color system
+146f668|2025-09-21 01:14:36 -0700|bjpl|feat: Implement comprehensive color accessibility system
+ce5dc26|2025-09-21 01:00:26 -0700|bjpl|fix: Remove click selection from puzzle mode map
+f5b6b09|2025-09-21 00:54:10 -0700|bjpl|feat: Add visual selection feedback for department clicks
+eb59253|2025-09-21 00:37:37 -0700|bjpl|feat: Modernize GameHeader with professional UI/UX design
+df7b66e|2025-09-21 00:24:48 -0700|bjpl|fix: Correct department IDs to use hyphens instead of underscores
+827f06d|2025-09-21 00:19:15 -0700|bjpl|fix: Add final missing departments to educational content
+fd62d2b|2025-09-21 00:09:38 -0700|bjpl|feat: Complete Study Mode with comprehensive educational content for all departments
+bb01016|2025-09-20 23:51:35 -0700|bjpl|feat: Enhance study mode with comprehensive researched educational content
+54e5dc9|2025-09-20 20:29:23 -0700|bjpl|fix: Fix blank mini map display with proper projection
+c2983d8|2025-09-20 20:26:13 -0700|bjpl|fix: Fix mini department shape display issues
+431102e|2025-09-20 20:22:11 -0700|bjpl|fix: Fix GeoJSON import path in MiniDepartmentShape component
+f13e075|2025-09-20 20:17:03 -0700|bjpl|feat: Add mini department shape visualizations to memory aids
+14c98bd|2025-09-20 20:09:45 -0700|bjpl|fix: Verify and refine memory aids content for accuracy
+e5ecbbf|2025-09-20 20:00:04 -0700|bjpl|feat: Enhance memory tricks with comprehensive mnemonic system
+1c53bc9|2025-09-20 19:48:17 -0700|bjpl|fix: Resolve timer not resetting when clicking Reiniciar button
+b7c3f5b|2025-09-20 19:37:41 -0700|bjpl|feat: Add sound toggle button to game header
+6dabc7c|2025-09-20 19:04:25 -0700|bjpl|fix: Resolve pan control blocking after hint modal closes
+0ea5316|2025-09-20 16:36:05 -0700|bjpl|refactor: Organize project structure and clean up root directory
+4940a48|2025-09-20 16:27:58 -0700|bjpl|docs: Complete documentation overhaul and tech debt cleanup
+a773ac0|2025-09-20 16:06:55 -0700|bjpl|refactor: Remove unnecessary buttons from Study Mode
+ac6a00b|2025-09-20 16:03:05 -0700|bjpl|fix: Fix San Andrés island recognition in drag and drop
+fcf1bf1|2025-09-20 15:22:06 -0700|bjpl|feat: Unlock all regions for free practice mode
+f26b31a|2025-09-20 15:16:15 -0700|bjpl|chore: Clean up repository and update .gitignore
+d148114|2025-09-20 15:15:44 -0700|bjpl|refactor: Remove secondary Study Mode and Home page
+1d0a87b|2025-09-20 15:11:04 -0700|bjpl|fix: Fix undefined property errors in ScreenReaderAnnouncements
+80e5a37|2025-09-20 15:09:10 -0700|bjpl|fix: Fix React render error by accessing department name property
+e984c27|2025-09-20 15:08:39 -0700|bjpl|fix: Fix drag and drop functionality by using consistent department IDs
+3200f47|2025-09-20 13:07:04 -0700|bjpl|Updates
+fccc01a|2025-09-20 13:06:18 -0700|bjpl|fix: Resolve drag and drop error by normalizing department IDs
+70b4f66|2025-09-20 13:02:06 -0700|bjpl|docs: Update deployment status - map error fixed and app deployed successfully
+f4c224e|2025-09-20 13:01:25 -0700|bjpl|Updates
+ac1b8b1|2025-09-20 13:00:43 -0700|bjpl|fix: Resolve undefined 'id' error in OptimizedColombiaMap component
+ea36a95|2025-09-20 12:53:10 -0700|bjpl|fix: Ensure map data files are included in deployment
+15b34dc|2025-09-20 12:47:58 -0700|bjpl|chore: Add gh-pages to devDependencies for deployment
+1aa3e34|2025-09-20 12:47:07 -0700|bjpl|Updates
+3fa43d2|2025-09-20 12:45:24 -0700|bjpl|fix: Complete GitHub Pages routing and deployment setup
+e8b3e7d|2025-09-20 01:53:18 -0700|bjpl|feat: Complete Spanish interface for Colombian geography learning
+2eca203|2025-09-20 01:17:33 -0700|bjpl|fix: Add default export to StudyModeContainer for build compatibility
+6972a7c|2025-09-20 01:11:49 -0700|bjpl|feat: Add comprehensive Spanish study mode with regional learning
+d953a47|2025-09-19 23:46:38 -0700|bjpl|fix: San Andrés y Providencia island drop detection
+582e7ac|2025-09-19 23:43:38 -0700|bjpl|fix: Map visual improvements and comprehensive error handling
+cd72467|2025-09-19 23:35:17 -0700|bjpl|feat: Mobile banner and comprehensive keyboard navigation
+092e460|2025-09-19 23:27:17 -0700|bjpl|feat: Comprehensive accessibility improvements with ARIA labels
+b0914aa|2025-09-19 23:20:07 -0700|bjpl|Implement comprehensive sound effects system
+0b32f0a|2025-09-19 23:11:31 -0700|bjpl|Fix map panning and add comprehensive accessibility support
+64b3aec|2025-09-19 23:02:08 -0700|bjpl|Fix map cursor - always show grab cursor for consistent panning
+60b11d4|2025-09-19 22:09:43 -0700|bjpl|Add test scripts and success documentation for simplified game system
+d830eef|2025-09-19 22:05:51 -0700|bjpl|Fix map cursor and enable pan functionality in game mode
+0dce5e1|2025-09-19 22:03:04 -0700|bjpl|Simplify game onboarding and progression system
+2714598|2025-09-19 21:39:53 -0700|bjpl|feat: Add smart progression system with claude-flow and ruv-swarm integration
+0bbaf83|2025-09-19 19:57:48 -0700|bjpl|refactor: Complete flow simplification and testing infrastructure
+052290e|2025-09-19 19:41:59 -0700|bjpl|fix: Restore map pan functionality after viewing hints
+cc15366|2025-09-19 19:36:58 -0700|bjpl|feat: Enhance user flows with QuickStart, transitions, and smart Study Mode
+d24da5f|2025-09-19 19:26:07 -0700|bjpl|feat: Add regional play mode with game mode selector
+a66787d|2025-09-19 18:57:39 -0700|bjpl|Fix hint progression to show Level 3 on third attempt
+438104b|2025-09-19 18:51:44 -0700|bjpl|Fix hint card titles to consistently show hint level
+edf590e|2025-09-19 18:47:30 -0700|bjpl|Complete Level 3 directional hints for all 33 departments
+69b6339|2025-09-19 18:43:03 -0700|bjpl|Fix department selection persisting after click
+78532a2|2025-09-19 18:38:41 -0700|bjpl|Fix critical runtime errors from missing imports
+40bdcd6|2025-09-19 18:35:49 -0700|bjpl|Major tech debt resolution: TypeScript, Accessibility, and Code Organization
+f093628|2025-09-19 17:48:19 -0700|bjpl|Fix comprehensive pan functionality issues after drag operations
+3080a5d|2025-09-19 17:43:06 -0700|bjpl|Add complete hint coverage for all 33 departments including Bogotá D.C.
+60ae18a|2025-09-19 17:35:22 -0700|bjpl|Enhance Level 3 hints with maximum helpful guidance
+b381169|2025-09-19 17:31:14 -0700|bjpl|Fix pan functionality breaking after drag/drop and duplicate hint issue
+bc78b56|2025-09-19 17:25:36 -0700|bjpl|fix: Resolve pan/zoom issues with region color toggle
+6267581|2025-09-19 17:20:34 -0700|bjpl|feat: Add region colors to department pills/chips
+4d864fe|2025-09-19 17:17:41 -0700|bjpl|fix: Correct Pacífico region spelling mismatch
+f212c06|2025-09-19 17:13:56 -0700|bjpl|fix: Match legend colors with map display
+dab15ee|2025-09-19 17:12:18 -0700|bjpl|fix: Improve visibility of unplaced departments
+eae936a|2025-09-19 17:09:45 -0700|bjpl|fix: Differentiate Andina and Amazonía region colors
+8b0c3e9|2025-09-19 17:08:58 -0700|bjpl|fix: Use lighter purple for Pacífica region for better border visibility
+0d3c0c4|2025-09-19 16:18:53 -0700|bjpl|feat: Varied contextual hints and region color overlay
+db99f81|2025-09-19 16:08:27 -0700|bjpl|feat: Implement progressive contextual hint system
+e459ff3|2025-09-19 15:58:50 -0700|bjpl|Fix La Guajira and other compound department IDs in Study Mode, add Tutorial button, fix auto-launch
+69ad457|2025-09-19 15:52:57 -0700|bjpl|Beautiful hint modal with animations, icons, and region-specific theming
+a207754|2025-09-19 15:47:30 -0700|bjpl|Elegant tutorial redesign: beacons, spotlights, and anchored tooltips following industry best practices
+4184aac|2025-09-19 15:42:43 -0700|bjpl|Redesign tutorial with elegant floating UI - glassmorphism, smart positioning, and visual guidance
+fba155a|2025-09-19 15:38:34 -0700|bjpl|Fix tutorial overlay blocking game visibility - position tutorial at bottom with transparent overlay
+8765e5e|2025-09-19 15:35:47 -0700|bjpl|Fix asset paths for GitHub Pages deployment - use BASE_URL for proper path resolution
+916daf7|2025-09-19 15:31:54 -0700|bjpl|Add package-lock.json for GitHub Actions CI/CD
+93e67d4|2025-09-19 15:29:32 -0700|bjpl|Configure GitHub Pages deployment with Actions
+202dddf|2025-09-19 14:21:52 -0700|bjpl|Improve Study Mode map with zoom/pan and fix overlapping departments
+e7d481c|2025-09-19 00:44:47 -0700|bjpl|Fix color coding and remove department names from drag indicators
+44f86f0|2025-09-19 00:42:18 -0700|bjpl|Remove department name tooltip during gameplay to avoid giving away answers
+9ac6760|2025-09-19 00:38:38 -0700|bjpl|Fix 'Correcto undefined' bug - properly pass department name to placement feedback
+eb52503|2025-09-19 00:35:06 -0700|bjpl|fix: Comprehensive UI/UX improvements for scrolling and map interaction
+8b51ee2|2025-09-19 00:29:19 -0700|bjpl|feat: Complete Study Mode and improve timer functionality
+8a64d62|2025-09-19 00:23:56 -0700|bjpl|refactor: Address technical debt and improve UI/UX
+137e8b0|2025-09-19 00:16:59 -0700|bjpl|feat: Implement major game features using SPARC methodology
+e5649cd|2025-09-19 00:09:30 -0700|bjpl|✨ Implement Progressive Hints System with SPARC methodology
+d4a3e7a|2025-09-18 23:58:27 -0700|bjpl|🔍 Add zoom and pan controls for small departments like Bogotá
+2dc0c38|2025-09-18 23:47:48 -0700|bjpl|🎯 Fix drag overlay size and content overflow
+5ad3d81|2025-09-18 23:43:46 -0700|bjpl|✨ Add dynamic hover highlighting for drag-and-drop targets
+7a68178|2025-09-18 23:41:23 -0700|bjpl|🗺️ MAXIMIZE map size and minimize department chips
+e69dba2|2025-09-18 23:38:26 -0700|bjpl|🎯 Optimize map visibility and drag precision with compact chips
+20d07ec|2025-09-18 23:34:04 -0700|bjpl|✨ Implement improved drag-and-drop UX with fixed sidebars
+18099ee|2025-09-18 23:26:31 -0700|bjpl|⚡ Massive performance optimization using ruv-swarm cognitive patterns
+32996be|2025-09-18 23:19:27 -0700|bjpl|🗺️ Implement real Colombian map with GeoJSON data
+e00af9e|2025-09-18 23:05:14 -0700|bjpl|🔧 Fix PostCSS and Tailwind configs for CommonJS compatibility
+334e9c3|2025-09-18 22:55:06 -0700|bjpl|🚀 Initial commit: Colombia Departments Puzzle Game
+
+FILE CHANGE STATISTICS:
+COMMIT:f1807f2
+5	5	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+
+COMMIT:d310935
+0	0	docs/ad_hoc_reports/{ => analysis}/UI_ISSUES_IDENTIFIED.md
+0	0	docs/ad_hoc_reports/{ => analysis}/data-verification-report.md
+0	0	docs/ad_hoc_reports/{ => analysis}/routing-analysis-report.md
+0	0	docs/ad_hoc_reports/{ => analysis}/styling-analysis-report.md
+0	0	docs/ad_hoc_reports/{ => assessments}/ISSUE_INVENTORY_2025-10-10.md
+0	0	docs/ad_hoc_reports/{ => assessments}/PLAN_E_WEEK1_COMPLETION_REPORT.md
+0	0	docs/ad_hoc_reports/{ => assessments}/PRODUCTION_READINESS_ASSESSMENT.md
+0	0	docs/ad_hoc_reports/{ => authentication}/AUTH_TEST_SUITE_SUMMARY.md
+0	0	docs/ad_hoc_reports/{ => authentication}/auth-integration-status.md
+0	0	docs/ad_hoc_reports/{ => authentication}/auth_analysis_2025-10-11.md
+0	0	docs/ad_hoc_reports/{ => code-quality}/CODE_EXAMPLE_VALIDATION_REPORT.md
+0	0	docs/ad_hoc_reports/{ => code-quality}/PHASE2_CODE_REVIEW.md
+0	0	docs/ad_hoc_reports/{ => code-quality}/console-cleanup-report.md
+0	0	docs/ad_hoc_reports/{ => dependencies}/DEPENDENCY_UPDATE_2025-10-11.md
+0	0	docs/ad_hoc_reports/{ => documentation-audits}/DOCUMENTATION_AUDIT_REPORT.md
+0	0	docs/ad_hoc_reports/{ => documentation-audits}/DOCUMENTATION_FIXES_REQUIRED.md
+0	0	docs/ad_hoc_reports/{ => documentation-audits}/DOCUMENTATION_ORGANIZATION_STRATEGY.md
+0	0	docs/ad_hoc_reports/{ => documentation-audits}/DOCUMENTATION_REVIEW_REPORT.md
+0	0	docs/ad_hoc_reports/{ => implementation}/AGENT_2_IMPLEMENTATION_SUMMARY.md
+0	0	docs/ad_hoc_reports/{ => implementation}/DESIGN_SYSTEM_MIGRATION_COMPLETE.md
+0	0	docs/ad_hoc_reports/{ => implementation}/IMPLEMENTATION_SUMMARY.md
+0	0	docs/ad_hoc_reports/{ => implementation}/MOBILE_SUPPORT_V1_SUMMARY.md
+0	0	docs/ad_hoc_reports/{ => implementation}/data-update-implementation.md
+0	0	docs/ad_hoc_reports/{ => technical-debt}/TECHNICAL_DEBT.md
+0	0	docs/ad_hoc_reports/{ => technical-debt}/TECHNICAL_DEBT_ASSESSMENT_2025-10-10.md
+0	0	docs/ad_hoc_reports/{ => technical-debt}/TECH_DEBT_REVIEW.md
+0	0	docs/ad_hoc_reports/{ => technology}/technology_stack.md
+0	0	docs/ad_hoc_reports/{ => testing}/PHASE2_TEST_REPORT.md
+0	0	docs/ad_hoc_reports/{ => testing}/mobile-support-test-report.md
+
+COMMIT:0dcd4fd
+2	2	.claude-flow/metrics/performance.json
+0	0	docs/{ => accessibility}/ACCESSIBILITY_GUIDE.md
+0	0	docs/{ => accessibility}/ACCESSIBILITY_IMPLEMENTATION_GUIDE.md
+0	0	docs/{ => accessibility}/COLORBLIND_PALETTES_UPDATE.md
+0	0	docs/{ => accessibility}/COLORBLIND_PALETTE_ANALYSIS_REPORT.md
+0	0	docs/{ => accessibility}/COLOR_CONSOLIDATION_SUMMARY.md
+0	0	docs/{ => accessibility}/CRITICAL_ACCESSIBILITY_FIXES.md
+0	0	docs/{ => accessibility}/accessibility-analysis-report.md
+0	0	docs/{ => accessibility}/color-accessibility-audit-report.md
+0	0	docs/{ => accessibility}/touch-interaction-system.md
+0	0	docs/{ => ad_hoc_reports}/AGENT_2_IMPLEMENTATION_SUMMARY.md
+0	0	docs/{ => ad_hoc_reports}/CODE_EXAMPLE_VALIDATION_REPORT.md
+0	0	docs/{ => ad_hoc_reports}/DEPENDENCY_UPDATE_2025-10-11.md
+0	0	docs/{ => ad_hoc_reports}/DESIGN_SYSTEM_MIGRATION_COMPLETE.md
+0	0	docs/{ => ad_hoc_reports}/DOCUMENTATION_AUDIT_REPORT.md
+0	0	docs/{ => ad_hoc_reports}/DOCUMENTATION_FIXES_REQUIRED.md
+0	0	docs/{ => ad_hoc_reports}/DOCUMENTATION_ORGANIZATION_STRATEGY.md
+0	0	docs/{ => ad_hoc_reports}/DOCUMENTATION_REVIEW_REPORT.md
+0	0	docs/{ => ad_hoc_reports}/IMPLEMENTATION_SUMMARY.md
+0	0	docs/{ => ad_hoc_reports}/ISSUE_INVENTORY_2025-10-10.md
+0	0	docs/{ => ad_hoc_reports}/MOBILE_SUPPORT_V1_SUMMARY.md
+0	0	docs/{ => ad_hoc_reports}/PLAN_E_WEEK1_COMPLETION_REPORT.md
+0	0	docs/{ => ad_hoc_reports}/PRODUCTION_READINESS_ASSESSMENT.md
+0	0	docs/{ => ad_hoc_reports}/TECHNICAL_DEBT.md
+0	0	docs/{ => ad_hoc_reports}/TECHNICAL_DEBT_ASSESSMENT_2025-10-10.md
+0	0	docs/{ => ad_hoc_reports}/TECH_DEBT_REVIEW.md
+0	0	docs/{ => ad_hoc_reports}/UI_ISSUES_IDENTIFIED.md
+0	0	docs/{ => ad_hoc_reports}/console-cleanup-report.md
+0	0	docs/{ => ad_hoc_reports}/data-update-implementation.md
+0	0	docs/{ => ad_hoc_reports}/data-verification-report.md
+0	0	docs/{ => ad_hoc_reports}/mobile-support-test-report.md
+0	0	docs/{ => ad_hoc_reports}/routing-analysis-report.md
+0	0	docs/{ => ad_hoc_reports}/styling-analysis-report.md
+0	0	docs/{ => educational}/caribbean-departments-educational-content.md
+0	0	docs/{ => educational}/educational-content-andina-region.md
+0	0	docs/{ => educational}/educational-content-research.md
+0	0	docs/{ => educational}/pacific_region_educational_content.md
+0	0	docs/{ => guides}/COMPONENT_API.md
+0	0	docs/{ => guides}/DESIGN_SYSTEM_GUIDE.md
+0	0	docs/{ => guides}/DESIGN_SYSTEM_MIGRATION_PLAN.md
+0	0	docs/{ => guides}/DESIGN_TOKENS_REFERENCE.md
+0	0	docs/{ => guides}/DEVELOPER_GUIDE.md
+0	0	docs/{ => guides}/GAME_MECHANICS.md
+0	0	docs/{ => guides}/MOBILE_DEVELOPMENT_GUIDE.md
+0	0	docs/{ => guides}/PWA_INTEGRATION_GUIDE.md
+0	0	docs/{ => guides}/REAL_DEVICE_TESTING.md
+0	0	docs/{ => guides}/RESPONSIVE_ARCHITECTURE.md
+0	0	docs/{ => guides}/STYLE_GUIDE.md
+0	0	docs/{design-system => guides}/consolidation-plan.md
+0	0	docs/{ => pwa}/PWA_IMPLEMENTATION.md
+0	0	docs/{ => pwa}/PWA_SUMMARY.md
+0	0	docs/{ => sparc}/SPARC_MAP_RENDERING.md
+0	0	docs/{ => testing}/TEST_COVERAGE_REPORT.md
+0	0	docs/{ => testing}/test-coverage-plan.md
+0	0	docs/{ => testing}/test-execution-report.md
+
+COMMIT:b47bb5c
+82	4	.claude-flow/metrics/performance.json
+4	4	.claude-flow/metrics/task-metrics.json
+
+COMMIT:093dee4
+14074	286	.claude-flow/metrics/system-metrics.json
+461	0	daily_reports/2025-10-11.md
+342	0	docs/ad_hoc_guides/phase2-manual-verification-guide.md
+452	0	docs/ad_hoc_reports/AUTH_TEST_SUITE_SUMMARY.md
+584	0	docs/ad_hoc_reports/PHASE2_CODE_REVIEW.md
+215	0	docs/ad_hoc_reports/PHASE2_TEST_REPORT.md
+236	0	docs/ad_hoc_reports/auth-integration-status.md
+322	0	docs/implementation/supabase-gamecontext-implementation-complete.md
+301	0	docs/implementation/supabase-gamecontext-integration.md
+141	0	src/components/auth/AuthButton.tsx
+132	0	src/components/auth/AuthModal.tsx
+290	0	src/components/auth/LoginForm.tsx
+60	0	src/components/auth/ProtectedRoute.tsx
+314	0	src/components/auth/SignupForm.tsx
+278	0	src/components/auth/UserProfile.tsx
+24	0	src/components/auth/index.ts
+446	0	src/services/game/GameStatsService.ts
+423	0	src/tests/components/auth/LoginForm.test.tsx
+395	0	src/tests/components/auth/ProtectedRoute.test.tsx
+456	0	src/tests/components/auth/SignupForm.test.tsx
+635	0	src/tests/context/AuthContext.test.tsx
+619	0	src/tests/services/auth/AuthService.test.ts
+273	0	src/tests/utils/authTestUtils.tsx
+92	0	src/utils/supabaseSync.ts
+
+COMMIT:42c5574
+874	0	docs/ad_hoc_reports/technology_stack.md
+
+COMMIT:5a375b8
+COMMIT:09b93af
+COMMIT:62b9932
+COMMIT:a0cd28f
+48	187	daily_reports/2025-09-18.md
+96	794	daily_reports/2025-10-08.md
+70	424	daily_reports/2025-10-09_COMPLETE_SESSION_SUMMARY.md
+
+COMMIT:aab8992
+3	3	.claude-flow/metrics/performance.json
+252	252	.claude-flow/metrics/system-metrics.json
+4	4	.claude-flow/metrics/task-metrics.json
+13	0	.env.example
+466	0	docs/ad_hoc_reports/auth_analysis_2025-10-11.md
+414	0	docs/architecture/00-architecture-overview.md
+701	0	docs/architecture/01-authentication-architecture.md
+944	0	docs/architecture/02-security-policies.md
+937	0	docs/architecture/03-api-layer-design.md
+903	0	docs/architecture/04-mobile-pwa-authentication.md
+321	0	docs/architecture/ARCHITECTURE_SUMMARY.md
+147	3	package-lock.json
+3	0	package.json
+170	0	src/context/AuthContext.tsx
+47	0	src/hooks/useAuth.ts
+193	0	src/lib/secureStorage.ts
+116	0	src/lib/supabase.ts
+223	0	src/services/auth/AuthService.ts
+139	0	src/services/base/BaseService.ts
+101	0	src/types/auth.ts
+73	0	src/types/errors.ts
+
+COMMIT:b2c3392
+COMMIT:33e5a86
+1	1	.claude-flow/metrics/performance.json
+300	264	.claude-flow/metrics/system-metrics.json
+3	3	.claude-flow/metrics/task-metrics.json
+38	29	playwright-report/index.html
+30	2	test-results/.last-run.json
+-	-	test-results/.playwright-artifacts-20/c44cd0137a391840970b072c6526f990.webm
+0	24	test-results/.playwright-artifacts-20/traces/6d8e893ef4bce3a684c7-9dbdba589d6768e36e48-retry1-pwnetcopy-1.network
+0	24	test-results/.playwright-artifacts-20/traces/6d8e893ef4bce3a684c7-9dbdba589d6768e36e48-retry1.network
+0	175	test-results/.playwright-artifacts-20/traces/6d8e893ef4bce3a684c7-9dbdba589d6768e36e48-retry1.trace
+-	-	test-results/.playwright-artifacts-20/traces/resources/0290816f719559c1c5ef3a3b2e00f6da15e8720a.woff2
+0	39	test-results/.playwright-artifacts-20/traces/resources/0c99e6ca18ed6b71ca887ce38cb6977dfa625d31.svg
+-	-	test-results/.playwright-artifacts-20/traces/resources/237befb8851c19fe6a0adce50bfe9d155384b5c4.woff2
+0	1	test-results/.playwright-artifacts-20/traces/resources/39e4eb74925991b7781afd2d78eadb781befcef0.svg
+0	1	test-results/.playwright-artifacts-20/traces/resources/542da4e64575267e5150194cd67794b84e391bca.css
+0	370	test-results/.playwright-artifacts-20/traces/resources/5d028c9bf91b1de8e065cd630d0c8dad65c652fc.html
+0	57	test-results/.playwright-artifacts-20/traces/resources/870cc0d8a5d6a5158f5ba8fb744bb497df7048f4.svg
+0	1	test-results/.playwright-artifacts-20/traces/resources/9a51d7a265a07efa6fc1c8f941affc7c9b9b5b66.svg
+0	1	test-results/.playwright-artifacts-20/traces/resources/a021aeebd4c6f9a43d0edd224c286643c5af8758.svg
+0	4	test-results/.playwright-artifacts-20/traces/resources/e14b3575d87a221e757ad12f1bc0bad2949a66f2.css
+0	1	test-results/.playwright-artifacts-20/traces/resources/ecfcd31baf15350b39fb368f3eab3297f2da2dce.svg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615396959.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397023.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397540.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397560.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397571.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397584.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397602.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397690.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397691.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397722.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397746.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397780.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397818.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397933.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397964.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397974.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615397989.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615398008.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615398037.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615398090.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615398136.jpeg
+-	-	test-results/.playwright-artifacts-20/traces/resources/page@fd21bf07249837277119d748d924c45a-1759615398171.jpeg
+
+PROJECT FILES:
+total 3180
+drwxrwxrwx 1 brand brand     512 Oct 11 17:07 .
+drwxrwxrwx 1 brand brand     512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand     512 Oct 11 13:38 .claude
+drwxrwxrwx 1 brand brand     512 Oct  9 20:13 .claude-flow
+-rwxrwxrwx 1 brand brand    2676 Oct 11 17:07 .env.example
+-rwxrwxrwx 1 brand brand      85 Oct 11 11:57 .eslintignore
+-rwxrwxrwx 1 brand brand    1280 Oct 11 11:57 .eslintrc.json
+drwxrwxrwx 1 brand brand     512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand     512 Sep 19 15:27 .github
+-rwxrwxrwx 1 brand brand     857 Oct 11 13:38 .gitignore
+drwxrwxrwx 1 brand brand     512 Oct 10 20:25 .hive-mind
+-rwxrwxrwx 1 brand brand     656 Oct 10 20:25 .mcp.json
+drwxrwxrwx 1 brand brand     512 Oct 11 11:57 .ruv-swarm
+drwxrwxrwx 1 brand brand     512 Oct 16 20:23 .swarm
+-rwxrwxrwx 1 brand brand    5905 Oct 11 11:57 AGENT_3_REPORT.md
+-rwxrwxrwx 1 brand brand   13125 Oct 11 13:38 CLAUDE.md
+-rwxrwxrwx 1 brand brand   11168 Oct 11 11:57 CONTRIBUTING.md
+-rwxrwxrwx 1 brand brand    4097 Oct 11 11:57 MOBILE_CACHE_CLEAR_INSTRUCTIONS.md
+-rwxrwxrwx 1 brand brand    3283 Oct 11 11:57 PWA_FILE_MANIFEST.txt
+-rwxrwxrwx 1 brand brand   10304 Oct 11 13:38 README.md
+-rwxrwxrwx 1 brand brand    2876 Oct 11 11:57 TESTING_GUIDE.md
+-rwxrwxrwx 1 brand brand    7800 Oct 11 11:57 WORKSPACE_CONSOLIDATION_PLAN.md
+-rwxrwxrwx 1 brand brand    6247 Oct 11 11:57 accessibility-analysis.js
+drwxrwxrwx 1 brand brand     512 Oct  9 20:13 active-development
+-rwxrwxrwx 1 brand brand    4631 Oct 11 11:57 analyze_projects.ps1
+-rwxrwxrwx 1 brand brand    1038 Oct 10 20:25 claude-flow
+-rwxrwxrwx 1 brand brand     997 Oct 11 13:38 claude-flow.cmd
+drwxrwxrwx 1 brand brand     512 Oct 10 20:25 coordination
+drwxrwxrwx 1 brand brand     512 Oct  9 20:13 coverage
+
+PACKAGE.JSON FOUND
+{
+  "name": "colombia-departments-puzzle",
+  "version": "1.0.0",
+  "description": "An educational puzzle game to learn Colombian departments through drag-and-drop interaction",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed",
+    "test:all": "npm test -- --run && npm run test:e2e",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "typecheck": "tsc --noEmit",
+    "validate": "npm run typecheck && npm run lint && npm run test -- --run",
+    "docs:api": "typedoc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjpl/colombia_department_puzzle.git"
+  },
+  "keywords": [
+    "colombia",
+    "geography",
+    "education",
+    "puzzle",
+    "game",
+    "interactive"
+  ],
+  "author": "BJPL",
+  "license": "MIT",
+  "homepage": "https://bjpl.github.io/colombia_department_puzzle",
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@supabase/supabase-js": "^2.75.0",
+    "clsx": "^2.1.1",
+    "d3-geo": "^3.1.0",
+    "lucide-react": "0.545.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "7.9.4",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+
+README.MD PREVIEW:
+# 🇨🇴 Colombia Departments Puzzle Game
+
+An interactive educational puzzle game to learn all 33 departments of Colombia (32 departments + Bogotá D.C.) through engaging drag-and-drop gameplay with multiple game modes and difficulty levels.
+
+## 🎮 Features
+
+### Core Gameplay
+- **Interactive Drag & Drop**: Smooth, intuitive drag-and-drop mechanics using @dnd-kit
+- **Multiple Game Modes**:
+  - Complete Colombia (all 33 departments)
+  - Regional Practice (focus on specific regions)
+  - Time Challenge Mode
+  - Progression Mode (unlock regions as you improve)
+- **Educational Content**: Learn capitals, regions, and interesting facts about each department
+- **Real GeoJSON Map**: Accurate geographic boundaries using official Colombia GeoJSON data
+
+### Learning Tools
+- **Study Mode**: Interactive exploration of departments without time pressure
+- **Progressive Hint System**:
+  - Level 1: Show region
+  - Level 2: Highlight first letter
+  - Level 3: Flash location on map
+- **Post-Game Reports**: Detailed performance analytics and recommendations
+- **Achievement System**: Earn badges for speed, accuracy, and persistence
+
+### User Experience
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Accessibility**: Screen reader support and keyboard navigation
+- **Sound Effects**: Optional audio feedback for actions
+- **Multiple Layouts**: Compact, ultra-compact, horizontal, and vertical department trays
+- **Error Recovery**: Robust error boundaries for uninterrupted gameplay
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm/yarn
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/bjpl/colombia_department_puzzle.git
+cd colombia_department_puzzle
+```
+
+2. Install dependencies:
+```bash
+npm install
+

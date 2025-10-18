@@ -1,0 +1,357 @@
+=== ANALYZING: learning_agentic_engineering ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/learning_agentic_engineering
+
+COMMITS SINCE AUG 2024: 20
+
+FIRST COMMIT (since Aug 2024): 2025-09-12 22:15:17 -0700
+LAST COMMIT: 2025-09-19 15:20:42 -0700
+
+AUTHORS:
+     20 bjpl
+
+
+BRANCHES:
+* main
+  remotes/origin/main
+
+TAGS:
+
+COMMIT LOG:
+46cadf94|2025-09-19 15:20:42 -0700|bjpl|Merge branch 'main' of https://github.com/bjpl/learning_agentic_engineering
+4f403207|2025-09-19 15:20:25 -0700|bjpl|Initial commit: Learning Agentic Engineering project
+f9ef4c6e|2025-09-13 12:11:57 -0700|bjpl|Fix GitHub button styling and alignment
+cadf3e62|2025-09-13 12:06:44 -0700|bjpl|Fix filter logic to properly display all frameworks on load
+6e309001|2025-09-13 12:00:36 -0700|bjpl|Add comprehensive business context and accessibility improvements
+491d8af6|2025-09-12 23:51:19 -0700|bjpl|Remove certifications and career development section from Learning Paths
+abe54709|2025-09-12 23:45:00 -0700|bjpl|Comprehensive Learning Paths and Resources development
+c296e705|2025-09-12 23:34:30 -0700|bjpl|Enhanced Compare UI with real case studies and tech debt cleanup
+69c73484|2025-09-12 23:22:46 -0700|bjpl|Completed comprehensive site enhancements with interactive features
+58500ef3|2025-09-12 23:19:04 -0700|bjpl|Added comprehensive UI enhancements with tooltips and contextual links
+f9173fa5|2025-09-12 23:15:29 -0700|bjpl|Enhanced framework content with comprehensive research
+6ef11b3c|2025-09-12 23:09:22 -0700|bjpl|Add comprehensive framework content with real data
+6bbce3d3|2025-09-12 23:02:33 -0700|bjpl|Switch to GitHub Actions deployment
+72339185|2025-09-12 22:53:01 -0700|bjpl|Simplify to working interactive React app
+98f87373|2025-09-12 22:50:50 -0700|bjpl|Add debug logging to diagnose React mounting issues
+81bccfdb|2025-09-12 22:43:57 -0700|bjpl|Fix interactivity and navigation issues
+e050d345|2025-09-12 22:36:19 -0700|bjpl|Professional redesign with comprehensive framework content
+cf55effe|2025-09-12 22:19:34 -0700|bjpl|Add .gitignore and clean up repository
+269b52e2|2025-09-12 22:18:38 -0700|bjpl|Fix PostCSS and Tailwind configs for CommonJS compatibility
+dea55cee|2025-09-12 22:15:17 -0700|bjpl|Initial commit: Learning Agentic Engineering platform - AI frameworks guide with SPARC methodology
+
+FILE CHANGE STATISTICS:
+COMMIT:46cadf94
+COMMIT:4f403207
+1	0	.claude-flow/metrics/agent-metrics.json
+9	0	.claude-flow/metrics/performance.json
+10	0	.claude-flow/metrics/task-metrics.json
+88	0	.claude/agents/flow-nexus/app-store.md
+69	0	.claude/agents/flow-nexus/authentication.md
+81	0	.claude/agents/flow-nexus/challenges.md
+88	0	.claude/agents/flow-nexus/neural-network.md
+83	0	.claude/agents/flow-nexus/payments.md
+76	0	.claude/agents/flow-nexus/sandbox.md
+76	0	.claude/agents/flow-nexus/swarm.md
+96	0	.claude/agents/flow-nexus/user-tools.md
+84	0	.claude/agents/flow-nexus/workflow.md
+124	0	.claude/commands/flow-nexus/app-store.md
+120	0	.claude/commands/flow-nexus/challenges.md
+65	0	.claude/commands/flow-nexus/login-registration.md
+134	0	.claude/commands/flow-nexus/neural-network.md
+116	0	.claude/commands/flow-nexus/payments.md
+83	0	.claude/commands/flow-nexus/sandbox.md
+87	0	.claude/commands/flow-nexus/swarm.md
+152	0	.claude/commands/flow-nexus/user-tools.md
+115	0	.claude/commands/flow-nexus/workflow.md
+3	0	.claude/settings.local.json
+3	0	.env
+50	0	.github/workflows/deploy.yml
+37	0	.gitignore
+117	0	CLAUDE.md
+63	0	README.md
+137	0	TECH_DEBT.md
+14	0	index.html
+37	0	package.json
+6	0	postcss.config.js
+1921	0	src/App.jsx
+42	0	src/AppTest.jsx
+90	0	src/index.css
+15	0	src/main.jsx
+11	0	tailwind.config.js
+35	0	test-debug.html
+11	0	vite.config.js
+
+COMMIT:f9ef4c6e
+29	19	src/App.jsx
+
+COMMIT:cadf3e62
+14	8	src/App.jsx
+
+COMMIT:6e309001
+129	2	src/App.jsx
+
+COMMIT:491d8af6
+0	109	src/App.jsx
+
+COMMIT:abe54709
+571	63	src/App.jsx
+
+COMMIT:c296e705
+137	0	TECH_DEBT.md
+216	28	src/App.jsx
+8	18	src/main.jsx
+
+COMMIT:69c73484
+187	39	src/App.jsx
+
+COMMIT:58500ef3
+259	31	src/App.jsx
+
+COMMIT:f9173fa5
+56	1	src/App.jsx
+
+COMMIT:6ef11b3c
+715	143	src/App.jsx
+
+COMMIT:6bbce3d3
+2	5	package.json
+
+COMMIT:72339185
+153	389	src/App.jsx
+0	635	src/components/CodePlayground.jsx
+0	136	src/components/ComparisonMatrix.jsx
+0	485	src/components/FrameworkDetail.jsx
+0	392	src/components/LearningPaths.jsx
+
+COMMIT:98f87373
+42	0	src/AppTest.jsx
+20	5	src/main.jsx
+35	0	test-debug.html
+
+COMMIT:81bccfdb
+2	3	src/App.jsx
+
+COMMIT:e050d345
+406	62	src/App.jsx
+635	0	src/components/CodePlayground.jsx
+136	0	src/components/ComparisonMatrix.jsx
+485	0	src/components/FrameworkDetail.jsx
+392	0	src/components/LearningPaths.jsx
+73	8	src/index.css
+
+COMMIT:cf55effe
+37	0	.gitignore
+0	41	dist/assets/index-CZXYCxD5.js
+0	1	dist/assets/index-CZXYCxD5.js.map
+0	1	dist/assets/index-Cya0pXwn.css
+0	15	dist/index.html
+0	16	node_modules/.bin/autoprefixer
+0	17	node_modules/.bin/autoprefixer.cmd
+0	28	node_modules/.bin/autoprefixer.ps1
+0	16	node_modules/.bin/baseline-browser-mapping
+0	17	node_modules/.bin/baseline-browser-mapping.cmd
+0	28	node_modules/.bin/baseline-browser-mapping.ps1
+0	16	node_modules/.bin/browserslist
+0	17	node_modules/.bin/browserslist.cmd
+0	28	node_modules/.bin/browserslist.ps1
+0	16	node_modules/.bin/cssesc
+0	17	node_modules/.bin/cssesc.cmd
+0	28	node_modules/.bin/cssesc.ps1
+0	16	node_modules/.bin/csv2json
+0	17	node_modules/.bin/csv2json.cmd
+0	28	node_modules/.bin/csv2json.ps1
+0	16	node_modules/.bin/csv2tsv
+0	17	node_modules/.bin/csv2tsv.cmd
+0	28	node_modules/.bin/csv2tsv.ps1
+0	16	node_modules/.bin/dsv2dsv
+0	17	node_modules/.bin/dsv2dsv.cmd
+0	28	node_modules/.bin/dsv2dsv.ps1
+0	16	node_modules/.bin/dsv2json
+0	17	node_modules/.bin/dsv2json.cmd
+0	28	node_modules/.bin/dsv2json.ps1
+0	16	node_modules/.bin/esbuild
+0	17	node_modules/.bin/esbuild.cmd
+0	28	node_modules/.bin/esbuild.ps1
+0	16	node_modules/.bin/gh-pages
+0	16	node_modules/.bin/gh-pages-clean
+0	17	node_modules/.bin/gh-pages-clean.cmd
+0	28	node_modules/.bin/gh-pages-clean.ps1
+0	17	node_modules/.bin/gh-pages.cmd
+0	28	node_modules/.bin/gh-pages.ps1
+0	16	node_modules/.bin/glob
+0	17	node_modules/.bin/glob.cmd
+0	28	node_modules/.bin/glob.ps1
+0	16	node_modules/.bin/jiti
+0	17	node_modules/.bin/jiti.cmd
+0	28	node_modules/.bin/jiti.ps1
+0	16	node_modules/.bin/jsesc
+0	17	node_modules/.bin/jsesc.cmd
+0	28	node_modules/.bin/jsesc.ps1
+0	16	node_modules/.bin/json2csv
+0	17	node_modules/.bin/json2csv.cmd
+0	28	node_modules/.bin/json2csv.ps1
+0	16	node_modules/.bin/json2dsv
+0	17	node_modules/.bin/json2dsv.cmd
+0	28	node_modules/.bin/json2dsv.ps1
+0	16	node_modules/.bin/json2tsv
+0	17	node_modules/.bin/json2tsv.cmd
+0	28	node_modules/.bin/json2tsv.ps1
+0	16	node_modules/.bin/json5
+0	17	node_modules/.bin/json5.cmd
+0	28	node_modules/.bin/json5.ps1
+0	16	node_modules/.bin/loose-envify
+0	17	node_modules/.bin/loose-envify.cmd
+0	28	node_modules/.bin/loose-envify.ps1
+0	16	node_modules/.bin/nanoid
+0	17	node_modules/.bin/nanoid.cmd
+0	28	node_modules/.bin/nanoid.ps1
+0	16	node_modules/.bin/node-which
+0	17	node_modules/.bin/node-which.cmd
+0	28	node_modules/.bin/node-which.ps1
+0	16	node_modules/.bin/parser
+0	17	node_modules/.bin/parser.cmd
+0	28	node_modules/.bin/parser.ps1
+0	16	node_modules/.bin/resolve
+0	17	node_modules/.bin/resolve.cmd
+0	28	node_modules/.bin/resolve.ps1
+0	16	node_modules/.bin/rollup
+0	17	node_modules/.bin/rollup.cmd
+0	28	node_modules/.bin/rollup.ps1
+0	16	node_modules/.bin/semver
+0	17	node_modules/.bin/semver.cmd
+0	28	node_modules/.bin/semver.ps1
+0	16	node_modules/.bin/sucrase
+0	16	node_modules/.bin/sucrase-node
+0	17	node_modules/.bin/sucrase-node.cmd
+0	28	node_modules/.bin/sucrase-node.ps1
+0	17	node_modules/.bin/sucrase.cmd
+0	28	node_modules/.bin/sucrase.ps1
+0	16	node_modules/.bin/tailwind
+0	17	node_modules/.bin/tailwind.cmd
+0	28	node_modules/.bin/tailwind.ps1
+0	16	node_modules/.bin/tailwindcss
+0	17	node_modules/.bin/tailwindcss.cmd
+0	28	node_modules/.bin/tailwindcss.ps1
+0	16	node_modules/.bin/tsv2csv
+0	17	node_modules/.bin/tsv2csv.cmd
+0	28	node_modules/.bin/tsv2csv.ps1
+0	16	node_modules/.bin/tsv2json
+0	17	node_modules/.bin/tsv2json.cmd
+0	28	node_modules/.bin/tsv2json.ps1
+0	16	node_modules/.bin/update-browserslist-db
+0	17	node_modules/.bin/update-browserslist-db.cmd
+
+PROJECT FILES:
+total 224
+drwxrwxrwx 1 brand brand    512 Sep 19 15:20 .
+drwxrwxrwx 1 brand brand    512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand    512 Sep 14 18:03 .claude
+drwxrwxrwx 1 brand brand    512 Sep 14 18:03 .claude-flow
+-rwxrwxrwx 1 brand brand   2939 Sep 12 21:49 .env
+drwxrwxrwx 1 brand brand    512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand    512 Sep 12 22:14 .github
+-rwxrwxrwx 1 brand brand    406 Sep 12 22:19 .gitignore
+-rwxrwxrwx 1 brand brand   3992 Sep 14 18:03 CLAUDE.md
+-rwxrwxrwx 1 brand brand   1793 Sep 12 22:14 README.md
+-rwxrwxrwx 1 brand brand   4162 Sep 12 23:33 TECH_DEBT.md
+drwxrwxrwx 1 brand brand    512 Sep 13 12:11 dist
+-rwxrwxrwx 1 brand brand    571 Sep 12 22:13 index.html
+drwxrwxrwx 1 brand brand    512 Sep 12 22:43 node_modules
+-rwxrwxrwx 1 brand brand 195831 Sep 19 15:20 package-lock.json
+-rwxrwxrwx 1 brand brand   1024 Sep 12 23:02 package.json
+-rwxrwxrwx 1 brand brand     81 Sep 12 22:16 postcss.config.js
+drwxrwxrwx 1 brand brand    512 Sep 13 12:11 src
+-rwxrwxrwx 1 brand brand    183 Sep 12 22:16 tailwind.config.js
+-rwxrwxrwx 1 brand brand   1362 Sep 12 22:49 test-debug.html
+-rwxrwxrwx 1 brand brand    232 Sep 12 22:13 vite.config.js
+
+PACKAGE.JSON FOUND
+{
+  "name": "learning-agentic-engineering",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://bjpl.github.io/learning_agentic_engineering",
+  "description": "Comprehensive guide to AI frameworks using SPARC methodology - Learn Agentic Engineering",
+  "author": "Brandon J. P. Lambert",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjpl/learning_agentic_engineering.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "lucide-react": "^0.292.0",
+    "framer-motion": "^10.16.0",
+    "recharts": "^2.10.0",
+    "prismjs": "^1.29.0",
+    "react-markdown": "^9.0.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "d3": "^7.8.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
+}
+README.MD PREVIEW:
+# 🎓 Learning Agentic Engineering
+
+> **Master AI Frameworks Through SPARC Methodology**
+
+[![Deploy to GitHub Pages](https://github.com/bjpl/learning_agentic_engineering/actions/workflows/deploy.yml/badge.svg)](https://github.com/bjpl/learning_agentic_engineering/actions/workflows/deploy.yml)
+[![Powered by Flow Nexus](https://img.shields.io/badge/Powered%20by-Flow%20Nexus-blue)](https://github.com/ruvnet/claude-flow)
+
+## 🌟 Overview
+
+Interactive educational platform teaching cutting-edge AI frameworks through the SPARC methodology (Specification, Pseudocode, Architecture, Refinement, Code).
+
+### 📚 Frameworks Covered
+
+**Core AI Frameworks**
+- ANS - Secure agent discovery with PKI
+- A2 - Serverless multi-cloud deployment
+- DSPy.ts - Declarative self-improving AI
+- Ax - Production DSPy with 15+ providers
+- SAFLA - Self-aware AI with meta-cognition
+
+**Specialized Tools**
+- Federated MCP - Distributed federated runtime
+- ONNX-Agent - ML model lifecycle
+- WiFi-DensePose - Privacy-preserving pose detection
+- Ultrasonic - Steganographic command embedding
+
+**JS/TS & Runtime**
+- Mastra - TypeScript agent framework
+- OpenAI Agents SDK - Multi-agent coordination
+- LangChain.js - Comprehensive LLM framework
+- ONNX Runtime - Cross-platform ML inference
+
+## 🚀 Quick Start
+
+```bash
+# Clone repository
+git clone https://github.com/bjpl/learning_agentic_engineering.git
+cd learning_agentic_engineering
+
+# Install dependencies
+npm install
+
+# Start development
+npm run dev
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+

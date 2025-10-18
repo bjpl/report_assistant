@@ -1,0 +1,433 @@
+=== ANALYZING: hablas ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/hablas
+
+COMMITS SINCE AUG 2024: 71
+
+FIRST COMMIT (since Aug 2024): 2025-09-25 22:29:59 -0700
+LAST COMMIT: 2025-10-17 11:24:40 -0700
+
+AUTHORS:
+     69 bjpl
+      2 Brandon JP Lambert
+
+
+BRANCHES:
+  feature/daily-reports-standardization
+* main
+  remotes/origin/feature/daily-reports-standardization
+  remotes/origin/main
+
+TAGS:
+
+COMMIT LOG:
+b44fdd4|2025-10-17 11:24:40 -0700|bjpl|feat: SPARC Plan E execution - security, testing, content, and accessibility improvements
+c277814|2025-10-17 11:16:21 -0700|bjpl|docs: add pending daily reports and update .gitignore
+f83ed21|2025-10-17 01:04:45 -0700|bjpl|feat: Complete Week 1 Day 3 - Input Sanitization, Testing & Content Templates
+54702e6|2025-10-16 16:17:02 -0700|bjpl|chore: migrate to SPARC development environment with enhanced Claude Flow integration
+10e6bcb|2025-10-12 23:12:20 -0700|bjpl|docs: Add comprehensive technology stack documentation
+76f72e0|2025-10-11 16:47:30 -0700|Brandon JP Lambert|docs: Standardize daily report format for consistency
+6e2f3da|2025-10-10 22:20:41 -0700|Brandon JP Lambert|docs: add daily reports for all commit dates and comprehensive startup report
+01611d6|2025-10-09 13:21:51 -0700|bjpl|docs: add comprehensive daily development startup report
+7941e18|2025-10-09 13:21:48 -0700|bjpl|chore: update .gitignore for .env and .swarm/
+c2dee67|2025-10-09 13:20:47 -0700|bjpl|chore: update version to 1.1.0 to match CHANGELOG
+309a4eb|2025-10-09 13:20:08 -0700|bjpl|docs: comprehensive documentation review and update (v1.1.0)
+92c606b|2025-10-07 23:14:54 -0700|bjpl|feat: integrate 34 AI-generated resources with search and PWA functionality
+e056045|2025-10-07 22:12:24 -0700|bjpl|docs: update agent operating instructions with swarm orchestration and professional communication guidelines
+36ecbcd|2025-10-07 17:54:05 -0700|bjpl|fix: resolve TypeScript errors and improve type safety
+0f87fb7|2025-10-07 17:53:28 -0700|bjpl|feat: implement comprehensive performance optimizations for 50% speed improvement
+c3f614c|2025-10-07 17:25:23 -0700|bjpl|docs: add comprehensive CLAUDE.md with agent operating instructions
+b030182|2025-10-07 01:14:57 -0700|bjpl|feat: 50 resources generation in progress - 2/50 complete
+58bbae7|2025-10-07 01:02:48 -0700|bjpl|feat: successful real API generation test with Claude Sonnet 4.5
+1c0e8bd|2025-10-07 00:51:14 -0700|bjpl|refactor: improve AI generation system based on test results
+c8f093b|2025-10-07 00:39:56 -0700|bjpl|feat: add comprehensive resource template system with AI generation
+f8b4989|2025-09-27 20:01:30 -0700|bjpl|docs: update all documentation to reflect current project state
+3fc86de|2025-10-07 00:40:36 -0700|bjpl|WIP on main: 31c20f6 feat: add comprehensive resource template system with AI generation
+52f1c19|2025-10-07 00:40:36 -0700|bjpl|index on main: 31c20f6 feat: add comprehensive resource template system with AI generation
+31c20f6|2025-10-07 00:39:56 -0700|bjpl|feat: add comprehensive resource template system with AI generation
+29c4b33|2025-10-06 17:56:12 -0700|bjpl|Complete Option A improvements - H2 splitting, CI/CD, profiling, skip analysis
+425aa85|2025-10-06 15:08:59 -0700|bjpl|Add comprehensive consolidation completion report
+f0f8cee|2025-10-06 15:03:24 -0700|bjpl|Add production readiness assessment, documentation index, and real integration tests
+b2660de|2025-10-06 14:53:52 -0700|bjpl|Delete 60+ outdated documentation files - major cleanup
+6eedc32|2025-10-06 14:45:31 -0700|bjpl|Deprecate app/input_adapters - video_gen/input_adapters is canonical
+9e8af7b|2025-10-06 14:39:46 -0700|bjpl|Fix last failing test - mark orchestrator test as needing refactoring
+8f80fa8|2025-10-06 14:39:25 -0700|bjpl|Fix all 6 failing tests - honest approach with working fixes and documented skips
+daa5751|2025-10-06 14:25:32 -0700|bjpl|Update README and add comprehensive Renderer API documentation
+7e602dc|2025-10-06 14:22:01 -0700|bjpl|Add comprehensive session summary for Oct 6, 2025
+9be1b71|2025-10-06 14:20:17 -0700|bjpl|Expand test coverage from 59% to 79% - add 160 comprehensive tests
+9d3bbe0|2025-10-06 14:02:53 -0700|bjpl|Fix 14 adapter API test failures - async to sync conversion
+10498e5|2025-10-06 13:56:41 -0700|bjpl|Fix 11 test failures across multiple categories
+3817afc|2025-10-06 13:36:35 -0700|bjpl|Add pytest.ini to fix test suite timeout issue
+d3e313f|2025-10-06 13:25:42 -0700|bjpl|Fix VideoConfig and VideoSet API compatibility in test_pipeline_stages.py
+7574dd8|2025-10-06 00:27:12 -0700|bjpl|Migrate 1,020 print() statements to logging in scripts/
+ed839af|2025-10-06 00:27:05 -0700|bjpl|Add 83+ comprehensive tests - expand coverage significantly
+4ec3199|2025-10-06 00:26:08 -0700|bjpl|Fix 43 failing tests - API compatibility and server dependencies
+d031231|2025-10-05 23:59:16 -0700|bjpl|Add comprehensive refactoring session summary
+02bf636|2025-10-05 23:55:14 -0700|bjpl|Update critical dependencies (FastAPI, Pydantic, Pillow)
+4f59488|2025-10-05 23:52:49 -0700|bjpl|Replace print() with logging in app/ directory (72 statements)
+ad27301|2025-10-05 23:50:38 -0700|bjpl|Break up 1,476-line monolithic script into modular renderers
+b940245|2025-10-05 23:44:31 -0700|bjpl|Consolidate duplicate config systems
+e24f946|2025-10-05 23:25:43 -0700|bjpl|Fix critical bugs and improve code quality
+31e0299|2025-10-04 15:32:42 -0700|bjpl|Update all documentation for educational and multilingual features
+f813503|2025-10-04 15:20:34 -0700|bjpl|Add complete educational scene types for courses and lessons
+4da48d8|2025-10-04 14:59:03 -0700|bjpl|Add complete multilingual video generation system (28+ languages)
+dd6a9c9|2025-10-04 03:56:56 -0700|bjpl|Add programmatic video generation system with content parsing
+726e632|2025-10-04 02:21:27 -0700|bjpl|Complete meta-documentation video generation
+72198db|2025-10-04 01:56:59 -0700|bjpl|Add comprehensive documentation and meta-documentation video inputs
+f3fba3b|2025-10-04 01:55:26 -0700|bjpl|Add comprehensive documentation updates and GETTING_STARTED guide
+0c752d1|2025-10-04 01:49:24 -0700|bjpl|Add AI-powered narration with Claude API
+a1cb5e0|2025-10-04 01:03:59 -0700|bjpl|Add complete video production system with three input methods
+f471978|2025-10-02 18:42:05 -0700|bjpl|Complete comprehensive refactoring roadmap execution (Phases 1-5)
+cf852bd|2025-09-27 20:01:30 -0700|bjpl|docs: update all documentation to reflect current project state
+cb1924d|2025-09-27 19:49:57 -0700|bjpl|refactor: comprehensive project cleanup and technical debt reduction
+aaf7d83|2025-09-27 19:32:59 -0700|bjpl|feat: complete design system integration across all components
+e27faf0|2025-09-27 19:22:44 -0700|bjpl|fix: correct component variant counts and add missing examples
+4abf6aa|2025-09-27 19:16:14 -0700|bjpl|fix: copy design system docs to public for static deployment
+e54757f|2025-09-27 19:12:04 -0700|bjpl|feat: apply design system standards across entire site
+a07e01a|2025-09-27 18:58:35 -0700|bjpl|refactor: modernize design system with best practices
+0d93784|2025-09-27 18:50:51 -0700|bjpl|feat: Implement fully interactive design system style guide
+47f0457|2025-09-27 18:40:34 -0700|bjpl|Add comprehensive design system documentation
+8a0a15f|2025-09-26 14:00:41 -0700|bjpl|Fix: Deploy actual Next.js app instead of static fallback
+c32ede8|2025-09-25 22:37:17 -0700|bjpl|Fix: Remove admin page and headers for static export
+662cb79|2025-09-25 22:34:59 -0700|bjpl|Fix: Remove API routes for static export compatibility
+ed93743|2025-09-25 22:32:51 -0700|bjpl|Fix: Add missing Supabase configuration file
+9addab0|2025-09-25 22:29:59 -0700|bjpl|Initial commit: Hablas - Next.js app for English learning
+
+FILE CHANGE STATISTICS:
+COMMIT:b44fdd4
+3	3	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+136	0	__tests__/api-analytics-mock.test.ts
+206	0	__tests__/auth-client.test.tsx
+295	0	__tests__/integration-resource-flow.test.tsx
+130	0	__tests__/lib-utils-performance.test.ts
+188	0	__tests__/lib-utils-prefetch.test.ts
+149	0	__tests__/utils/test-helpers.ts
+399	0	__tests__/validation-schemas.test.ts
+25	0	app/globals.css
+9	6	app/layout.tsx
+159	0	components/ErrorBoundary.tsx
+8	8	components/Hero.tsx
+15	6	components/InstallPrompt.tsx
+15	3	components/OfflineNotice.tsx
+16	14	components/ResourceCard.tsx
+17	10	components/ResourceLibrary.tsx
+9	6	components/SearchBar.tsx
+12	8	components/WhatsAppCTA.tsx
+192	0	daily_reports/2025-10-17.md
+93	0	data/resources/README.md
+327	0	data/resources/app-specific/airport-rideshare.json
+343	0	data/resources/app-specific/doordash-delivery.json
+300	0	data/resources/app-specific/lyft-driver-essentials.json
+364	0	data/resources/app-specific/multi-app-strategy.json
+357	0	data/resources/app-specific/platform-ratings-mastery.json
+358	0	data/resources/app-specific/tax-and-expenses.json
+304	0	data/resources/app-specific/uber-driver-essentials.json
+128	0	data/resources/avanzado/business-terminology.json
+110	0	data/resources/avanzado/complaint-handling.json
+128	0	data/resources/avanzado/conflict-resolution.json
+123	0	data/resources/avanzado/cross-cultural-communication.json
+110	0	data/resources/avanzado/customer-service-excellence.json
+127	0	data/resources/avanzado/earnings-optimization.json
+122	0	data/resources/avanzado/negotiation-skills.json
+133	0	data/resources/avanzado/professional-boundaries.json
+104	0	data/resources/avanzado/professional-communication.json
+122	0	data/resources/avanzado/time-management.json
+317	0	data/resources/emergency/accident-procedures.json
+258	0	data/resources/emergency/customer-conflict.json
+304	0	data/resources/emergency/lost-or-found-items.json
+208	0	data/resources/emergency/medical-emergencies.json
+270	0	data/resources/emergency/payment-disputes.json
+231	0	data/resources/emergency/safety-concerns.json
+229	0	data/resources/emergency/vehicle-breakdown.json
+257	0	data/resources/emergency/weather-hazards.json
+396	0	docs/ACCESSIBILITY.md
+303	0	docs/accessibility-audit-report.md
+426	0	docs/accessibility-changes-summary.md
+363	0	docs/accessibility-implementation-summary.md
+4	8	jest.config.js
+
+COMMIT:c277814
+1	0	.gitignore
+377	0	daily_dev_startup_reports/2025-10-17_startup_report.md
+105	0	daily_reports/2025-10-10.md
+125	0	daily_reports/2025-10-12.md
+759	0	daily_reports/2025-10-16.md
+
+COMMIT:f83ed21
+80	2	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+8	1	.env.example
+117	0	__tests__/rate-limit.test.ts
+285	0	__tests__/sanitize.test.ts
+119	0	app/admin/login/page.tsx
+145	0	app/admin/page.tsx
+132	0	app/api/analytics/route.ts
+59	0	app/api/auth/[...nextauth]/route.ts
+7	4	app/layout.tsx
+12	0	app/providers.tsx
+1741	0	daily_dev_startup_reports/2025-10-16-daily-startup.md
+506	0	docs/COMBINED_PLAN_OPTIONS_1_3.md
+492	0	docs/CONTENT_GAP_ANALYSIS.md
+442	0	docs/TODAY_SUMMARY.md
+506	0	docs/WEEK1_COMPLETE_SUMMARY.md
+522	0	docs/WEEK1_DAY2_SUMMARY.md
+363	0	docs/WEEK1_PROGRESS.md
+168	0	docs/templates/app-specific/01-uber-eats-completo.md
+62	0	docs/templates/app-specific/02-didi-food-interface.md
+74	0	docs/templates/app-specific/03-beat-vocabulario.md
+82	0	docs/templates/app-specific/04-cabify-sistema-avanzado.md
+110	0	docs/templates/app-specific/05-indriver-negociacion.md
+87	0	docs/templates/app-specific/06-99-taxi-interface.md
+244	0	docs/templates/app-specific/07-cornershop-supermercado.md
+171	0	docs/templates/avanzado/01-negociacion-cliente-dificil.md
+248	0	docs/templates/avanzado/02-optimizacion-propinas.md
+293	0	docs/templates/avanzado/03-emergencia-medica.md
+320	0	docs/templates/avanzado/04-vocabulario-app-rappi.md
+423	0	docs/templates/avanzado/05-vocabulario-app-uber.md
+441	0	docs/templates/avanzado/06-vocabulario-app-didi.md
+453	0	docs/templates/avanzado/07-solicitud-empleo-ingles.md
+471	0	docs/templates/avanzado/08-reporte-incidente-autoridades.md
+437	0	docs/templates/avanzado/09-ingles-conversacional-pasajeros.md
+416	0	docs/templates/avanzado/10-resolucion-disputas-pagos.md
+354	0	docs/templates/emergency/01-accidente-grave-multiples-heridos.md
+67	0	docs/templates/emergency/02-robo-a-mano-armada.md
+95	0	docs/templates/emergency/03-cliente-ataque-cardiaco.md
+88	0	docs/templates/emergency/04-incendio-vehiculo.md
+174	0	docs/templates/emergency/05-choque-y-fuga-victima.md
+222	0	docs/templates/emergency/06-amenaza-secuestro.md
+158	0	docs/templates/emergency/07-emergencia-menor-edad.md
+195	0	docs/templates/emergency/08-ataque-animal.md
+39	0	jest.config.js
+9	0	jest.setup.js
+35	0	lib/auth-client.ts
+107	0	lib/rate-limit.ts
+266	0	lib/sanitize.ts
+255	0	lib/validation-schemas.ts
+7575	3121	package-lock.json
+18	2	package.json
+
+COMMIT:54702e6
+1	1	.claude-flow/metrics/performance.json
+4	4	.claude-flow/metrics/task-metrics.json
+209	0	.claude/agents/analysis/code-analyzer.md
+180	0	.claude/agents/analysis/code-review/analyze-code-quality.md
+156	0	.claude/agents/architecture/system-design/arch-system-design.md
+42	0	.claude/agents/base-template-generator.md
+63	0	.claude/agents/consensus/byzantine-coordinator.md
+997	0	.claude/agents/consensus/crdt-synchronizer.md
+63	0	.claude/agents/consensus/gossip-coordinator.md
+851	0	.claude/agents/consensus/performance-benchmarker.md
+823	0	.claude/agents/consensus/quorum-manager.md
+63	0	.claude/agents/consensus/raft-manager.md
+622	0	.claude/agents/consensus/security-manager.md
+266	0	.claude/agents/core/coder.md
+168	0	.claude/agents/core/planner.md
+190	0	.claude/agents/core/researcher.md
+326	0	.claude/agents/core/reviewer.md
+319	0	.claude/agents/core/tester.md
+193	0	.claude/agents/data/ml/data-ml-model.md
+142	0	.claude/agents/development/backend/dev-backend-api.md
+164	0	.claude/agents/devops/ci-cd/ops-cicd-github.md
+174	0	.claude/agents/documentation/api-docs/docs-api-openapi.md
+88	0	.claude/agents/flow-nexus/app-store.md
+69	0	.claude/agents/flow-nexus/authentication.md
+81	0	.claude/agents/flow-nexus/challenges.md
+88	0	.claude/agents/flow-nexus/neural-network.md
+83	0	.claude/agents/flow-nexus/payments.md
+76	0	.claude/agents/flow-nexus/sandbox.md
+76	0	.claude/agents/flow-nexus/swarm.md
+96	0	.claude/agents/flow-nexus/user-tools.md
+84	0	.claude/agents/flow-nexus/workflow.md
+538	0	.claude/agents/github/code-review-swarm.md
+173	0	.claude/agents/github/github-modes.md
+319	0	.claude/agents/github/issue-tracker.md
+553	0	.claude/agents/github/multi-repo-swarm.md
+191	0	.claude/agents/github/pr-manager.md
+509	0	.claude/agents/github/project-board-sync.md
+367	0	.claude/agents/github/release-manager.md
+583	0	.claude/agents/github/release-swarm.md
+398	0	.claude/agents/github/repo-architect.md
+573	0	.claude/agents/github/swarm-issue.md
+428	0	.claude/agents/github/swarm-pr.md
+452	0	.claude/agents/github/sync-coordinator.md
+635	0	.claude/agents/github/workflow-automation.md
+446	0	.claude/agents/goal/code-goal-planner.md
+73	0	.claude/agents/goal/goal-planner.md
+130	0	.claude/agents/hive-mind/collective-intelligence-coordinator.md
+203	0	.claude/agents/hive-mind/queen-coordinator.md
+242	0	.claude/agents/hive-mind/scout-explorer.md
+193	0	.claude/agents/hive-mind/swarm-memory-manager.md
+217	0	.claude/agents/hive-mind/worker-specialist.md
+74	0	.claude/agents/neural/safla-neural.md
+665	0	.claude/agents/optimization/benchmark-suite.md
+431	0	.claude/agents/optimization/load-balancer.md
+672	0	.claude/agents/optimization/performance-monitor.md
+674	0	.claude/agents/optimization/resource-allocator.md
+808	0	.claude/agents/optimization/topology-optimizer.md
+472	0	.claude/agents/sparc/architecture.md
+318	0	.claude/agents/sparc/pseudocode.md
+525	0	.claude/agents/sparc/refinement.md
+276	0	.claude/agents/sparc/specification.md
+226	0	.claude/agents/specialized/mobile/spec-mobile-react-native.md
+396	0	.claude/agents/swarm/adaptive-coordinator.md
+327	0	.claude/agents/swarm/hierarchical-coordinator.md
+392	0	.claude/agents/swarm/mesh-coordinator.md
+205	0	.claude/agents/templates/automation-smart-agent.md
+105	0	.claude/agents/templates/coordinator-swarm-init.md
+177	0	.claude/agents/templates/github-pr-manager.md
+259	0	.claude/agents/templates/implementer-sparc-coder.md
+187	0	.claude/agents/templates/memory-coordinator.md
+746	0	.claude/agents/templates/migration-plan.md
+139	0	.claude/agents/templates/orchestrator-task.md
+199	0	.claude/agents/templates/performance-analyzer.md
+183	0	.claude/agents/templates/sparc-coordinator.md
+244	0	.claude/agents/testing/unit/tdd-london-swarm.md
+395	0	.claude/agents/testing/validation/production-validator.md
+10	0	.claude/commands/agents/README.md
+21	0	.claude/commands/agents/agent-capabilities.md
+28	0	.claude/commands/agents/agent-coordination.md
+28	0	.claude/commands/agents/agent-spawning.md
+26	0	.claude/commands/agents/agent-types.md
+54	0	.claude/commands/analysis/COMMAND_COMPLIANCE_REPORT.md
+9	0	.claude/commands/analysis/README.md
+162	0	.claude/commands/analysis/bottleneck-detect.md
+59	0	.claude/commands/analysis/performance-bottlenecks.md
+25	0	.claude/commands/analysis/performance-report.md
+
+PROJECT FILES:
+total 749
+drwxrwxrwx 1 brand brand    512 Oct 17 11:16 .
+drwxrwxrwx 1 brand brand    512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand    512 Oct 10 20:29 .claude
+drwxrwxrwx 1 brand brand    512 Oct  7 00:40 .claude-flow
+-rwxrwxrwx 1 brand brand     78 Oct 17 11:15 .env
+-rwxrwxrwx 1 brand brand    768 Oct 17 00:12 .env.example
+drwxrwxrwx 1 brand brand    512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand    512 Oct  7 00:40 .github
+-rwxrwxrwx 1 brand brand   1195 Oct 17 11:16 .gitignore
+drwxrwxrwx 1 brand brand    512 Oct 10 20:29 .hive-mind
+-rwxrwxrwx 1 brand brand    656 Oct 10 20:29 .mcp.json
+drwxrwxrwx 1 brand brand    512 Oct 17 00:12 .next
+-rwxrwxrwx 1 brand brand    117 Sep 30 21:33 .npmrc
+drwxrwxrwx 1 brand brand    512 Oct 17 18:03 .swarm
+drwxrwxrwx 1 brand brand    512 Oct 17 00:55 .swc
+-rwxrwxrwx 1 brand brand   5475 Oct  8 22:18 CHANGELOG.md
+-rwxrwxrwx 1 brand brand  13125 Oct 10 20:29 CLAUDE.md
+-rwxrwxrwx 1 brand brand   8548 Oct  8 22:18 CONTRIBUTING.md
+-rwxrwxrwx 1 brand brand   4389 Oct  8 22:18 README.md
+drwxrwxrwx 1 brand brand    512 Oct 17 11:02 __tests__
+drwxrwxrwx 1 brand brand    512 Oct  7 00:40 active-development
+drwxrwxrwx 1 brand brand    512 Oct 17 10:52 app
+-rwxrwxrwx 1 brand brand   1038 Oct 10 20:29 claude-flow
+-rwxrwxrwx 1 brand brand    997 Oct 10 20:28 claude-flow.cmd
+drwxrwxrwx 1 brand brand    512 Oct 17 10:51 components
+drwxrwxrwx 1 brand brand    512 Oct 10 20:28 coordination
+drwxrwxrwx 1 brand brand    512 Oct 17 00:59 coverage
+drwxrwxrwx 1 brand brand    512 Oct 17 10:01 daily_dev_startup_reports
+drwxrwxrwx 1 brand brand    512 Oct 18 00:05 daily_reports
+
+PACKAGE.JSON FOUND
+{
+  "name": "hablas",
+  "version": "1.1.0",
+  "description": "English learning platform for Spanish-speaking gig economy workers",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "resource:list": "tsx scripts/generate-resource.ts list",
+    "resource:generate": "tsx scripts/generate-resource.ts generate",
+    "resource:validate": "tsx scripts/generate-resource.ts validate",
+    "resource:stats": "tsx scripts/generate-resource.ts stats",
+    "resource:search": "tsx scripts/generate-resource.ts search",
+    "resource:export": "tsx scripts/generate-resource.ts export",
+    "resource:help": "tsx scripts/generate-resource.ts help",
+    "ai:generate": "tsx scripts/ai-generate-resources.ts",
+    "ai:generate-all": "tsx scripts/ai-generate-resources.ts all",
+    "ai:generate-essentials": "tsx scripts/ai-generate-resources.ts essentials",
+    "ai:generate-topic": "tsx scripts/ai-generate-resources.ts topic",
+    "ai:generate-template": "tsx scripts/ai-generate-resources.ts template",
+    "ai:generate-category": "tsx scripts/ai-generate-resources.ts category",
+    "ai:generate-level": "tsx scripts/ai-generate-resources.ts level",
+    "check:progress": "tsx scripts/check-progress.ts",
+    "resource:integrate": "tsx scripts/integrate-resources.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "@upstash/ratelimit": "^2.0.6",
+    "@upstash/redis": "^1.35.6",
+    "dompurify": "^3.3.0",
+    "dotenv": "^17.2.3",
+    "next": "^15.0.0",
+    "next-auth": "^4.24.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/dompurify": "^3.2.0",
+    "@types/jest": "^30.0.0",
+
+README.MD PREVIEW:
+# Hablas.co - English Learning Hub for Colombian Workers
+
+A mobile-first web application connecting Colombian delivery drivers and rideshare workers to practical English learning resources through WhatsApp communities.
+
+## 🎯 Mission
+
+Help working-class Colombians (Rappi/Didi/Uber/inDriver drivers and delivery workers) learn practical workplace English to:
+- Communicate with international customers
+- Increase tips and ratings
+- Access better opportunities
+
+## 🚀 Features
+
+- **WhatsApp Community Integration**: Direct links to learning groups
+- **Offline-First Resources**: Download materials for use without data
+- **Job-Specific Content**: Tailored phrases for delivery and rideshare scenarios
+- **Mobile Optimized**: Built for budget Android phones on 3G/4G networks
+- **Colombian Spanish**: Interface uses local dialect and conventions
+- **Data Conservation**: Aggressive compression and caching
+- **AI-Powered Content**: 50+ resources generated using Claude Sonnet 4.5
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 15 with TypeScript
+- **Deployment**: GitHub Pages (static export)
+- **Styling**: Tailwind CSS with custom design system
+- **PWA**: Service Workers for offline functionality
+- **AI Generation**: Anthropic Claude API for resource creation
+- **Build Automation**: Automated documentation sync
+
+## 📱 Optimization for Colombia
+
+- System fonts to reduce load time
+- Image compression for slow networks
+- Thumb-friendly buttons for motorcycle drivers
+- WhatsApp sharing integration
+- Prepaid data warnings
+
+## 🏗️ Setup
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run development server: `npm run dev`
+4. Build for production: `npm run build`
+
+### Build Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production (automatically syncs design system docs)
+- `npm run lint` - Run ESLint
+

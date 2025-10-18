@@ -1,0 +1,72 @@
+=== ANALYZING: learn_strudel ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/learn_strudel
+
+COMMITS SINCE AUG 2024: 1
+
+FIRST COMMIT (since Aug 2024): 2025-09-19 15:09:24 -0700
+LAST COMMIT: 2025-09-19 15:09:24 -0700
+
+AUTHORS:
+      1 bjpl
+
+
+BRANCHES:
+* main
+  remotes/origin/main
+
+TAGS:
+
+COMMIT LOG:
+445a3c6|2025-09-19 15:09:24 -0700|bjpl|Initial commit: Strudel music composition learning project
+
+FILE CHANGE STATISTICS:
+COMMIT:445a3c6
+86	0	.claude-flow/agents/strudel-effects-engineer.json
+77	0	.claude-flow/agents/strudel-live-coder.json
+67	0	.claude-flow/agents/strudel-melody-weaver.json
+86	0	.claude-flow/agents/strudel-pattern-transformer.json
+61	0	.claude-flow/agents/strudel-rhythm-architect.json
+72	0	.claude-flow/agents/strudel-sample-curator.json
+80	0	.claude-flow/agents/strudel-structure-composer.json
+79	0	.claude-flow/agents/strudel-synth-designer.json
+-	-	.claude-flow/memory.db
+91	0	.claude-flow/sparc/methodology_config.json
+3	0	.claude/settings.local.json
+58	0	.ruv-swarm/patterns/cognitive_patterns.json
+25	0	.ruv-swarm/wasm/runtime_config.json
+22	0	latin_melodic_composition/README.md
+223	0	latin_melodic_composition/agent_debug_session.py
+216	0	latin_melodic_composition/generate_composition.py
+52	0	latin_melodic_composition/latin_melodic_fixed.js
+135	0	latin_melodic_composition/latin_melodic_piece.js
+41	0	latin_melodic_composition/latin_melodic_working.js
+24	0	latin_melodic_composition/latin_simple_working.js
+7	0	latin_melodic_composition/minimal_test.js
+483	0	latin_melodic_composition/swarm_orchestration.py
+12	0	latin_melodic_composition/test_latin_simple.js
+44	0	mcp_symbiotic_config.json
+109	0	performance_dashboard.py
+176	0	register_strudel_agents.py
+776	0	setup_symbiotic_stack.py
+496	0	strudel_music_agents.py
+74	0	strudel_orchestration_example.py
+257	0	symbiotic_orchestrator.py
+
+PROJECT FILES:
+total 88
+drwxrwxrwx 1 brand brand   512 Sep 19 15:09 .
+drwxrwxrwx 1 brand brand   512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand   512 Sep 18 22:56 .claude
+drwxrwxrwx 1 brand brand   512 Sep 18 22:56 .claude-flow
+drwxrwxrwx 1 brand brand   512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand   512 Sep 18 22:56 .ruv-swarm
+drwxrwxrwx 1 brand brand   512 Sep 18 23:14 latin_melodic_composition
+-rwxrwxrwx 1 brand brand  1042 Sep 18 22:02 mcp_symbiotic_config.json
+-rwxrwxrwx 1 brand brand  4527 Sep 18 22:02 performance_dashboard.py
+-rwxrwxrwx 1 brand brand  6227 Sep 18 22:12 register_strudel_agents.py
+-rwxrwxrwx 1 brand brand 28887 Sep 18 22:02 setup_symbiotic_stack.py
+-rwxrwxrwx 1 brand brand 19698 Sep 18 22:09 strudel_music_agents.py
+-rwxrwxrwx 1 brand brand  2740 Sep 18 22:12 strudel_orchestration_example.py
+-rwxrwxrwx 1 brand brand  8930 Sep 18 22:02 symbiotic_orchestrator.py
+

@@ -1,0 +1,563 @@
+=== ANALYZING: online_language_learning_resources ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/online_language_learning_resources
+
+COMMITS SINCE AUG 2024: 198
+
+FIRST COMMIT (since Aug 2024): 2025-09-21 15:48:51 -0700
+LAST COMMIT: 2025-10-16 18:36:26 -0700
+
+AUTHORS:
+    191 bjpl
+      7 Brandon JP Lambert
+
+
+BRANCHES:
+  align-daily-reports-execution
+* main
+  safety-backup-20250925-220833
+  tech-debt-sprint-2025-10-08
+  remotes/origin/align-daily-reports-execution
+  remotes/origin/main
+  remotes/origin/safety-backup-20250925-220833
+
+TAGS:
+
+COMMIT LOG:
+b5c7ec3|2025-10-16 18:36:26 -0700|bjpl|fix: Update review tool to use window.languageData
+fe75773|2025-10-16 18:36:07 -0700|bjpl|fix: Update all language files to use window.languageData for module compatibility
+78213b4|2025-10-16 18:35:40 -0700|bjpl|fix: Make languageData globally accessible in module context
+b2c92cf|2025-10-16 18:35:21 -0700|bjpl|fix: Add ES6 exports back and convert review tool to use modules
+6f6eb58|2025-10-16 18:33:05 -0700|bjpl|fix: Remove ES6 exports from language data files for review tool compatibility
+6ac86e0|2025-10-16 18:26:06 -0700|bjpl|fix: Restore languageData global and correct review tool script paths
+836bfba|2025-10-16 18:12:35 -0700|bjpl|fix: resolve all deployment linting errors
+92f0045|2025-10-16 17:44:40 -0700|Brandon JP Lambert|fix: Use correct language-loader API in resources page
+dfa630f|2025-10-16 17:40:13 -0700|Brandon JP Lambert|hotfix: Fix module import paths for GitHub Pages
+3478db4|2025-10-16 17:33:19 -0700|Brandon JP Lambert|hotfix: Fix critical production errors on all pages
+0e87a66|2025-10-16 17:28:23 -0700|Brandon JP Lambert|fix: Emergency fix for resource counter and language page loading
+fe1b742|2025-10-16 16:16:17 -0700|bjpl|feat: Migrate to SPARC/Claude Flow development environment
+dbc7fb3|2025-10-12 23:12:34 -0700|bjpl|docs: Add comprehensive technology stack documentation
+2e332d6|2025-10-11 17:06:12 -0700|Brandon JP Lambert|feat: Align daily reports to unified format
+ff03066|2025-10-11 16:56:27 -0700|Brandon JP Lambert|docs: Align daily reports to comprehensive template
+bbaaeb1|2025-10-11 16:54:38 -0700|Brandon JP Lambert|docs: Align 2025-09-21 daily report to comprehensive template
+103a91c|2025-10-08 22:59:28 -0700|bjpl|docs: Update daily report with all 5 sessions (complete day)
+0c89384|2025-10-08 22:55:08 -0700|bjpl|docs: Align all documentation for v2.2.0 mobile optimizations
+6f97d1a|2025-10-08 22:47:36 -0700|bjpl|feat: Add comprehensive mobile optimization enhancements
+1627561|2025-10-08 22:39:19 -0700|bjpl|docs: Comprehensive documentation overhaul for v2.1.0 testing infrastructure
+058689e|2025-10-08 22:28:52 -0700|bjpl|docs: Add comprehensive daily report for Oct 8 tech debt sprint
+982cc83|2025-10-08 22:21:52 -0700|bjpl|Merge tech-debt-sprint-2025-10-08: Complete technical debt cleanup
+013eb27|2025-10-08 22:17:41 -0700|bjpl|chore: Remove backup directories from git tracking
+bb31ffa|2025-10-08 22:13:39 -0700|bjpl|refactor: Simplify updateResourceCounts() - 82 lines to 22 lines
+09c08b7|2025-10-08 22:07:42 -0700|bjpl|feat: Add resource counting module with comprehensive tests (27 tests)
+e0bc08b|2025-10-08 21:49:14 -0700|bjpl|test: Add comprehensive LanguageLoader test suite (23 tests)
+93068aa|2025-10-08 21:46:06 -0700|bjpl|feat: Add Vitest testing infrastructure
+2c713e0|2025-10-08 21:40:13 -0700|bjpl|fix: Add comprehensive browser globals to ESLint config
+1033bf6|2025-10-07 22:12:17 -0700|bjpl|docs: Add critical swarm orchestration architecture warning to CLAUDE.md
+cc9ff41|2025-10-07 18:15:18 -0700|bjpl|feat: Complete lazy loading implementation with 98% performance improvement
+a65aadd|2025-10-07 17:19:32 -0700|bjpl|feat: Add inline context, keyword triggers, and condensed summaries
+0856443|2025-10-07 17:08:40 -0700|bjpl|feat: Add MANDATORY-26 directive for project context initialization
+c0aefbf|2025-10-07 17:02:58 -0700|bjpl|fix: Add explicit session initialization protocol to CLAUDE.md
+ad800a4|2025-10-07 16:57:21 -0700|bjpl|refactor: Restructure documentation into modular, scalable files
+90856a5|2025-10-07 16:34:00 -0700|bjpl|docs: Add MANDATORY-2 Professional Communication Style directive
+148fd80|2025-10-07 16:29:01 -0700|bjpl|docs: Add comprehensive CLAUDE.md with mandatory agent instructions
+5a9203a|2025-10-07 01:22:52 -0700|bjpl|docs: Add comprehensive daily development reports (9 days)
+79a764c|2025-10-07 00:53:40 -0700|bjpl|docs: Add comprehensive build system documentation
+954314d|2025-10-07 00:51:07 -0700|bjpl|feat: Implement lazy loading system with dynamic imports
+cd0559f|2025-10-07 00:47:39 -0700|bjpl|feat: Add production build system with Vite + dev tooling
+3bef343|2025-10-07 00:44:26 -0700|bjpl|refactor: Organize project structure - separate dev from production
+058b446|2025-09-29 18:47:21 -0700|bjpl|feat: Restore complete save functionality to review tool v3
+02c699b|2025-09-29 18:40:37 -0700|bjpl|fix: Remove all iframe blocking - let everything try to load
+bf4a09a|2025-09-29 17:34:43 -0700|bjpl|fix: Improve iframe detection to be less aggressive
+d445942|2025-09-29 17:21:03 -0700|bjpl|fix: Add comprehensive debugging to review tool v3
+b365241|2025-09-29 17:10:48 -0700|bjpl|fix: Correct language data loading in review tool v3
+2d014e5|2025-09-29 16:44:16 -0700|bjpl|feat: Add review tool v3 with intelligent iframe/tab handling
+96bea54|2025-09-29 16:18:48 -0700|bjpl|feat: Add comprehensive save/load system to review tool v2
+5e9c5c6|2025-09-29 16:04:55 -0700|bjpl|feat: Add ultra-fast review tool v2 with zero wait times
+2cfd0b3|2025-09-29 15:49:32 -0700|bjpl|feat: Add comprehensive resource review utility
+17bed27|2025-09-29 15:35:12 -0700|bjpl|chore: Add diagnostic and testing scripts used for debugging
+a1769b2|2025-09-29 15:33:31 -0700|bjpl|fix: Critical bug fix - resolve undefined apps display on resources page
+20a2e2f|2025-09-29 15:22:03 -0700|bjpl|fix: Resolve ALL undefined app displays by fixing direct item structure
+d68e51d|2025-09-29 15:14:16 -0700|bjpl|fix: Resolve undefined apps display for 17 languages
+d4bff75|2025-09-29 02:10:46 -0700|bjpl|test: Add comprehensive language verification tools and status report
+3d3da67|2025-09-29 02:00:51 -0700|bjpl|fix: Correct apps counting logic in main.js
+1225598|2025-09-29 01:53:48 -0700|bjpl|fix: Extract and properly place apps from other sections
+9e47ca4|2025-09-28 23:56:12 -0700|bjpl|fix: Restore actual apps content from backups
+5414f0c|2025-09-28 23:49:53 -0700|bjpl|fix: Properly add apps arrays to all language data files
+9419e31|2025-09-28 23:36:19 -0700|bjpl|fix: Complete resolution of undefined apps display issue
+3cbb67c|2025-09-28 23:18:11 -0700|bjpl|fix: Resolve undefined display in apps resources section
+e0cb17c|2025-09-28 23:01:35 -0700|bjpl|fix: Ensure all language files have apps sections to prevent undefined errors
+e9e549d|2025-09-28 21:06:54 -0700|bjpl|feat: Remove duplicate URLs across language resources
+50f824d|2025-09-27 20:28:12 -0700|bjpl|docs: Add comprehensive verification checklist for design system
+ed91e3a|2025-09-27 20:24:52 -0700|bjpl|feat: Apply comprehensive design system across all pages
+cc0e4c3|2025-09-27 20:10:38 -0700|bjpl|feat: Create unified components.css library from style guide
+6797da4|2025-09-27 20:08:33 -0700|bjpl|refactor: Unify design system variables to Purple/Golden/Teal scheme
+42ffcb3|2025-09-27 20:04:54 -0700|bjpl|docs: Add comprehensive design system and interactive component showcase
+e7e608b|2025-09-27 19:15:41 -0700|bjpl|fix: Replace ES6 export statements with traditional languageData assignments
+7db6456|2025-09-27 19:11:38 -0700|bjpl|fix: Count all languages from languageData, not just those with resources
+838b342|2025-09-27 19:08:19 -0700|bjpl|fix: Dynamically count and display total languages on resources page
+860dff0|2025-09-27 18:55:19 -0700|bjpl|refactor: Intelligently convert descriptions to concise features across 26 languages
+86b03da|2025-09-27 18:30:29 -0700|bjpl|refactor: Convert 20 additional languages to pipe-separated features format
+39c7f73|2025-09-27 15:36:24 -0700|bjpl|refactor: Convert descriptions to pipe-separated features format
+76c1a48|2025-09-27 15:20:10 -0700|bjpl|style: Align description and features display formatting
+04a27c2|2025-09-27 15:15:59 -0700|bjpl|style: Update features list to horizontal pipe-separated format
+4eda09b|2025-09-27 15:00:29 -0700|bjpl|fix: Handle missing description field to prevent 'undefined' display
+b62332f|2025-09-27 14:53:18 -0700|bjpl|feat: Add Cebuano language resources
+b389628|2025-09-27 14:49:09 -0700|bjpl|feat: Add Nepali, Kannada, and Hungarian language resources
+ed07516|2025-09-27 14:36:43 -0700|bjpl|feat: Add Inuktitut, Croatian, and Welsh language resources
+3b72c7e|2025-09-27 14:27:24 -0700|bjpl|feat: Add Cree, Flemish, and Nahuatl indigenous/regional language resources
+c91f944|2025-09-27 14:18:05 -0700|bjpl|feat: Add comprehensive Chinese language resources (1.3B+ speakers)
+5491a9d|2025-09-27 14:08:59 -0700|bjpl|feat: Add Quechua and Guaraní indigenous language resources
+2c1cc7e|2025-09-27 14:01:03 -0700|bjpl|feat: Add Punjabi, Gujarati, and Hausa language resources
+d32040a|2025-09-27 13:48:15 -0700|bjpl|feat: Add comprehensive Urdu language resources (230M speakers)
+749bc87|2025-09-27 13:44:00 -0700|bjpl|feat: Add comprehensive Hmong language resources (4M speakers)
+806d483|2025-09-27 13:36:24 -0700|bjpl|fix: Load all 48 language data files on resources page
+0312f5e|2025-09-27 13:33:28 -0700|bjpl|feat: Implement elegant scalable language filter for 48 languages
+272bbd4|2025-09-27 13:30:43 -0700|bjpl|feat: Add comprehensive Lao language resources (7M speakers)
+55b5c87|2025-09-27 13:25:55 -0700|bjpl|feat: Add comprehensive Dari language resources (25M speakers)
+93e3f20|2025-09-27 13:21:39 -0700|bjpl|feat: Add comprehensive Telugu language resources (82M speakers)
+50f590f|2025-09-27 13:17:34 -0700|bjpl|feat: Add comprehensive Pashto language resources (60M speakers)
+470a45c|2025-09-27 13:09:49 -0700|bjpl|feat: Add comprehensive Sign Language resources (70M+ worldwide users)
+e82b063|2025-09-27 13:06:14 -0700|bjpl|feat: Add comprehensive Ukrainian language resources (40M speakers)
+c70d778|2025-09-27 13:02:07 -0700|bjpl|feat: Add comprehensive Navajo language resources (170K speakers)
+3a1a989|2025-09-27 12:57:25 -0700|bjpl|fix: Handle both flat and nested apps structures in language-page.js
+e5ba7d0|2025-09-27 12:54:43 -0700|bjpl|fix: Remove duplicate Tagalog script tags
+0e4b880|2025-09-27 00:46:44 -0700|bjpl|fix: Add Slovak script tags to HTML files
+518251f|2025-09-27 00:45:55 -0700|bjpl|feat: Add comprehensive Slovak language resources (5.5M speakers)
+2434557|2025-09-27 00:44:03 -0700|bjpl|feat: Add comprehensive Yoruba language resources (45M speakers)
+3565f00|2025-09-27 00:37:01 -0700|bjpl|fix: Enable resource display for all new languages
+92d67ab|2025-09-27 00:35:43 -0700|bjpl|feat: Add comprehensive Irish Gaelic language resources (1.7M speakers)
+80c0f25|2025-09-27 00:33:40 -0700|bjpl|feat: Add comprehensive Mongolian language resources (5.2M speakers)
+e653d72|2025-09-27 00:31:51 -0700|bjpl|feat: Add comprehensive Persian language resources (70M speakers)
+c4f207d|2025-09-27 00:26:13 -0700|bjpl|feat: Add comprehensive Marathi language resources (83M speakers)
+0d94913|2025-09-27 00:22:53 -0700|bjpl|feat: Add comprehensive Latvian language resources (1.75M speakers)
+1b3c466|2025-09-27 00:19:29 -0700|bjpl|feat: Add comprehensive Greek language resources (14M speakers)
+e038232|2025-09-27 00:13:06 -0700|bjpl|feat: Add comprehensive Kazakh language resources (12M speakers)
+df8e1fa|2025-09-27 00:09:59 -0700|bjpl|feat: Add comprehensive Bengali language resources (230M speakers)
+cecc958|2025-09-27 00:06:20 -0700|bjpl|feat: Add comprehensive Tamil language resources (75M speakers)
+e7c66e0|2025-09-27 00:02:57 -0700|bjpl|feat: Add comprehensive Wolof language resources (10M speakers)
+9ca7914|2025-09-26 23:58:21 -0700|bjpl|feat: Add comprehensive Thai language learning resources
+00c6ac7|2025-09-26 23:54:31 -0700|bjpl|feat: Add comprehensive Bulgarian language learning resources
+bf09961|2025-09-26 23:50:34 -0700|bjpl|feat: Add comprehensive Burmese (Myanmar) language learning resources
+2f9a90a|2025-09-26 23:45:58 -0700|bjpl|feat: Add comprehensive Serbian language learning resources
+66bf04a|2025-09-26 23:41:58 -0700|bjpl|feat: Add comprehensive Arabic language learning resources
+2694bb6|2025-09-26 23:38:33 -0700|bjpl|feat: Add comprehensive Lithuanian language learning resources
+d4dac68|2025-09-26 23:35:48 -0700|bjpl|feat: Add comprehensive Estonian language learning resources
+e52ce5b|2025-09-26 23:31:30 -0700|bjpl|feat: Add comprehensive Romanian language learning resources
+c6b7634|2025-09-26 23:27:34 -0700|bjpl|feat: Add comprehensive Afrikaans language learning resources
+d17a6f6|2025-09-26 23:24:09 -0700|bjpl|feat: Add comprehensive Tagalog (Filipino) language learning resources
+be30500|2025-09-26 23:20:25 -0700|bjpl|feat: Add comprehensive Russian language learning resources
+643675b|2025-09-26 23:14:45 -0700|bjpl|feat: Add comprehensive resources for German, French, Spanish, and Malay
+3002d13|2025-09-26 16:23:50 -0700|bjpl|fix: Remove undefined description field from resource cards
+4f11b5f|2025-09-26 16:19:32 -0700|bjpl|fix: Display exact resource counts without '+' symbol
+463cc16|2025-09-26 16:15:24 -0700|bjpl|docs: Add comprehensive emoji and icon inventory documentation
+15f1d37|2025-09-26 16:04:26 -0700|bjpl|fix: Load modern-ui-clean.js before language-page.js for collapsible init
+778231b|2025-09-26 16:02:05 -0700|bjpl|fix: Add setTimeout to ensure collapsible reinit after DOM update
+f913839|2025-09-26 15:58:28 -0700|bjpl|style: Replace bright violet (#7c3aed) with sophisticated slate-600 (#475569)
+77440a8|2025-09-26 15:54:56 -0700|bjpl|fix: Re-initialize collapsible sections after filter changes
+4054f9f|2025-09-26 15:02:54 -0700|bjpl|fix: Add missing Finnish, Polish, and Vietnamese data files to language.html
+6411655|2025-09-26 14:59:38 -0700|bjpl|chore: Bump cache version to 2.1 for data-simple.js fix
+17f4d59|2025-09-26 14:54:54 -0700|bjpl|fix: Replace corrupted data-simple.js with clean global initialization
+9c9742c|2025-09-26 14:51:25 -0700|bjpl|fix: Add Finnish, Polish, and Vietnamese to comprehensive resource rendering
+b703ed2|2025-09-26 14:40:47 -0700|bjpl|fix: Resolve syntax errors in Hindi, Swahili, Japanese, and Swedish data files
+87e2019|2025-09-26 14:31:03 -0700|bjpl|fix: Add cache busting to JavaScript files
+c1595fb|2025-09-26 14:21:46 -0700|bjpl|content: Remove difficulty and description fields from all languages
+b53824b|2025-09-25 22:16:00 -0700|bjpl|refactor: Complete removal of all 69 !important CSS declarations
+7a3889b|2025-09-25 22:03:17 -0700|bjpl|feat: Create comprehensive careful refactor framework
+a6cf615|2025-09-25 21:50:12 -0700|bjpl|docs: Add comprehensive tech debt resolution plan with implementation guide
+fe5179e|2025-09-25 21:46:46 -0700|bjpl|docs: Add comprehensive tech debt and organization assessment
+b024b61|2025-09-25 19:56:08 -0700|bjpl|fix: Resolve conflicting CSS gradient rules for All Languages button active state
+a1e6167|2025-09-25 19:52:11 -0700|bjpl|Fix All Languages button active state white-on-white issue
+eb80b54|2025-09-25 19:49:54 -0700|bjpl|Fix All Languages button text visibility issue
+34a53f2|2025-09-25 19:44:54 -0700|bjpl|Force fix for 'All Languages' button text cutoff
+f7fbe8c|2025-09-25 19:40:12 -0700|bjpl|Fix 'All Languages' button text and icon overflow
+af73f7c|2025-09-25 19:36:00 -0700|bjpl|Fix language badge overlap on resource cards
+bce6261|2025-09-25 19:18:03 -0700|bjpl|Clean up: Remove debug logging after fixing resource count
+9e68401|2025-09-25 19:12:22 -0700|bjpl|Remove all generic app entries to fix resource count
+fdb4261|2025-09-25 19:01:44 -0700|bjpl|Add debug logging to track resource counting issue
+578fb7a|2025-09-25 18:55:02 -0700|bjpl|Fix resource counter - include Vietnamese in language list
+a193d70|2025-09-25 18:45:53 -0700|bjpl|Remove 379 dead resources and update 26 URLs across all languages
+00918d6|2025-09-23 22:15:02 -0700|bjpl|chore: Add utility scripts for resource validation
+35ecff5|2025-09-22 15:43:58 -0700|bjpl|feat: Add Vietnamese (13th language) with scalable grid system
+ff962bd|2025-09-22 15:20:01 -0700|bjpl|feat: Add Polish language resources (12th language)
+ed232f8|2025-09-22 15:07:45 -0700|bjpl|fix: Add Finnish to data-simple.js to prevent const override
+93d538b|2025-09-22 15:01:49 -0700|bjpl|fix: Standardize Finnish data file structure to match other languages
+255a340|2025-09-22 14:53:25 -0700|bjpl|fix: Move Finnish data to correct directory path
+8de6827|2025-09-22 14:47:19 -0700|bjpl|fix: Update filter grid to 6 columns for 11 languages
+e58dde8|2025-09-22 14:43:04 -0700|bjpl|feat: Add Finnish language resources (11th language)
+060c422|2025-09-22 14:32:19 -0700|bjpl|fix: Force 3-column grid layout for languages
+7ad29d0|2025-09-22 14:28:51 -0700|bjpl|fix: Optimize language grid to 3-column layout
+13acc1f|2025-09-22 14:26:23 -0700|bjpl|fix: Correct two-row grid layout for language filters
+9ec5a84|2025-09-22 14:23:19 -0700|bjpl|fix: Implement two-row grid layout for language filters
+9eebe8d|2025-09-22 14:14:24 -0700|bjpl|Fix language display and filter UI for 10 languages
+0132ae3|2025-09-22 14:06:02 -0700|bjpl|Add Swedish language resources - 400+ comprehensive resources
+9fe228f|2025-09-22 02:28:14 -0700|bjpl|Add Japanese language resources - 300+ comprehensive resources
+c3706d2|2025-09-22 02:15:19 -0700|bjpl|Add Swahili language resources - 200+ comprehensive resources
+01b4814|2025-09-22 02:07:40 -0700|bjpl|Add Hindi language resources - 500+ resources across all categories
+4e91fb2|2025-09-22 01:59:45 -0700|bjpl|Add comprehensive Korean language resources
+68f1cae|2025-09-22 01:08:26 -0700|bjpl|Add comprehensive Indonesian language resources
+cbd16f7|2025-09-22 00:16:58 -0700|bjpl|Add comprehensive Italian language resources
+c759b1a|2025-09-21 23:19:17 -0700|bjpl|Add dynamic resource counts to homepage category cards
+84fe67d|2025-09-21 23:17:05 -0700|bjpl|Add simple About page
+da49f6d|2025-09-21 23:14:23 -0700|bjpl|Remove Methods section from site
+77d51c9|2025-09-21 23:02:43 -0700|bjpl|Align homepage resource categories with actual resources page
+9bc689c|2025-09-21 21:19:06 -0700|bjpl|Fix filter tab white-on-white contrast on language pages
+a6735d3|2025-09-21 21:10:08 -0700|bjpl|Fix filter button white-on-white contrast issue
+b19be35|2025-09-21 21:04:03 -0700|bjpl|Force fix white-on-white contrast with aggressive CSS overrides
+e4970d7|2025-09-21 21:01:22 -0700|bjpl|Fix filter button text replacement issue - ensure correct selector
+db7b154|2025-09-21 20:55:20 -0700|bjpl|Fix white-on-white contrast issue for active filter buttons
+6cfaed4|2025-09-21 20:50:03 -0700|bjpl|Fix critical bug: type filter buttons showing counts instead of labels
+69e9fda|2025-09-21 20:46:36 -0700|bjpl|Fix type filter visibility and redesign filter layout
+ba2d6a2|2025-09-21 17:19:08 -0700|bjpl|Add collapsible sections and type filtering to resources page
+5c6ef2a|2025-09-21 17:14:41 -0700|bjpl|Add elegant resources page with type-first organization
+f633be6|2025-09-21 17:02:50 -0700|bjpl|Revert to clean, minimal UI design
+eeb2d2e|2025-09-21 16:53:01 -0700|bjpl|Add comprehensive modern UI/UX enhancements
+ad4d710|2025-09-21 16:45:25 -0700|bjpl|Fix: Include Portuguese in comprehensive rendering logic
+b8756f8|2025-09-21 16:42:11 -0700|bjpl|Fix Portuguese data structure to match working Dutch/Danish format
+ab0edf0|2025-09-21 16:30:02 -0700|bjpl|fix: Completely rebuild Portuguese data structure to match Dutch/Danish format
+769412e|2025-09-21 16:24:51 -0700|bjpl|fix: Resolve undefined issue by fixing default language fallback
+dd3d33b|2025-09-21 16:20:36 -0700|bjpl|cleanup: Remove debug files
+04338e8|2025-09-21 16:20:20 -0700|bjpl|fix: Properly initialize Portuguese practice data structure
+33f4d24|2025-09-21 16:14:09 -0700|bjpl|fix: Filter invalid items in comprehensive resource sections
+d49075b|2025-09-21 16:13:36 -0700|bjpl|fix: Remove undefined items from Practice & Exchange section
+4cb3e14|2025-09-21 16:04:32 -0700|bjpl|fix: Resolve undefined cards issue on Portuguese page
+6bf7c40|2025-09-21 15:55:35 -0700|bjpl|feat: Add comprehensive Portuguese resources and update homepage
+8dca775|2025-09-21 15:48:51 -0700|bjpl|Initial commit: Language Learning Hub
+
+FILE CHANGE STATISTICS:
+COMMIT:b5c7ec3
+3	3	assets/js/review-tool-v2.js
+
+COMMIT:fe75773
+2	2	assets/js/language-data/afrikaans-data.js
+2	2	assets/js/language-data/arabic-data.js
+2	2	assets/js/language-data/bengali-data.js
+2	2	assets/js/language-data/bulgarian-data.js
+2	2	assets/js/language-data/burmese-data.js
+2	2	assets/js/language-data/cebuano-data.js
+2	2	assets/js/language-data/chinese-data.js
+2	2	assets/js/language-data/cree-data.js
+2	2	assets/js/language-data/croatian-data.js
+2	2	assets/js/language-data/czech-data.js
+2	2	assets/js/language-data/danish-data.js
+2	2	assets/js/language-data/dari-data.js
+2	2	assets/js/language-data/dutch-data.js
+2	2	assets/js/language-data/estonian-data.js
+2	2	assets/js/language-data/flemish-data.js
+2	2	assets/js/language-data/french-data.js
+2	2	assets/js/language-data/german-data.js
+2	2	assets/js/language-data/greek-data.js
+2	2	assets/js/language-data/guarani-data.js
+2	2	assets/js/language-data/gujarati-data.js
+2	2	assets/js/language-data/hausa-data.js
+2	2	assets/js/language-data/hebrew-data.js
+2	2	assets/js/language-data/hmong-data.js
+2	2	assets/js/language-data/hungarian-data.js
+2	2	assets/js/language-data/indonesian-data.js
+2	2	assets/js/language-data/inuktitut-data.js
+2	2	assets/js/language-data/irish-data.js
+2	2	assets/js/language-data/italian-data.js
+2	2	assets/js/language-data/kannada-data.js
+2	2	assets/js/language-data/kazakh-data.js
+2	2	assets/js/language-data/korean-data.js
+2	2	assets/js/language-data/lao-data.js
+2	2	assets/js/language-data/latvian-data.js
+2	2	assets/js/language-data/lithuanian-data.js
+2	2	assets/js/language-data/malay-data.js
+2	2	assets/js/language-data/marathi-data.js
+2	2	assets/js/language-data/mongolian-data.js
+2	2	assets/js/language-data/nahuatl-data.js
+2	2	assets/js/language-data/navajo-data.js
+2	2	assets/js/language-data/nepali-data.js
+2	2	assets/js/language-data/pashto-data.js
+2	2	assets/js/language-data/persian-data.js
+2	2	assets/js/language-data/portuguese-data.js
+2	2	assets/js/language-data/punjabi-data.js
+2	2	assets/js/language-data/quechua-data.js
+2	2	assets/js/language-data/romanian-data.js
+2	2	assets/js/language-data/russian-data.js
+2	2	assets/js/language-data/serbian-data.js
+2	2	assets/js/language-data/sign-language-data.js
+2	2	assets/js/language-data/slovak-data.js
+2	2	assets/js/language-data/spanish-data.js
+2	2	assets/js/language-data/tagalog-data.js
+2	2	assets/js/language-data/tamil-data.js
+2	2	assets/js/language-data/telugu-data.js
+2	2	assets/js/language-data/thai-data.js
+2	2	assets/js/language-data/ukrainian-data.js
+2	2	assets/js/language-data/urdu-data.js
+2	2	assets/js/language-data/welsh-data.js
+2	2	assets/js/language-data/wolof-data.js
+2	2	assets/js/language-data/yoruba-data.js
+
+COMMIT:78213b4
+3	1	assets/js/data-simple.js
+
+COMMIT:b2c92cf
+116	0	QUICK_START_TESTING.md
+273	0	QUICK_START_TESTING.txt
+669	0	TESTING_COMPLETE.md
+4	0	assets/js/language-data/afrikaans-data.js
+4	0	assets/js/language-data/arabic-data.js
+4	0	assets/js/language-data/bengali-data.js
+4	0	assets/js/language-data/bulgarian-data.js
+4	0	assets/js/language-data/burmese-data.js
+4	0	assets/js/language-data/cebuano-data.js
+4	0	assets/js/language-data/chinese-data.js
+4	0	assets/js/language-data/cree-data.js
+4	0	assets/js/language-data/croatian-data.js
+4	0	assets/js/language-data/czech-data.js
+4	0	assets/js/language-data/danish-data.js
+4	0	assets/js/language-data/dari-data.js
+4	0	assets/js/language-data/dutch-data.js
+4	0	assets/js/language-data/estonian-data.js
+4	0	assets/js/language-data/finnish-data.js
+4	0	assets/js/language-data/flemish-data.js
+4	0	assets/js/language-data/french-data.js
+4	0	assets/js/language-data/german-data.js
+4	0	assets/js/language-data/greek-data.js
+4	0	assets/js/language-data/guarani-data.js
+4	0	assets/js/language-data/gujarati-data.js
+4	0	assets/js/language-data/hausa-data.js
+4	0	assets/js/language-data/hebrew-data.js
+4	0	assets/js/language-data/hindi-data.js
+4	0	assets/js/language-data/hmong-data.js
+4	0	assets/js/language-data/hungarian-data.js
+4	0	assets/js/language-data/indonesian-data.js
+4	0	assets/js/language-data/inuktitut-data.js
+4	0	assets/js/language-data/irish-data.js
+4	0	assets/js/language-data/italian-data.js
+4	0	assets/js/language-data/japanese-data.js
+4	0	assets/js/language-data/kannada-data.js
+4	0	assets/js/language-data/kazakh-data.js
+4	0	assets/js/language-data/korean-data.js
+4	0	assets/js/language-data/lao-data.js
+4	0	assets/js/language-data/latvian-data.js
+4	0	assets/js/language-data/lithuanian-data.js
+4	0	assets/js/language-data/malay-data.js
+4	0	assets/js/language-data/marathi-data.js
+4	0	assets/js/language-data/mongolian-data.js
+4	0	assets/js/language-data/nahuatl-data.js
+4	0	assets/js/language-data/navajo-data.js
+4	0	assets/js/language-data/nepali-data.js
+4	0	assets/js/language-data/pashto-data.js
+4	0	assets/js/language-data/persian-data.js
+4	0	assets/js/language-data/polish-data.js
+4	0	assets/js/language-data/portuguese-data.js
+4	0	assets/js/language-data/punjabi-data.js
+4	0	assets/js/language-data/quechua-data.js
+4	0	assets/js/language-data/romanian-data.js
+4	0	assets/js/language-data/russian-data.js
+4	0	assets/js/language-data/serbian-data.js
+4	0	assets/js/language-data/sign-language-data.js
+4	0	assets/js/language-data/slovak-data.js
+4	0	assets/js/language-data/spanish-data.js
+4	0	assets/js/language-data/swahili-data.js
+4	0	assets/js/language-data/swedish-data.js
+4	0	assets/js/language-data/tagalog-data.js
+4	0	assets/js/language-data/tamil-data.js
+4	0	assets/js/language-data/telugu-data.js
+4	0	assets/js/language-data/thai-data.js
+4	0	assets/js/language-data/ukrainian-data.js
+4	0	assets/js/language-data/urdu-data.js
+4	0	assets/js/language-data/vietnamese-data.js
+4	0	assets/js/language-data/welsh-data.js
+4	0	assets/js/language-data/wolof-data.js
+4	0	assets/js/language-data/yoruba-data.js
+672	0	docs/DATA_LOADING_ANALYSIS.md
+837	0	docs/LANGUAGE_DATA_LOADING_ANALYSIS.md
+947	0	docs/LANGUAGE_DATA_SYNC_ANALYSIS.md
+155	0	docs/REVIEW_TOOL_GUIDE.md
+74	34	docs/TECH_DEBT_ASSESSMENT.md
+167	4	docs/VERIFICATION_CHECKLIST.md
+359	0	docs/ad_hoc_reports/LANGUAGE_DATA_SYNC_INVESTIGATION_REPORT.md
+284	0	scripts/README_TESTS.md
+393	0	scripts/TEST_RESULTS_SUMMARY.md
+333	0	scripts/TEST_SUMMARY.md
+27	0	scripts/add-exports.sh
+438	0	scripts/generate-test-report.js
+221	0	scripts/poc-fix-resource-counter.js
+140	0	scripts/test-empty-language-data.js
+174	0	scripts/test-lazy-loading.js
+199	0	scripts/test-performance.js
+228	0	scripts/test-resource-counter-validation.js
+68	68	tests/review-tool-v2.html
+68	68	tests/review-tool-v3.html
+19	0	tests/test-export-compatibility.html
+
+COMMIT:6f6eb58
+0	3	assets/js/language-data/afrikaans-data.js
+0	3	assets/js/language-data/arabic-data.js
+0	3	assets/js/language-data/bengali-data.js
+0	3	assets/js/language-data/bulgarian-data.js
+0	3	assets/js/language-data/burmese-data.js
+0	3	assets/js/language-data/cebuano-data.js
+0	3	assets/js/language-data/chinese-data.js
+0	3	assets/js/language-data/cree-data.js
+0	3	assets/js/language-data/croatian-data.js
+0	3	assets/js/language-data/czech-data.js
+0	3	assets/js/language-data/danish-data.js
+0	3	assets/js/language-data/dari-data.js
+0	3	assets/js/language-data/dutch-data.js
+0	3	assets/js/language-data/estonian-data.js
+0	3	assets/js/language-data/finnish-data.js
+0	3	assets/js/language-data/flemish-data.js
+0	3	assets/js/language-data/french-data.js
+0	3	assets/js/language-data/german-data.js
+0	3	assets/js/language-data/greek-data.js
+0	3	assets/js/language-data/guarani-data.js
+0	3	assets/js/language-data/gujarati-data.js
+0	3	assets/js/language-data/hausa-data.js
+0	3	assets/js/language-data/hebrew-data.js
+0	3	assets/js/language-data/hindi-data.js
+0	3	assets/js/language-data/hmong-data.js
+0	3	assets/js/language-data/hungarian-data.js
+0	3	assets/js/language-data/indonesian-data.js
+0	3	assets/js/language-data/inuktitut-data.js
+0	3	assets/js/language-data/irish-data.js
+0	3	assets/js/language-data/italian-data.js
+0	3	assets/js/language-data/japanese-data.js
+0	3	assets/js/language-data/kannada-data.js
+0	3	assets/js/language-data/kazakh-data.js
+0	3	assets/js/language-data/korean-data.js
+0	3	assets/js/language-data/lao-data.js
+0	3	assets/js/language-data/latvian-data.js
+0	3	assets/js/language-data/lithuanian-data.js
+0	3	assets/js/language-data/malay-data.js
+0	3	assets/js/language-data/marathi-data.js
+
+PROJECT FILES:
+total 288
+drwxrwxrwx 1 brand brand    512 Oct 16 17:39 .
+drwxrwxrwx 1 brand brand    512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand    512 Oct 10 20:34 .claude
+drwxrwxrwx 1 brand brand    512 Oct 10 20:34 .claude-flow
+drwxrwxrwx 1 brand brand    512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand    512 Sep 21 15:48 .github
+-rwxrwxrwx 1 brand brand   1274 Oct 10 20:43 .gitignore
+drwxrwxrwx 1 brand brand    512 Oct 10 20:43 .hive-mind
+-rwxrwxrwx 1 brand brand    656 Oct 10 20:43 .mcp.json
+-rwxrwxrwx 1 brand brand      0 Sep 23 22:03 .nojekyll
+-rwxrwxrwx 1 brand brand    286 Oct  7 00:47 .prettierignore
+-rwxrwxrwx 1 brand brand    307 Oct  7 00:47 .prettierrc.json
+drwxrwxrwx 1 brand brand    512 Oct 16 18:36 .swarm
+-rwxrwxrwx 1 brand brand   6322 Sep 25 22:03 CAREFUL_REFACTOR_PLAN.md
+-rwxrwxrwx 1 brand brand  16874 Oct  8 22:53 CLAUDE-PROJECT.md
+-rwxrwxrwx 1 brand brand  13125 Oct 10 20:43 CLAUDE.md
+-rwxrwxrwx 1 brand brand   5609 Sep 29 02:08 LANGUAGE_STATUS_REPORT.md
+-rwxrwxrwx 1 brand brand   2616 Oct 16 17:19 QUICK_START_TESTING.md
+-rwxrwxrwx 1 brand brand   8849 Oct 16 16:56 QUICK_START_TESTING.txt
+-rwxrwxrwx 1 brand brand   7974 Oct  8 22:53 README.md
+-rwxrwxrwx 1 brand brand  14600 Oct 16 16:55 TESTING_COMPLETE.md
+-rwxrwxrwx 1 brand brand    740 Sep 21 15:45 _config.yml
+-rwxrwxrwx 1 brand brand   4501 Oct  8 22:46 about.html
+drwxrwxrwx 1 brand brand    512 Oct 16 17:06 assets
+-rwxrwxrwx 1 brand brand   1038 Oct 10 20:43 claude-flow
+-rwxrwxrwx 1 brand brand    997 Oct 10 20:34 claude-flow.cmd
+drwxrwxrwx 1 brand brand    512 Oct 10 20:34 coordination
+drwxrwxrwx 1 brand brand    512 Oct 17 01:26 daily_reports
+drwxrwxrwx 1 brand brand    512 Oct  8 22:46 dist
+
+PACKAGE.JSON FOUND
+{
+  "name": "online_language_learning_resources",
+  "version": "2.0.0",
+  "description": "A beautifully crafted, modern website that curates the best language learning resources from around the web. Built with passion for polyglots and language enthusiasts worldwide.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "format": "prettier --write \"**/*.{js,html,css,md}\"",
+    "format:check": "prettier --check \"**/*.{js,html,css,md}\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "vitest run tests/e2e",
+    "test:performance": "vitest run tests/performance",
+    "test:all": "npm run test:unit && npm run test:integration && npm run test:e2e && npm run test:performance",
+    "test:ci": "vitest run --coverage --reporter=verbose",
+    "typecheck": "echo 'Type checking not configured - using JSDoc comments for type safety'"
+  },
+  "keywords": [
+    "language-learning",
+    "resources",
+    "education",
+    "polyglot",
+    "languages",
+    "multilingual"
+  ],
+  "author": "Language Learning Hub Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjpl/online_language_learning_resources.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bjpl/online_language_learning_resources/issues"
+  },
+  "homepage": "https://bjpl.github.io/online_language_learning_resources/",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^3.2.4",
+    "eslint": "^9.37.0",
+
+README.MD PREVIEW:
+# Language Learning Hub 🌍
+
+A beautifully crafted, modern website that curates the best language learning resources from around the web. Built with passion for polyglots and language enthusiasts worldwide.
+
+## 🌟 Features
+
+- **Comprehensive Resource Library**: Curated collection of apps, books, podcasts, courses, and communities for 67 languages
+- **Beautiful, Modern Design**: Clean, elegant interface with thoughtful typography and color palette
+- **Mobile-First & Responsive**: Professional mobile optimization with 30 enhancement categories
+  - 48x48px touch targets (WCAG 2.1 AAA)
+  - iPhone notch support (safe area insets)
+  - Reduced motion accessibility
+  - Optimized for all devices (phones, tablets, foldables)
+- **Fast & Optimized**: Production build system with code splitting and lazy loading (98% faster load times)
+- **Accessible**: WCAG 2.1 AAA compliant with semantic HTML, ARIA labels, and reduced motion support
+- **Search & Filter**: Quickly find resources by language or type
+- **Professional Development Workflow**: Vite, ESLint, Prettier, Vitest for modern development
+- **Comprehensive Testing**: 50 automated tests with 100% pass rate
+- **High Code Quality**: Zero ESLint errors, professional code standards
+
+## 🗣️ Currently Featured Languages
+
+We've curated comprehensive resource collections for:
+
+- **Dutch (Nederlands)** 🇳🇱 - 100+ free resources covering both Dutch and Flemish variants
+- **Danish (Dansk)** 🇩🇰 - 100+ resources including government programs and Nordic materials
+- **Portuguese (Português)** 🇵🇹🇧🇷 - 150+ resources for both European (PT-PT) and Brazilian (PT-BR) variants
+
+### Coming Soon
+We're actively building comprehensive collections for:
+- Spanish (Español) 🇪🇸
+- French (Français) 🇫🇷
+- German (Deutsch) 🇩🇪
+- Italian (Italiano) 🇮🇹
+- And more!
+
+## 🚀 Live Site
+
+Visit the live site: [https://bjpl.github.io/online_language_learning_resources/](https://bjpl.github.io/online_language_learning_resources/)
+
+## 💻 Local Development
+
+### Quick Start (Development Server)
+
+1. Clone the repository:
+```bash
+git clone https://github.com/bjpl/online_language_learning_resources.git
+cd online_language_learning_resources
+```
+
+

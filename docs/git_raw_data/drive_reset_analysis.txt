@@ -1,0 +1,100 @@
+=== ANALYZING: drive_reset ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/drive_reset
+
+COMMITS SINCE AUG 2024: 2
+
+FIRST COMMIT (since Aug 2024): 2025-09-18 22:34:39 -0700
+LAST COMMIT: 2025-10-08 02:01:57 -0700
+
+AUTHORS:
+      2 bjpl
+
+
+BRANCHES:
+* main
+  remotes/origin/main
+
+TAGS:
+
+COMMIT LOG:
+8b8582a|2025-10-08 02:01:57 -0700|bjpl|catch up commit
+ffb64d3|2025-09-18 22:34:39 -0700|bjpl|Initial commit: Google Drive Reset and Organization Project
+
+FILE CHANGE STATISTICS:
+COMMIT:8b8582a
+18	13	.mcp.json
+118	0	docs/analysis_framework.md
+
+COMMIT:ffb64d3
+10	0	.claude/settings.local.json
+43	0	.hive-mind/README.md
+111	0	.hive-mind/config.json
+59	0	.hive-mind/config/queens.json
+72	0	.hive-mind/config/workers.json
+-	-	.hive-mind/hive.db
+13	0	.mcp.json
+-	-	.swarm/memory.db
+81	0	claude-flow
+18	0	claude-flow.bat
+20	0	claude-flow.config.json
+24	0	claude-flow.ps1
+117	0	docs/SETUP_COMPLETE.md
+144	0	docs/ai_stack_analysis/README.md
+536	0	docs/ai_stack_analysis/foundations/01_ruv_swarm_foundation.md
+1694	0	docs/ai_stack_analysis/implementations/05_implementation_patterns.md
+449	0	docs/ai_stack_analysis/orchestration/02_claude_flow_orchestration.md
+666	0	docs/ai_stack_analysis/performance/04_performance_analysis.md
+786	0	docs/ai_stack_analysis/synthesis/06_technical_synthesis.md
+378	0	docs/comprehensive-google-drive-organizational-plan.md
+167	0	docs/digital_asset_organizational_analysis.md
+219	0	docs/executive-summary-google-drive-transformation.md
+328	0	docs/frameworks/categorization-framework-guide.md
+277	0	docs/frameworks/categorization-system-summary.md
+481	0	docs/google-drive-implementation-roadmap.md
+103	0	docs/implementation-executive-summary.md
+171	0	docs/personal-google-drive-organization-plan.md
+303	0	docs/quick-start-implementation-guide.md
+698	0	docs/taxonomy/folder-templates.md
+280	0	docs/taxonomy/google-drive-taxonomy-blueprint.md
+610	0	docs/taxonomy/implementation-migration-strategy.md
+497	0	docs/taxonomy/integration-guidelines.md
+511	0	docs/taxonomy/maintenance-procedures.md
+360	0	docs/taxonomy/naming-convention-manual.md
+545	0	docs/taxonomy/user-training-materials.md
+185	0	docs/untitled_file_audit/00_EXECUTIVE_SUMMARY.md
+140	0	docs/untitled_file_audit/01_inventory/google_drive_untitled.json
+148	0	docs/untitled_file_audit/01_inventory/local_documents_untitled.json
+36	0	docs/untitled_file_audit/01_inventory/master_inventory.csv
+163	0	docs/untitled_file_audit/02_analysis/content_categorization.md
+222	0	docs/untitled_file_audit/02_analysis/duplicate_analysis.md
+163	0	docs/untitled_file_audit/02_analysis/importance_rankings.md
+251	0	docs/untitled_file_audit/03_recommendations/cleanup_plan.md
+249	0	docs/untitled_file_audit/03_recommendations/keep_and_organize.md
+330	0	docs/untitled_file_audit/04_context/relationship_maps.md
+220	0	docs/untitled_file_audit/COMPREHENSIVE_GOOGLE_DRIVE_FINDINGS.md
+210	0	docs/untitled_file_audit/CONTENT_ANALYSIS_REPORT.md
+224	0	docs/untitled_file_audit/QUICK_EMPTY_FILE_CLEANUP_GUIDE.md
+175	0	docs/untitled_files_discovery_report.md
+5	0	memory/claude-flow-data.json
+
+PROJECT FILES:
+total 13
+drwxrwxrwx 1 brand brand  512 Sep 20 14:00 .
+drwxrwxrwx 1 brand brand  512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand  512 Sep 19 14:33 .claude
+drwxrwxrwx 1 brand brand  512 Sep 20 14:00 .claude-flow
+drwxrwxrwx 1 brand brand  512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand  512 Sep 19 14:33 .hive-mind
+-rwxrwxrwx 1 brand brand  790 Sep 20 13:29 .mcp.json
+drwxrwxrwx 1 brand brand  512 Sep 16 22:32 .swarm
+-rwxrwxrwx 1 brand brand 2393 Sep 19 14:33 claude-flow
+-rwxrwxrwx 1 brand brand  370 Sep 19 14:33 claude-flow.bat
+-rwxrwxrwx 1 brand brand  506 Sep 19 14:33 claude-flow.config.json
+-rwxrwxrwx 1 brand brand  623 Sep 19 14:33 claude-flow.ps1
+drwxrwxrwx 1 brand brand  512 Sep 16 21:47 coordination
+drwxrwxrwx 1 brand brand  512 Sep 27 23:48 docs
+drwxrwxrwx 1 brand brand  512 Sep 18 18:22 examples
+drwxrwxrwx 1 brand brand  512 Sep 19 14:33 memory
+drwxrwxrwx 1 brand brand  512 Sep 18 22:19 src
+

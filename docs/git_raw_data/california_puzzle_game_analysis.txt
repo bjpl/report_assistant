@@ -1,0 +1,644 @@
+=== ANALYZING: california_puzzle_game ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/california_puzzle_game
+
+COMMITS SINCE AUG 2024: 278
+
+FIRST COMMIT (since Aug 2024): 2025-09-20 19:52:36 -0700
+LAST COMMIT: 2025-10-16 22:54:50 -0700
+
+AUTHORS:
+    244 bjpl
+     34 Brandon JP Lambert
+
+
+BRANCHES:
+  feature/mobile-feature-completion
+  feature/pwa-launch-readiness
+  feature/supabase-anonymous-auth
+  feature/supabase-data-sync
+* main
+  remotes/origin/feature/mobile-feature-completion
+  remotes/origin/main
+
+TAGS:
+pre-remediation-baseline
+
+COMMIT LOG:
+dbe7722|2025-10-16 22:54:50 -0700|Brandon JP Lambert|fix: Resolve linting issues in security features
+8ab9c32|2025-10-16 22:46:01 -0700|Brandon JP Lambert|feat: Add security and privacy features - user settings, data export, account deletion
+5069392|2025-10-16 22:20:51 -0700|Brandon JP Lambert|feat: Add security enhancements for user trust and data protection
+f58ddbf|2025-10-16 22:11:58 -0700|Brandon JP Lambert|docs: Update technology stack documentation (v1.1)
+c5b0241|2025-10-16 22:05:53 -0700|Brandon JP Lambert|feat: Add Supabase authentication and database setup
+1bb96e1|2025-10-16 21:42:59 -0700|Brandon JP Lambert|docs: Git hooks now work without --no-verify
+b7160f5|2025-10-16 21:40:23 -0700|Brandon JP Lambert|fix: Make type checking non-blocking in pre-push hook
+d023b05|2025-10-16 21:39:16 -0700|Brandon JP Lambert|fix: Make pre-push hook fast with type check + fast unit tests
+4debe6f|2025-10-16 21:38:43 -0700|Brandon JP Lambert|test: Verify pre-commit hook works
+09d1ee7|2025-10-16 21:35:58 -0700|Brandon JP Lambert|fix: Make pre-push hook faster and optionally skippable
+d47a656|2025-10-16 21:31:57 -0700|Brandon JP Lambert|docs: Document git hooks fixes and configuration
+ae91cd9|2025-10-16 21:31:14 -0700|Brandon JP Lambert|fix: Use npx vitest run in pre-push to force single test run
+5d7b9a8|2025-10-16 21:27:34 -0700|Brandon JP Lambert|fix: Use CI=true npm test in pre-push hook to avoid vitest workspace error
+6686809|2025-10-16 21:24:16 -0700|Brandon JP Lambert|fix: Fix git hook configuration for lint-staged and vitest
+4b82f4a|2025-10-16 20:23:11 -0700|Brandon JP Lambert|fix: Eliminate test timeouts in usePinchZoom and useDeviceInfo tests
+4ab8d42|2025-10-16 19:50:41 -0700|bjpl|fix: Fix mobile gesture detection test failures
+d7b6f6c|2025-10-16 19:09:43 -0700|bjpl|fix: Eliminate React act() warnings and improve mobile gesture handling
+6acf706|2025-10-16 17:35:07 -0700|bjpl|fix: Fix 424 additional mobile test failures (BottomSheet, useMediaQuery, useHaptic)
+caaff2a|2025-10-16 16:50:29 -0700|bjpl|fix: Fix 532+ mobile test failures across MobileLayoutWrapper, touchSensors, and useGestureDetection
+d83b80a|2025-10-16 16:15:39 -0700|bjpl|docs: Add daily report and Supabase sync test documentation
+79ae50b|2025-10-12 23:10:17 -0700|bjpl|docs: Add comprehensive technology stack documentation
+422ec42|2025-10-11 16:54:08 -0700|Brandon JP Lambert|fix: Add Sentry dependency and fix script path for dev server
+818d503|2025-10-11 16:47:00 -0700|Brandon JP Lambert|Merge feature/supabase-data-sync: Complete data synchronization implementation
+46abf62|2025-10-11 16:46:42 -0700|Brandon JP Lambert|On feature/supabase-data-sync: Temp stash: metrics and package updates
+d0e0f7b|2025-10-11 16:46:42 -0700|Brandon JP Lambert|index on feature/supabase-data-sync: eae8a18 Merge branch 'fix/supabase-sync-compilation' into feature/supabase-data-sync
+eae8a18|2025-10-11 16:42:40 -0700|Brandon JP Lambert|Merge branch 'fix/supabase-sync-compilation' into feature/supabase-data-sync
+920c4f1|2025-10-11 16:42:31 -0700|Brandon JP Lambert|feat: Complete Supabase sync integration with store wiring and UI
+a5a91fc|2025-10-11 16:22:34 -0700|Brandon JP Lambert|feat: Implement Phase 2 Data Sync with offline queue and conflict resolution
+daeca49|2025-10-11 16:02:06 -0700|Brandon JP Lambert|chore: Update package-lock.json after lint-staged install
+f23c2e9|2025-10-11 16:01:22 -0700|Brandon JP Lambert|feat: Complete Supabase anonymous authentication integration
+80d2319|2025-10-11 13:28:30 -0700|Brandon JP Lambert|fix: Clean up TypeScript errors and console.log statements
+1c94ff4|2025-10-11 12:14:55 -0700|Brandon JP Lambert|docs: Add Plan A completion summary
+97a6faa|2025-10-11 12:13:03 -0700|Brandon JP Lambert|Merge feature/pwa-launch-readiness: Complete PWA launch implementation
+e18cc98|2025-10-11 12:07:41 -0700|Brandon JP Lambert|feat: Complete PWA launch readiness implementation
+6a0a38c|2025-10-11 12:03:29 -0700|Brandon JP Lambert|chore: Update console.log replacement script
+51dbb02|2025-10-11 12:03:26 -0700|Brandon JP Lambert|chore: Add Claude Code agent templates and daily report
+c05944a|2025-10-11 12:03:03 -0700|Brandon JP Lambert|data: Update California counties shapefile metadata
+92d9ef3|2025-10-11 12:03:00 -0700|Brandon JP Lambert|feat: Complete PWA implementation with offline support
+cc4dbf9|2025-10-11 12:02:56 -0700|Brandon JP Lambert|docs: Document CSS architecture strategy and Tailwind migration path
+5bec637|2025-10-11 12:02:49 -0700|Brandon JP Lambert|chore: Update CI/CD pipelines, build config, and Git hooks
+6094329|2025-10-10 16:53:33 -0700|bjpl|fix: Fix CountyTray scrolling and improve drop zone outline visibility
+1013e0b|2025-10-10 16:47:51 -0700|bjpl|fix: Make county hover outline consistent and more visible
+3aba2ae|2025-10-10 16:41:40 -0700|bjpl|fix: Improve drop zone detection with closestCenter collision algorithm
+6c05216|2025-10-10 16:38:18 -0700|bjpl|fix: Improve CountyTray scrolling on mobile with momentum scrolling
+f5363b2|2025-10-10 16:35:40 -0700|bjpl|fix: Fix region badge color mapping for all county regions
+ea776f3|2025-10-10 16:32:32 -0700|bjpl|fix: Add dark mode support to all 11 region-specific badges
+1168329|2025-10-09 22:40:21 -0700|bjpl|fix: Fix timerStarted undefined error in GameHeader
+de1b81c|2025-10-09 22:35:25 -0700|bjpl|fix: Add error handling to Service Worker cache operations
+2feda2c|2025-10-09 20:26:23 -0700|bjpl|fix: Improve MapErrorBoundary visibility and messaging for mobile debugging
+d01bf28|2025-10-09 20:19:20 -0700|bjpl|fix: Add background wrapper to game board for mobile visibility
+b44790a|2025-10-09 20:08:08 -0700|bjpl|fix: Make educational-design.css respect theme system
+28c4286|2025-10-09 20:03:08 -0700|bjpl|fix: Make map container responsive - remove fixed height on mobile
+4dbd916|2025-10-09 20:01:58 -0700|bjpl|fix: Make game layout responsive for mobile screens
+b2e0fed|2025-10-09 19:59:56 -0700|bjpl|fix: Add dark mode to map loading state and background
+bade173|2025-10-09 19:54:21 -0700|bjpl|fix: Change theme default from system to light mode
+2b2873e|2025-10-09 19:53:14 -0700|bjpl|fix: Add dark mode to Typography component - fixes invisible text
+39e2680|2025-10-09 19:44:57 -0700|bjpl|fix: Add dark mode to game board and fix black screen issue
+62a1d2f|2025-10-09 19:37:29 -0700|bjpl|fix: Resolve mobile layout issue in Explore mode and complete dark mode coverage
+d9d67c4|2025-10-09 17:09:15 -0700|bjpl|docs: Update all documentation for PWA and dark mode completion
+a2fb101|2025-10-09 14:29:45 -0700|bjpl|feat: Complete dark mode UI integration across all components
+90925de|2025-10-09 14:01:22 -0700|bjpl|docs: Add comprehensive PWA and dark mode testing guide
+b1cff26|2025-10-09 13:59:06 -0700|bjpl|feat: Add dark mode with theme toggle and UI integration
+719bb32|2025-10-09 13:52:59 -0700|bjpl|feat: Implement dark mode infrastructure with theme system
+e6a1b34|2025-10-09 13:45:37 -0700|bjpl|feat: Implement Progressive Web App (PWA) support with offline gameplay
+b48e0e2|2025-10-09 13:32:44 -0700|bjpl|fix: Clean up mobile test ESLint errors (9 files)
+3292a5f|2025-10-09 01:58:52 -0700|bjpl|docs: Update Oct 8 report with mobile testing phase and final statistics
+57f0bd1|2025-10-09 01:55:19 -0700|bjpl|docs: Update mobile README to reflect Phase 1 & 2 completion
+6c843a2|2025-10-09 01:41:40 -0700|bjpl|test: Add comprehensive mobile test suite
+98a83bb|2025-10-09 01:12:36 -0700|bjpl|docs: Update README with mobile features section
+cda6b04|2025-10-09 01:07:06 -0700|bjpl|Merge branch 'feature/mobile-foundation'
+1e46e8a|2025-10-08 23:14:47 -0700|bjpl|docs: Update October 8 report with Phase 2 completion
+6e03821|2025-10-08 23:11:04 -0700|bjpl|feat: Complete mobile Phase 2 - Touch interactions and layouts
+56d003c|2025-10-08 22:48:40 -0700|bjpl|docs: Add daily development report for October 8, 2025
+3972adb|2025-10-08 22:42:54 -0700|bjpl|feat: Implement mobile foundation Phase 1 infrastructure
+c2f25b8|2025-10-08 22:19:26 -0700|bjpl|feat: Achieve 100% test pass rate with complete accessibility infrastructure
+803fbd2|2025-10-08 21:31:42 -0700|bjpl|chore: Update Typography test snapshots after htmlFor fix
+8b70566|2025-10-08 21:31:03 -0700|bjpl|fix: Resolve test failures and add October 4 daily report
+c3a94da|2025-10-07 23:29:56 -0700|bjpl|docs: Add comprehensive mobile version planning documents
+1e8f2ce|2025-10-07 21:54:34 -0700|bjpl|docs: Update Agent Operating Instructions with enhanced swarm orchestration guidance
+822dd18|2025-10-07 17:56:13 -0700|bjpl|docs: Add daily development report for October 7, 2025
+67bc4e8|2025-10-07 17:50:46 -0700|bjpl|fix: Correct placement of eslint-disable directives in CaliforniaGameContainer
+72db5e6|2025-10-07 16:48:10 -0700|bjpl|Add comprehensive project context to CLAUDE.md
+4892ba7|2025-10-07 16:34:14 -0700|bjpl|Update CLAUDE.md: Add professional communication style directive
+e8efb18|2025-10-07 16:26:16 -0700|bjpl|Add comprehensive Agent Operating Instructions to CLAUDE.md
+70bacb3|2025-10-07 01:06:10 -0700|bjpl|Add daily development report for October 6, 2025
+e1c1ab8|2025-10-06 18:31:13 -0700|bjpl|Remove unwanted TODO 9 & 10 tests - Clean test suite achieved
+b3f477d|2025-10-06 18:20:27 -0700|bjpl|Suppress all 19 ESLint warnings - Perfect linting achieved
+c00679f|2025-10-06 18:00:38 -0700|bjpl|Fix Final Batch #6: Last 58 ESLint errors - ZERO ERRORS ACHIEVED!
+b7c3202|2025-10-06 17:41:53 -0700|bjpl|Fix Batch #5: 53 ESLint errors across 20+ files via agent swarm
+724f418|2025-10-06 14:57:11 -0700|bjpl|Fix Batch #4: 20 ESLint errors across 7 files via parallel agents
+c974bb3|2025-10-06 14:55:25 -0700|bjpl|Fix Batch #4: 19 ESLint errors across 6 files via parallel agents
+578025e|2025-10-06 14:52:17 -0700|bjpl|Fix EnhancedStudyMode.tsx - Remove 12 ESLint errors (duplicates + types)
+e1c6d0a|2025-10-06 14:31:24 -0700|bjpl|Fix 12 ESLint errors in 2 map components (types + duplicates + unused vars)
+f94c356|2025-10-06 14:26:49 -0700|bjpl|Fix 8 ESLint errors across 3 files (unused vars + explicit any)
+fdd21b8|2025-10-06 14:23:49 -0700|bjpl|Fix 5 unused variable errors across 3 files
+f0304c1|2025-10-06 14:22:46 -0700|bjpl|Fix ProgressionSystem.tsx - Remove 6 ESLint errors
+f0787ff|2025-10-06 14:21:04 -0700|bjpl|Fix EnhancedGameContainer.tsx - Remove 10 unused variables/imports
+9bbfaab|2025-10-06 14:09:15 -0700|bjpl|Fix map rendering test suite - 100% passing (80/80 tests)
+c2966bb|2025-10-06 13:42:44 -0700|bjpl|Add comprehensive daily development reports
+7dc6291|2025-10-04 23:39:43 -0700|bjpl|Fix accessibility and performance tests
+375d0af|2025-10-04 23:37:16 -0700|bjpl|Fix multiple test failures and improve test infrastructure
+cd368d4|2025-10-04 23:19:19 -0700|bjpl|Major test fixes - 89% reduction in failures
+028bd6e|2025-10-04 23:16:25 -0700|bjpl|Fix all failing tests in full-game-flow.test.tsx
+4525f9a|2025-10-04 23:11:21 -0700|bjpl|Fix ESLint errors: unused variables and React hooks violations
+db9d8ba|2025-10-04 22:59:37 -0700|bjpl|Fix all major test failures - drag-drop, progress tracking, map rendering
+a63e730|2025-10-04 22:56:28 -0700|bjpl|Fix drag-drop tests with dataTransfer mock for jsdom
+4f99518|2025-10-04 22:55:53 -0700|bjpl|Fix map rendering regression test stroke-width attribute check
+e518ad9|2025-10-04 22:52:11 -0700|bjpl|Fix ErrorBoundary tests and update snapshots
+fadd841|2025-10-04 22:41:13 -0700|bjpl|Complete tech debt remediation - Final report
+d17d77c|2025-10-04 22:35:15 -0700|bjpl|Add comprehensive bundle analysis summary
+fea910e|2025-10-04 22:34:07 -0700|bjpl|Phase 5: Implement code splitting and lazy loading
+6eba778|2025-10-04 22:33:34 -0700|bjpl|Phase 4: Add error boundaries for graceful error handling
+9b594d5|2025-10-04 22:19:56 -0700|bjpl|Phase 3: Extract magic numbers to constants
+76fe384|2025-10-04 22:07:43 -0700|bjpl|Add comprehensive tech debt remediation report
+014a8cc|2025-10-04 22:04:18 -0700|bjpl|Major component reorganization and cleanup - Tech Debt Phase 1
+69637fb|2025-10-04 22:00:15 -0700|bjpl|Move deprecated study components to archive
+fdfce04|2025-10-04 21:57:24 -0700|bjpl|Update package dependencies for swarm coordination
+77d2d89|2025-10-04 21:56:21 -0700|bjpl|Tech debt analysis and initial cleanup
+eccae69|2025-09-28 00:32:55 -0700|bjpl|Fix formation animation crashing and reverting to 1850 at statehood
+10ec3a2|2025-09-27 21:04:36 -0700|bjpl|Fix invisible map by changing default county colors from white to light gray
+c06fc42|2025-09-27 21:01:30 -0700|bjpl|Add detailed console logging to debug map rendering issue
+4480928|2025-09-27 20:51:24 -0700|bjpl|Fix region colors to only show when 'Show Regions' is clicked
+3ea9362|2025-09-27 18:37:39 -0700|bjpl|Add comprehensive design system style guide
+bad0cec|2025-09-26 17:47:16 -0700|bjpl|Optimize pan performance with direct DOM manipulation
+1163367|2025-09-26 17:43:35 -0700|bjpl|Fix slow panning by limiting CSS transitions to specific properties
+3ec8659|2025-09-26 17:34:14 -0700|bjpl|Change map background from grey to white
+f5706c0|2025-09-26 16:50:29 -0700|bjpl|Add elegant zoom and pan controls to County Formation Animation
+ef9df74|2025-09-26 16:45:27 -0700|bjpl|Remove SVG label overlay from map
+91eb78d|2025-09-26 16:42:11 -0700|bjpl|Remove side panel - keep simple design with top info bar only
+1f717c7|2025-09-26 16:37:43 -0700|bjpl|Add elegant side panel for county details using white space
+16803d0|2025-09-26 16:34:06 -0700|bjpl|Fix 1850 pause using synchronous ref check instead of async state
+cfda1a4|2025-09-26 16:31:37 -0700|bjpl|Fix 1850 pause by stopping animation immediately, not with setTimeout
+8e1235d|2025-09-26 16:29:07 -0700|bjpl|Add delayed auto-pause for 1850 to allow dramatic reveal
+7ffebda|2025-09-26 16:26:15 -0700|bjpl|Fix animation skipping years and redesign map label
+c634aa6|2025-09-26 16:21:49 -0700|bjpl|Hide info bar county content before animation starts
+55056dd|2025-09-26 16:18:02 -0700|bjpl|Prevent counties from appearing before "Begin Journey" clicked
+981209c|2025-09-26 16:15:20 -0700|bjpl|Fix Continue button covering map and 1850 auto-pause issue
+d683e4b|2025-09-26 16:09:51 -0700|bjpl|Add auto-pause after each founding to make content readable
+5330e5f|2025-09-26 16:01:57 -0700|bjpl|Integrate authentic founding stories from educational database
+051da53|2025-09-26 15:53:33 -0700|bjpl|Transform info bar into rich educational content display
+b802d7e|2025-09-26 15:22:29 -0700|bjpl|Add elegant enhancements to County Formation Animation
+a7dc715|2025-09-26 15:15:19 -0700|bjpl|Fix map jumping by preventing info bar height changes
+5dcf0de|2025-09-26 15:12:37 -0700|bjpl|Fix map shifting/resizing as counties appear
+0c37b50|2025-09-26 15:08:40 -0700|bjpl|Optimize Formation mode layout to maximize map visibility
+40ca9e9|2025-09-26 14:57:39 -0700|bjpl|Fix whitespace by making Formation mode absolutely positioned
+b166590|2025-09-26 14:48:56 -0700|bjpl|Hide Study Mode header in Formation mode for full-screen experience
+37338e0|2025-09-26 14:42:58 -0700|bjpl|Remove gray background in Formation mode to eliminate whitespace
+a738b0d|2025-09-26 14:39:05 -0700|bjpl|Reduce whitespace in Formation mode for better content visibility
+91f2d98|2025-09-26 14:35:28 -0700|bjpl|Hide region filter bar in Formation mode for better visibility
+3ea13b7|2025-09-26 14:30:34 -0700|bjpl|Fix County Formation Animation scrolling and layout issues
+ee9de5e|2025-09-26 14:26:44 -0700|bjpl|Integrate County Formation Animation into Study Mode
+13fc4fc|2025-09-26 14:16:47 -0700|bjpl|Add County Formation Animation feature
+97bc88e|2025-09-25 19:30:09 -0700|bjpl|Improve Study Mode UI spacing and fix county shape display
+1e67bbb|2025-09-25 18:35:59 -0700|bjpl|Apply consistent color system to all Educational Content tabs
+b4bb6fd|2025-09-25 18:28:48 -0700|bjpl|Fix color system implementation with Tailwind classes
+edcc810|2025-09-25 18:23:02 -0700|bjpl|Implement cohesive, accessible color system for study mode
+b3ef6c6|2025-09-25 18:09:33 -0700|bjpl|Fix Educational Content Modal gradient header
+1b1eb4b|2025-09-25 17:56:33 -0700|bjpl|Refine modal design with cleaner, simpler aesthetics
+9f4b1ae|2025-09-25 17:36:50 -0700|bjpl|Enhance county information modal with elegant design
+5444126|2025-09-25 17:15:37 -0700|bjpl|Implement comprehensive Question Review for quiz results
+305299f|2025-09-24 20:30:17 -0700|bjpl|Remove shaded background from Study Mode map
+7619acf|2025-09-24 20:02:37 -0700|bjpl|Fix Study Mode map panning to work over counties
+93581a5|2025-09-24 19:53:50 -0700|bjpl|Reduce filter pill button padding for compact design
+1246222|2025-09-24 19:49:44 -0700|bjpl|Fix filter bar height and button visibility issues
+a249e37|2025-09-24 19:38:57 -0700|bjpl|Fine-tune vertical text alignment in filter buttons
+b97a10a|2025-09-24 19:35:43 -0700|bjpl|Increase filter bar height for better visual proportions
+da9cc6d|2025-09-24 19:28:52 -0700|bjpl|Perfect vertical centering in region filter buttons
+380078a|2025-09-24 19:25:41 -0700|bjpl|Fix vertical alignment in region filter buttons
+0fb74ac|2025-09-24 18:57:53 -0700|bjpl|Fix region filter button vertical spacing - make buttons truly compact
+5ad35d0|2025-09-24 18:52:33 -0700|bjpl|Reduce Study Mode header height by 50% for better content visibility
+c06b063|2025-09-24 18:48:41 -0700|bjpl|Fix vertical spacing in Study Mode region filter buttons
+b4f7bb7|2025-09-24 18:40:26 -0700|bjpl|Apply Study Mode map colors to main game map
+c823664|2025-09-24 18:34:47 -0700|bjpl|Fix RegionsPanel legend colors to match design
+90d27db|2025-09-24 18:28:24 -0700|bjpl|Fix Study Mode map zoom crash and improve UI/UX
+09c603b|2025-09-24 18:22:56 -0700|bjpl|Fix color consistency across all Study Mode and Game Mode components
+b01ef09|2025-09-24 18:09:42 -0700|bjpl|Fix map region colors to match UI color scheme
+5641720|2025-09-24 17:54:00 -0700|bjpl|Refine Study Mode UI/UX with full-screen design and consistent colors
+93b52dc|2025-09-24 17:29:45 -0700|bjpl|Apply modern design refinements and practical accessibility improvements
+0233c3c|2025-09-24 17:20:52 -0700|bjpl|Add modern design principles documentation
+22d595a|2025-09-24 17:17:13 -0700|bjpl|Revert "Complete design system refactoring: eliminate AI-generated patterns"
+a47233e|2025-09-24 17:01:15 -0700|bjpl|Complete design system refactoring: eliminate AI-generated patterns
+47f4cc2|2025-09-24 16:32:35 -0700|bjpl|Preserve working version before design system refactoring
+6708ba1|2025-09-23 23:10:04 -0700|bjpl|Fix county label positioning to use accurate centroid coordinates
+f46bc72|2025-09-23 19:20:58 -0700|bjpl|Fix Study Mode 404 error and county label z-index layering issues
+6b29624|2025-09-23 19:09:46 -0700|bjpl|Fix Study Mode button visibility and restore original drag/drop colors
+06d376d|2025-09-23 18:59:12 -0700|bjpl|Implement comprehensive educational design system and game state preservation
+d843599|2025-09-23 18:29:01 -0700|bjpl|Upgrade to medium resolution boundary data for cleaner county shapes
+deb8fbd|2025-09-23 18:23:25 -0700|bjpl|Improve county boundary visual quality with rounded strokes and background
+6856449|2025-09-23 18:12:27 -0700|bjpl|Implement proper SVG label layering with separate overlay group
+2ee724e|2025-09-23 18:02:36 -0700|bjpl|Revert to simple solution: restore drag and drop while keeping label improvements
+1e8e358|2025-09-23 17:55:03 -0700|bjpl|Fix drag and drop functionality broken by z-order changes
+00a8d69|2025-09-23 17:52:33 -0700|bjpl|Fix county label z-order to prevent overlapping by other counties
+e830ade|2025-09-23 17:36:57 -0700|bjpl|Fix county name text clipping and visibility issues in main game
+ac44776|2025-09-23 17:28:19 -0700|bjpl|Fix HintModal infinite render loop causing performance issues
+b6b1b27|2025-09-23 17:21:17 -0700|bjpl|Add county name labels to placed counties in main game map
+8f2419d|2025-09-23 17:15:00 -0700|bjpl|Fix remaining hardcoded white text in map components
+8cba51d|2025-09-23 17:07:38 -0700|bjpl|Fix county name text visibility with dynamic color contrast
+3d341ea|2025-09-22 23:52:15 -0700|bjpl|Update timer to start on first county placement
+d5ecf13|2025-09-22 20:04:22 -0700|bjpl|Restructure modal to fix persistent content cutoff issues
+54e7c9e|2025-09-22 19:23:53 -0700|bjpl|Update game introduction to focus on education over competition
+2d405db|2025-09-22 19:20:19 -0700|bjpl|Apply comprehensive scrolling fix to all Study Mode views
+d14401f|2025-09-22 19:08:03 -0700|bjpl|Fix persistent Study Mode content scrolling issue
+68c5e19|2025-09-22 19:02:08 -0700|bjpl|Fix Study Mode modal content cutoff issue
+cc6f021|2025-09-22 15:34:06 -0700|bjpl|Simplify quiz interface and improve usability
+773d3bb|2025-09-22 15:23:08 -0700|bjpl|Fix quiz navigation issues from user feedback
+b3de1b6|2025-09-22 15:15:54 -0700|bjpl|Refine quiz navigation based on user feedback
+07e2a9b|2025-09-22 15:05:14 -0700|bjpl|Enhance quiz navigation with standard UX conventions
+e2ac65d|2025-09-22 14:47:48 -0700|bjpl|Add comprehensive quiz question database with region filtering
+e33c302|2025-09-22 14:22:34 -0700|bjpl|Remove unnecessary buttons from Study Mode interface
+98a930f|2025-09-22 02:30:55 -0700|bjpl|Fix hint system sound error and add debugging
+a5c94cd|2025-09-22 02:22:40 -0700|bjpl|Debug and improve hint system functionality
+dc02bf2|2025-09-22 02:14:40 -0700|bjpl|Complete hint system implementation for all 58 California counties
+b59cecc|2025-09-22 02:05:55 -0700|bjpl|Implement region filter for Study Mode Map
+069ba9f|2025-09-22 01:59:31 -0700|bjpl|Fix timeline filter functionality
+868ec37|2025-09-22 01:52:17 -0700|bjpl|Fix modal positioning to always appear in viewport
+d5e8e42|2025-09-22 01:40:45 -0700|bjpl|Add elegant county details modal for Study Mode Map
+bcdfc6a|2025-09-22 01:33:14 -0700|bjpl|Remove inline label boxes for cleaner map interface
+743149d|2025-09-22 01:29:40 -0700|bjpl|Fix label overlapping with smart positioning system
+04f1d6b|2025-09-22 01:24:37 -0700|bjpl|Fix label positioning and enhance highlighting animations
+c90560c|2025-09-22 01:16:56 -0700|bjpl|Implement smart cursor-following tooltip positioning
+06d2796|2025-09-22 01:13:25 -0700|bjpl|Fix label clipping and tooltip positioning issues
+8152cac|2025-09-22 01:03:32 -0700|bjpl|Fix county label overflow in Study Mode Map
+8bcc891|2025-09-22 00:17:41 -0700|bjpl|Fix timeline card overlap and hydration errors
+1ce71e2|2025-09-21 23:55:44 -0700|bjpl|Fix and enhance educational content display with elegant modal
+2d7ed5b|2025-09-21 23:43:21 -0700|bjpl|Implement real California county geographic boundaries
+be76b34|2025-09-21 23:29:43 -0700|bjpl|Implement geographic county shapes with visual displays
+c615119|2025-09-21 23:15:00 -0700|bjpl|Enhance Study Mode with interactive map and improved timeline
+34d5365|2025-09-21 23:02:03 -0700|bjpl|Implement Quiz, Map, and Timeline modes in Study Mode
+9d14fe7|2025-09-21 21:47:50 -0700|bjpl|Fix white text on Related Counties buttons
+29af5a5|2025-09-21 21:41:41 -0700|bjpl|Fix white text issue in Study Mode - data was displaying but invisible
+e75f91b|2025-09-21 21:31:32 -0700|bjpl|Fix Study Mode data display - Quick Facts and Related Counties now properly populated
+00b422f|2025-09-21 21:18:11 -0700|bjpl|Fix Study Mode display issues - Quick Facts and Related Counties now working
+c3d1b7e|2025-09-21 21:06:52 -0700|bjpl|Enhance Study Mode with complete Quick Facts, Fun Facts, and Features
+c37adfe|2025-09-21 20:59:57 -0700|bjpl|Fix Study Mode rendering with createPortal for proper z-index layering
+a9c1877|2025-09-21 20:48:15 -0700|bjpl|Fix Study Mode z-index to ensure visibility over game elements
+e7abf02|2025-09-21 17:15:38 -0700|bjpl|Fix Study Mode content display - show all educational data
+de6b88c|2025-09-21 17:08:25 -0700|bjpl|Add debug logging to trace Study Mode data issues
+012dd0f|2025-09-21 16:59:30 -0700|bjpl|Fix Study Mode content display and remove sound effect
+b98a930|2025-09-21 16:53:14 -0700|bjpl|Fix build errors and CSS warnings
+7c3a145|2025-09-21 16:50:06 -0700|bjpl|Fix Study Mode vertical scrolling issues
+7290cd3|2025-09-21 16:47:18 -0700|bjpl|Fix Study Mode scrolling and integrate complete educational data for all 58 counties
+0df3c76|2025-09-21 16:28:17 -0700|bjpl|Implement comprehensive Study Mode with verified educational content
+7465764|2025-09-21 01:44:16 -0700|bjpl|Improve sound UX - play selection sound on county click
+a809f10|2025-09-21 01:36:15 -0700|bjpl|Implement working sound system based on Colombia puzzle
+3dfec00|2025-09-21 01:30:16 -0700|bjpl|Clean up console errors and improve development experience
+df63bc2|2025-09-21 01:25:01 -0700|bjpl|Fix sound system initialization issues
+9cb5793|2025-09-21 01:20:04 -0700|bjpl|Fix county label positioning and improve sound system
+88b85a1|2025-09-21 01:08:25 -0700|bjpl|Fix map projection from Web Mercator to lat/lon
+a3c393d|2025-09-21 01:00:54 -0700|bjpl|Fix modal layering and sound file paths for deployment
+49a0d56|2025-09-21 00:53:17 -0700|bjpl|Fix hint modal z-index to display above map
+cecd43b|2025-09-21 00:30:19 -0700|bjpl|Modernize game header with elegant UI design
+af68a59|2025-09-21 00:21:46 -0700|bjpl|Remove duplicate inline legend from map
+0567ad8|2025-09-21 00:05:40 -0700|bjpl|Fix visual issues and add missing counties
+4a5cfbb|2025-09-20 23:53:13 -0700|bjpl|Enhance visual design with improved contrast and polish
+2b0c08d|2025-09-20 23:46:47 -0700|bjpl|Improve hint system UX and fix visual inconsistencies
+8e389b8|2025-09-20 23:39:18 -0700|bjpl|Implement Colombia-style educational hint system
+48eb96a|2025-09-20 23:18:41 -0700|bjpl|Add show regions toggle like Colombia app
+af10521|2025-09-20 23:14:02 -0700|bjpl|Fully implement hint system and add zoom/pan controls
+28c48a3|2025-09-20 23:09:26 -0700|bjpl|Add target hover state for counties like Colombia app
+7ff33fd|2025-09-20 23:02:00 -0700|bjpl|Add Colombia puzzle-inspired features
+db7de52|2025-09-20 21:31:08 -0700|bjpl|Remove title from map for cleaner layout
+86e4686|2025-09-20 21:28:02 -0700|bjpl|Fix title visibility by moving it outside SVG element
+bb94f04|2025-09-20 21:24:41 -0700|bjpl|fix: Final title and border adjustments
+41ffd73|2025-09-20 21:18:25 -0700|bjpl|fix: Improve map spacing and title positioning
+0411118|2025-09-20 21:15:57 -0700|bjpl|fix: Compact header and improve layout spacing
+4597c71|2025-09-20 21:14:48 -0700|bjpl|fix: Prevent weird scrolling when dragging pills
+2af8c73|2025-09-20 21:12:29 -0700|bjpl|fix: Make pills tiny and remove hint highlighting
+d773310|2025-09-20 21:09:17 -0700|bjpl|fix: Enable dragging outside container and reduce pill size
+12457af|2025-09-20 21:03:21 -0700|bjpl|fix: Complete map rendering solution
+3a16147|2025-09-20 20:57:22 -0700|bjpl|debug: Add test component and debugging logs
+6a2d445|2025-09-20 20:56:30 -0700|bjpl|fix: Map rendering and improve debugging
+903a84e|2025-09-20 20:37:51 -0700|bjpl|fix: Critical gameplay fixes - map display and county pills
+a9b56d8|2025-09-20 20:34:58 -0700|bjpl|feat: Complete California Puzzle Game with all 58 counties and advanced features
+2a5bab5|2025-09-20 20:14:27 -0700|bjpl|Fix map rendering and add complete county data
+40261cc|2025-09-20 20:06:19 -0700|bjpl|Use real California county boundaries from shapefiles
+c18dd0d|2025-09-20 20:01:55 -0700|bjpl|Implement complete California Counties Puzzle Game
+89161f3|2025-09-20 19:57:27 -0700|bjpl|Fix scrolling and responsive layout issues
+f7a1a8a|2025-09-20 19:52:36 -0700|bjpl|Add GitHub Pages deployment with GitHub Actions
+
+FILE CHANGE STATISTICS:
+COMMIT:dbe7722
+3	3	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+4	4	src/components/game/CaliforniaGameContainer.tsx
+5	2	src/services/supabase/auth.ts
+
+COMMIT:8ab9c32
+3	3	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+-	-	.swarm/memory.db
+113	0	CHANGELOG.md
+11	4	README.md
+175	0	docs/SECURITY-FEATURES-IMPLEMENTATION.md
+9	2	docs/ad_hoc_reports/technology_stack.md
+562	0	docs/code-quality-analysis-report.md
+83	0	scripts/test-supabase-connection.js
+10	2	src/App.tsx
+28	0	src/components/game/GameHeader.tsx
+306	0	src/components/shared/SecurityBadge.tsx
+532	0	src/components/shared/settings/ExportData.tsx
+410	0	src/components/shared/settings/UserSettings.tsx
+190	0	src/services/supabase/auth.ts
+1	0	supabase/.temp/cli-latest
+243	0	tests/QUICK-TEST-GUIDE.md
+125	0	tests/TEST-SUMMARY.md
+363	0	tests/unit/components/README-SECURITY-TESTS.md
+649	0	tests/unit/components/export-data.test.tsx
+770	0	tests/unit/components/security-features.test.tsx
+629	0	tests/unit/services/auth-functions.test.ts
+
+COMMIT:5069392
+267	187	docs/PRIVACY_POLICY.md
+462	0	docs/SECURITY_ANALYSIS.md
+340	0	docs/SECURITY_IMPROVEMENTS_SUMMARY.md
+13	0	index.html
+39	0	public/.well-known/security.txt
+
+COMMIT:f58ddbf
+32	10	README.md
+292	0	docs/DOCUMENTATION_UPDATE_OCT_16_2025.md
+109	23	docs/ad_hoc_reports/technology_stack.md
+
+COMMIT:c5b0241
+1	0	.gitignore
+25	0	scripts/apply-migrations.sh
+77	0	scripts/test-supabase-connection.mjs
+514	0	supabase/migrations/001_initial_schema_fixed.sql
+
+COMMIT:1bb96e1
+154	0	docs/hooks-working.md
+
+COMMIT:b7160f5
+2	5	.husky/pre-push
+
+COMMIT:d023b05
+22	8	.husky/pre-push
+
+COMMIT:4debe6f
+2	0	README.md
+
+COMMIT:09d1ee7
+10	3	.husky/pre-push
+
+COMMIT:d47a656
+0	2	.husky/.test-hooks
+92	0	docs/git-hooks-fixed.md
+
+COMMIT:ae91cd9
+2	2	.husky/pre-push
+
+COMMIT:5d7b9a8
+2	2	.husky/pre-push
+
+COMMIT:6686809
+2	0	.husky/.test-hooks
+14	14	.husky/pre-commit
+5	5	.husky/pre-push
+1	0	package.json
+
+COMMIT:4b82f4a
+170	0	docs/test-failure-analysis.md
+117	0	docs/test-fixes-summary.md
+36	7	tests/mobile/hooks/usePinchZoom.test.ts
+34	15	tests/unit/hooks/useDeviceInfo.test.ts
+
+COMMIT:4ab8d42
+17	16	tests/unit/hooks/useGestureDetection.test.ts
+24	13	tests/unit/hooks/usePinchZoom.test.ts
+
+COMMIT:d7b6f6c
+80	2	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+323	308	src/mobile/components/TouchCountyDrag.tsx
+22	3	src/mobile/hooks/useGestureDetection.ts
+50	26	tests/mobile/hooks/usePinchZoom.test.ts
+103	63	tests/performance/rendering-benchmarks.test.tsx
+598	602	tests/unit/hooks/useGestureDetection.test.ts
+739	738	tests/unit/hooks/usePinchZoom.test.ts
+
+COMMIT:6acf706
+33	19	tests/mobile/components/BottomSheet.test.tsx
+8	0	tests/mobile/hooks/useHaptic.test.ts
+11	2	tests/mobile/hooks/useMediaQuery.test.ts
+
+COMMIT:caaff2a
+212	212	src/mobile/components/MobileLayoutWrapper.tsx
+274	262	src/mobile/config/touchSensors.ts
+462	451	src/mobile/hooks/useGestureDetection.ts
+12	12	tests/mobile/components/MobileLayoutWrapper.test.tsx
+25	0	tests/mobile/hooks/useGestureDetection.test.ts
+
+COMMIT:d83b80a
+1	1	.claude-flow/metrics/performance.json
+4	4	.claude-flow/metrics/task-metrics.json
+560	0	daily_reports/2025-10-11.md
+424	0	docs/TEST_REPORT_SUPABASE_SYNC.md
+
+COMMIT:79ae50b
+1402	0	docs/ad_hoc_reports/technology_stack.md
+
+COMMIT:422ec42
+1	1	index.html
+120	0	package-lock.json
+3	0	package.json
+
+COMMIT:818d503
+COMMIT:46abf62
+COMMIT:d0e0f7b
+COMMIT:eae8a18
+COMMIT:920c4f1
+2	0	src/App.tsx
+391	0	src/components/sync/README.md
+103	0	src/components/sync/SyncStatusBadge.tsx
+451	0	src/components/sync/SyncStatusIndicator.tsx
+357	0	src/components/sync/examples/IntegrationExample.tsx
+12	0	src/components/sync/index.ts
+188	0	src/components/sync/useSyncStatus.ts
+356	0	src/lib/storeIntegration.ts
+57	1	src/stores/authStore.ts
+
+COMMIT:a5a91fc
+1114	0	docs/architecture/sync-architecture.md
+343	0	src/lib/conflictResolver.ts
+32	0	src/lib/supabase.ts
+277	0	src/lib/sync/achievementSync.ts
+284	0	src/lib/sync/gameSettingsSync.ts
+347	0	src/lib/sync/gameStatsSync.ts
+470	0	src/lib/syncManager.ts
+332	0	src/lib/syncQueue.ts
+534	0	tests/integration/sync/edgeCases.test.ts
+512	0	tests/integration/sync/offlineOnline.test.ts
+408	0	tests/integration/sync/syncFlow.test.ts
+329	0	tests/mocks/sync/mockSyncClient.ts
+331	0	tests/sync/TEST_SUMMARY.md
+379	0	tests/sync/achievementSync.test.ts
+425	0	tests/sync/conflictResolver.test.ts
+260	0	tests/sync/gameSettingsSync.test.ts
+351	0	tests/sync/gameStatsSync.test.ts
+385	0	tests/sync/syncManager.test.ts
+386	0	tests/sync/syncQueue.test.ts
+
+COMMIT:daeca49
+1	0	package-lock.json
+
+COMMIT:f23c2e9
+1	1	.claude-flow/metrics/performance.json
+3	3	.claude-flow/metrics/task-metrics.json
+26	0	.env.example
+-	-	.swarm/memory.db
+1193	0	docs/CODE_REVIEW_SUPABASE.md
+335	0	docs/SUPABASE_QUICKSTART.md
+394	0	docs/architecture/ARCHITECTURE_SUMMARY.md
+1229	0	docs/architecture/SUPABASE_INTEGRATION_ARCHITECTURE.md
+8	0	memory/memory-store.json
+113	1	package-lock.json
+1	0	package.json
+43	1	src/App.tsx
+1	1	src/components/county/CountyShapeDisplay.tsx
+22	21	src/components/game/CaliforniaGameContainer.tsx
+183	0	src/hooks/useAuth.ts
+169	0	src/lib/supabase.ts
+378	0	src/services/supabase/auth.ts
+185	0	src/services/supabase/client.ts
+382	0	src/services/supabase/types.ts
+423	0	src/stores/authStore.ts
+13	0	src/stores/gameStore.ts
+189	0	src/types/auth.ts
+8	8	src/utils/logger.ts
+17	0	src/vite-env.d.ts
+507	0	supabase/migrations/001_initial_schema.sql
+393	0	tests/SUPABASE_TESTS.md
+349	0	tests/integration/auth/auth-flow.test.ts
+431	0	tests/integration/auth/offline-online.test.ts
+436	0	tests/integration/auth/session-management.test.ts
+170	0	tests/mocks/supabase/mockSupabaseClient.ts
+306	0	tests/unit/services/supabase/auth.test.ts
+186	0	tests/unit/services/supabase/client.test.ts
+182	0	tests/unit/stores/authStore.test.ts
+1	0	vite.config.ts
+
+
+PROJECT FILES:
+total 16238
+drwxrwxrwx 1 brand brand      512 Oct 16 23:03 .
+drwxrwxrwx 1 brand brand      512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand      512 Oct 11 13:33 .claude
+drwxrwxrwx 1 brand brand      512 Sep 19 17:38 .claude-flow
+-rwxrwxrwx 1 brand brand      571 Oct 16 21:52 .env
+-rwxrwxrwx 1 brand brand     3283 Oct 11 16:47 .env.example
+-rwxrwxrwx 1 brand brand      275 Oct  9 13:43 .eslintignore
+-rwxrwxrwx 1 brand brand      931 Oct  4 21:57 .eslintrc.cjs
+drwxrwxrwx 1 brand brand      512 Oct 18 12:24 .git
+drwxrwxrwx 1 brand brand      512 Sep 20 19:45 .github
+-rwxrwxrwx 1 brand brand      883 Oct 16 21:52 .gitignore
+drwxrwxrwx 1 brand brand      512 Oct 10 20:25 .hive-mind
+drwxrwxrwx 1 brand brand      512 Oct 16 21:40 .husky
+-rwxrwxrwx 1 brand brand      656 Oct 10 20:25 .mcp.json
+-rwxrwxrwx 1 brand brand      268 Oct  4 22:00 .prettierignore
+-rwxrwxrwx 1 brand brand      106 Oct  4 21:57 .prettierrc
+-rwxrwxrwx 1 brand brand      184 Oct 11 12:13 .prettierrc.json
+drwxrwxrwx 1 brand brand      512 Oct 16 23:08 .swarm
+-rwxrwxrwx 1 brand brand     4213 Oct 16 22:44 CHANGELOG.md
+-rwxrwxrwx 1 brand brand    13125 Oct 11 12:13 CLAUDE.md
+drwxrwxrwx 1 brand brand      512 Oct 11 12:13 Geo data
+-rwxrwxrwx 1 brand brand    18659 Oct 16 22:44 README.md
+-rwxrwxrwx 1 brand brand 16149783 Sep 21 23:38 california_counties.geojson
+-rwxrwxrwx 1 brand brand     1038 Oct 10 20:25 claude-flow
+drwxrwxrwx 1 brand brand      512 Oct 10 20:25 coordination
+drwxrwxrwx 1 brand brand      512 Oct 11 15:37 coverage
+drwxrwxrwx 1 brand brand      512 Oct 16 23:07 daily_dev_startup_reports
+drwxrwxrwx 1 brand brand      512 Oct 17 01:27 daily_reports
+drwxrwxrwx 1 brand brand      512 Oct 11 13:27 dist
+
+PACKAGE.JSON FOUND
+{
+  "name": "california-counties-puzzle",
+  "version": "1.0.0",
+  "description": "Interactive California counties puzzle game using D3.js and TypeScript",
+  "type": "module",
+  "homepage": "https://bjpl.github.io/california_puzzle_game/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:check": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:unit": "vitest --workspace unit",
+    "test:a11y": "vitest --workspace a11y",
+    "test:accessibility": "vitest --workspace a11y",
+    "test:integration": "vitest --workspace integration",
+    "test:performance": "vitest --workspace performance",
+    "test:all": "vitest run --workspace",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest --watch",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "lint-staged": "lint-staged",
+    "typecheck": "tsc --noEmit",
+    "process-geodata": "node scripts/process-geodata.js",
+    "geodata:build": "npm run process-geodata",
+    "geodata:serve": "python -m http.server 8080 --directory public",
+    "build-css": "tailwindcss -i ./src/styles/globals.css -o ./dist/styles.css",
+    "watch-css": "tailwindcss -i ./src/styles/globals.css -o ./dist/styles.css --watch",
+    "tailwind:build": "npm run build-css",
+    "tailwind:watch": "npm run watch-css",
+    "prepare": "husky",
+    "deps:audit": "npm audit",
+    "deps:outdated": "npm outdated",
+    "deps:unused": "npx depcheck --json",
+    "deps:update": "npm update && npm audit fix",
+    "deps:report": "npm audit --json > docs/audit-report.json && npm outdated --json > docs/outdated-report.json",
+    "deps:tree": "npm ls --depth=0"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@heroicons/react": "^2.0.0",
+    "@supabase/supabase-js": "^2.75.0",
+    "@types/react-window": "^1.8.8",
+    "autoprefixer": "^10.4.0",
+    "classnames": "^2.3.2",
+    "clsx": "^2.0.0",
+    "d3": "^7.8.5",
+    "d3-drag": "^3.0.0",
+
+README.MD PREVIEW:
+# California Counties Puzzle Game
+
+![CI/CD Pipeline](https://github.com/bjpl/california_puzzle_game/workflows/CI%2FCD%20Pipeline/badge.svg)
+![GitHub Pages](https://github.com/bjpl/california_puzzle_game/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+![Dependency Check](https://github.com/bjpl/california_puzzle_game/workflows/Dependency%20Check/badge.svg)
+![Performance Check](https://github.com/bjpl/california_puzzle_game/workflows/Performance%20Check/badge.svg)
+
+An interactive educational puzzle game for learning California geography. Players drag and drop county pieces to their correct locations on a California map using D3.js visualizations and React.
+
+## ✨ Recent Improvements
+
+- **🔒 Security & Privacy Features (NEW - Oct 16)** - User account management, data export (GDPR compliance), delete account, security badge in footer
+- **🌐 Progressive Web App (Oct 9)** - Complete PWA with offline gameplay, installable on iOS/Android, Service Worker caching
+- **🌙 Dark Mode (Oct 9)** - Full dark theme with OLED optimization (40-60% battery savings), system preference sync, WCAG AA compliant
+- **📱 Mobile Foundation** - Complete mobile-optimized infrastructure with touch interactions, responsive layouts, and gesture detection
+- **🎯 100% Test Pass Rate** - Achieved perfect test suite reliability (1,792/1,792 tests)
+- **♿ Accessibility Testing** - jest-axe integration for WCAG compliance validation
+- **Component Library** - New UI component system with Button, Badge, Card, Progress, and Typography components
+- **Design System** - Comprehensive style guide with region-specific theming
+- **Tailwind CSS Integration** - Modern utility-first CSS framework for consistent styling
+
+## 🎮 Features
+
+### Core Gameplay
+
+- **Interactive Map**: D3.js-powered California map with precise county boundaries
+- **Drag & Drop**: Intuitive county piece placement with visual feedback
+- **Multiple Difficulty Levels**: Easy, Medium, Hard, and Expert modes
+- **Regional Focus**: Choose specific California regions (Bay Area, Southern CA, etc.)
+- **Scoring System**: Accuracy-based scoring with streak multipliers
+- **Timer Modes**: Practice, timed challenges, and marathon modes
+
+### Game Mechanics
+
+- **Accuracy Feedback**: Visual indicators for placement precision
+- **Achievement System**: Unlockable achievements for various milestones
+- **Hint System**: Optional hints for county placement
+- **Progress Tracking**: Persistent statistics and personal bests
+- **Adaptive Difficulty**: Tolerance zones adjust based on skill level
+
+### User Experience
+
+- **Progressive Web App**: Install on mobile devices, works offline with cached geodata
+- **Dark Mode**: System-aware theme with OLED optimization (40-60% battery savings)
+- **Security & Privacy**: Account management, data export (GDPR/CCPA compliant), account deletion
+- **Security Badge**: Visible encryption and privacy status in footer
+- **Responsive Design**: Works on desktop, tablet, and mobile devices
+- **Accessibility**: Keyboard navigation and screen reader support (WCAG AA)
+- **Smooth Animations**: Framer Motion powered transitions
+- **Loading States**: Professional loading screens and progress indicators
+

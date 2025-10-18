@@ -1,0 +1,157 @@
+=== ANALYZING: learning_voice_agent ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/learning_voice_agent
+
+COMMITS SINCE AUG 2024: 2
+
+FIRST COMMIT (since Aug 2024): 2025-09-14 17:06:41 -0700
+LAST COMMIT: 2025-09-15 19:51:02 -0700
+
+AUTHORS:
+      2 bjpl
+
+
+BRANCHES:
+* main
+  remotes/origin/main
+
+TAGS:
+
+COMMIT LOG:
+f89ac4f|2025-09-15 19:51:02 -0700|bjpl|Add comprehensive GET_STARTED.md guide
+b918e47|2025-09-14 17:06:41 -0700|bjpl|Initial commit: Learning Voice Agent implementation
+
+FILE CHANGE STATISTICS:
+COMMIT:f89ac4f
+291	0	GET_STARTED.md
+
+COMMIT:b918e47
+88	0	.claude/agents/flow-nexus/app-store.md
+69	0	.claude/agents/flow-nexus/authentication.md
+81	0	.claude/agents/flow-nexus/challenges.md
+88	0	.claude/agents/flow-nexus/neural-network.md
+83	0	.claude/agents/flow-nexus/payments.md
+76	0	.claude/agents/flow-nexus/sandbox.md
+76	0	.claude/agents/flow-nexus/swarm.md
+96	0	.claude/agents/flow-nexus/user-tools.md
+84	0	.claude/agents/flow-nexus/workflow.md
+124	0	.claude/commands/flow-nexus/app-store.md
+120	0	.claude/commands/flow-nexus/challenges.md
+65	0	.claude/commands/flow-nexus/login-registration.md
+134	0	.claude/commands/flow-nexus/neural-network.md
+116	0	.claude/commands/flow-nexus/payments.md
+83	0	.claude/commands/flow-nexus/sandbox.md
+87	0	.claude/commands/flow-nexus/swarm.md
+152	0	.claude/commands/flow-nexus/user-tools.md
+115	0	.claude/commands/flow-nexus/workflow.md
+33	0	.env.example
+94	0	.gitignore
+117	0	CLAUDE.md
+44	0	Dockerfile
+174	0	PROJECT_STATUS.md
+282	0	QUICK_START.md
+244	0	README.md
+1	0	app/__init__.py
+255	0	app/audio_pipeline.py
+52	0	app/config.py
+202	0	app/conversation_handler.py
+177	0	app/database.py
+56	0	app/logger.py
+280	0	app/main.py
+57	0	app/models.py
+149	0	app/state_manager.py
+319	0	app/twilio_handler.py
+42	0	docker-compose.yml
+63	0	docs/ARCHITECTURE.md
+362	0	docs/DEVELOPMENT_ROADMAP.md
+110	0	docs/README.md
+262	0	docs/TECH_DEBT.md
+26	0	railway.json
+14	0	requirements.txt
+423	0	scripts/system_audit.py
+521	0	static/index.html
+37	0	static/manifest.json
+76	0	static/sw.js
+1	0	tests/__init__.py
+70	0	tests/test_conversation.py
+93	0	tests/test_imports.py
+
+PROJECT FILES:
+total 65
+drwxrwxrwx 1 brand brand  512 Oct 11 17:28 .
+drwxrwxrwx 1 brand brand  512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand  512 Sep 14 18:03 .claude
+drwxrwxrwx 1 brand brand  512 Sep 14 18:03 .claude-flow
+-rwxrwxrwx 1 brand brand 2939 Sep 14 16:13 .env
+-rwxrwxrwx 1 brand brand  731 Sep 14 18:03 .env.example
+-rwxrwxrwx 1 brand brand  748 Sep 14 16:36 .env.local
+drwxrwxrwx 1 brand brand  512 Oct 18 12:24 .git
+-rwxrwxrwx 1 brand brand  911 Sep 14 18:03 .gitignore
+-rwxrwxrwx 1 brand brand 3992 Sep 14 18:03 CLAUDE.md
+-rwxrwxrwx 1 brand brand 1053 Sep 14 18:03 Dockerfile
+-rwxrwxrwx 1 brand brand 9636 Sep 15 19:50 GET_STARTED.md
+-rwxrwxrwx 1 brand brand 5182 Sep 14 18:03 PROJECT_STATUS.md
+-rwxrwxrwx 1 brand brand 7344 Sep 14 18:03 QUICK_START.md
+-rwxrwxrwx 1 brand brand 6203 Sep 14 18:03 README.md
+drwxrwxrwx 1 brand brand  512 Sep 14 18:03 app
+drwxrwxrwx 1 brand brand  512 Oct 11 17:31 daily_reports
+-rwxrwxrwx 1 brand brand  988 Sep 14 18:03 docker-compose.yml
+drwxrwxrwx 1 brand brand  512 Sep 14 18:03 docs
+-rwxrwxrwx 1 brand brand  576 Sep 14 18:03 railway.json
+-rwxrwxrwx 1 brand brand  274 Sep 14 18:03 requirements.txt
+drwxrwxrwx 1 brand brand  512 Sep 14 18:03 scripts
+drwxrwxrwx 1 brand brand  512 Sep 14 18:03 static
+drwxrwxrwx 1 brand brand  512 Sep 14 18:03 tests
+
+README.MD PREVIEW:
+# Learning Voice Agent 🎙️
+
+An AI-powered voice conversation system for capturing and developing learning insights. Built with FastAPI, Claude Haiku, and modern web technologies.
+
+## ✨ Features
+
+- **Voice Conversations**: Natural voice interaction through browser or phone (Twilio)
+- **AI Intelligence**: Claude Haiku provides thoughtful responses and follow-up questions
+- **Real-time Processing**: Sub-2-second conversation loops with WebSocket support
+- **Smart Search**: FTS5-powered instant search across all captures
+- **PWA Support**: Works offline, installable as an app
+- **Multi-channel**: Browser WebSocket and Twilio phone support
+
+## 🏗️ Architecture
+
+See [Architecture Documentation](docs/ARCHITECTURE.md) for detailed system design.
+
+### Core Components (SPARC Methodology Applied)
+
+1. **Conversation Handler**: Claude Haiku integration with intelligent prompting
+2. **Audio Pipeline**: Whisper transcription with format detection
+3. **State Management**: Redis for conversation context (30-min TTL)
+4. **Database Layer**: SQLite with FTS5 for instant search
+5. **Frontend PWA**: Vue 3 with real-time updates
+
+### Performance Targets
+
+- Audio transcription: < 800ms (Whisper API)
+- Claude response: < 900ms (Haiku model)
+- Total loop: < 2 seconds end-to-end
+- Session timeout: 3 minutes of inactivity
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Python 3.11+
+- Redis server
+- API Keys: Anthropic, OpenAI
+- (Optional) Twilio account for phone support
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/bjpl/learning_voice_agent.git
+cd learning_voice_agent
+```
+
+2. Install dependencies:
+

@@ -1,0 +1,309 @@
+=== ANALYZING: report_assistant ===
+
+REPOSITORY PATH: /mnt/c/Users/brand/Development/Project_Workspace/active-development/report_assistant
+
+COMMITS SINCE AUG 2024: 6
+
+FIRST COMMIT (since Aug 2024): 2025-10-11 15:55:31 -0700
+LAST COMMIT: 2025-10-16 16:15:41 -0700
+
+AUTHORS:
+      4 Brandon JP Lambert
+      2 bjpl
+
+
+BRANCHES:
+* master
+  remotes/origin/master
+
+TAGS:
+
+COMMIT LOG:
+dcf0853|2025-10-16 16:15:41 -0700|bjpl|feat: Add report management system with CLI tools and automation
+fb17e89|2025-10-12 23:12:39 -0700|bjpl|docs: Add comprehensive technology stack documentation
+3bc0c98|2025-10-11 17:22:36 -0700|Brandon JP Lambert|docs: Clarify three distinct report types and templates
+41661ed|2025-10-11 16:57:49 -0700|Brandon JP Lambert|docs: Add execution reports and verification results
+dbe28b4|2025-10-11 16:37:45 -0700|Brandon JP Lambert|docs: Complete daily reports alignment project
+5d1ed3a|2025-10-11 15:55:31 -0700|Brandon JP Lambert|Initial commit: Daily reports alignment project
+
+FILE CHANGE STATISTICS:
+COMMIT:dcf0853
+207	0	Makefile
+313	0	QUICK_REFERENCE.md
+322	0	daily_reports/2025-10-11.md
+160	0	docs/GIT_REPO_ANALYSIS_2025-10-11.md
+178	0	install.sh
+82	0	package.json
+366	0	report
+272	0	report_aliases.sh
+98	0	scripts/check_commits.py
+336	0	scripts/report_management/report_cli.py
+
+COMMIT:fb17e89
+1016	0	docs/ad_hoc_reports/technology_stack.md
+
+COMMIT:3bc0c98
+118	22	docs/DAILY_REPORTS_ALIGNMENT_SUMMARY.md
+245	0	docs/TEMPLATE_CLARIFICATION_SUMMARY.md
+393	0	docs/report_type_audit_matrix.md
+134	0	docs/templates/gms_startup_report_template.md
+0	0	docs/templates/{startup_report_template.md => strategic_audit_template.md}
+
+COMMIT:41661ed
+976	0	docs/EXECUTION_SUMMARY_2025-10-11.md
+316	0	docs/REMAINING_PROJECTS_ANALYSIS.md
+221	0	docs/commit_verification_matrix_2025-10-11.md
+89	0	docs/commit_verification_summary.txt
+
+COMMIT:dbe28b4
+793	0	docs/COMPREHENSIVE_VALIDATION_REPORT_2025-10-11.md
+667	0	docs/DAILY_REPORTS_ALIGNMENT_SUMMARY.md
+551	0	docs/FINAL_CATEGORIZATION_MATRIX.md
+892	0	docs/FINAL_VALIDATION_REPORT_2025-10-11.md
+227	0	docs/VALIDATION_SUMMARY.md
+608	0	docs/templates/daily_report_guide.md
+256	0	docs/templates/daily_report_template.md
+486	0	docs/templates/startup_report_template.md
+
+COMMIT:5d1ed3a
+209	0	.claude/agents/analysis/code-analyzer.md
+180	0	.claude/agents/analysis/code-review/analyze-code-quality.md
+156	0	.claude/agents/architecture/system-design/arch-system-design.md
+42	0	.claude/agents/base-template-generator.md
+63	0	.claude/agents/consensus/byzantine-coordinator.md
+997	0	.claude/agents/consensus/crdt-synchronizer.md
+63	0	.claude/agents/consensus/gossip-coordinator.md
+851	0	.claude/agents/consensus/performance-benchmarker.md
+823	0	.claude/agents/consensus/quorum-manager.md
+63	0	.claude/agents/consensus/raft-manager.md
+622	0	.claude/agents/consensus/security-manager.md
+266	0	.claude/agents/core/coder.md
+168	0	.claude/agents/core/planner.md
+190	0	.claude/agents/core/researcher.md
+326	0	.claude/agents/core/reviewer.md
+319	0	.claude/agents/core/tester.md
+193	0	.claude/agents/data/ml/data-ml-model.md
+142	0	.claude/agents/development/backend/dev-backend-api.md
+164	0	.claude/agents/devops/ci-cd/ops-cicd-github.md
+174	0	.claude/agents/documentation/api-docs/docs-api-openapi.md
+88	0	.claude/agents/flow-nexus/app-store.md
+69	0	.claude/agents/flow-nexus/authentication.md
+81	0	.claude/agents/flow-nexus/challenges.md
+88	0	.claude/agents/flow-nexus/neural-network.md
+83	0	.claude/agents/flow-nexus/payments.md
+76	0	.claude/agents/flow-nexus/sandbox.md
+76	0	.claude/agents/flow-nexus/swarm.md
+96	0	.claude/agents/flow-nexus/user-tools.md
+84	0	.claude/agents/flow-nexus/workflow.md
+538	0	.claude/agents/github/code-review-swarm.md
+173	0	.claude/agents/github/github-modes.md
+319	0	.claude/agents/github/issue-tracker.md
+553	0	.claude/agents/github/multi-repo-swarm.md
+191	0	.claude/agents/github/pr-manager.md
+509	0	.claude/agents/github/project-board-sync.md
+367	0	.claude/agents/github/release-manager.md
+583	0	.claude/agents/github/release-swarm.md
+398	0	.claude/agents/github/repo-architect.md
+573	0	.claude/agents/github/swarm-issue.md
+428	0	.claude/agents/github/swarm-pr.md
+452	0	.claude/agents/github/sync-coordinator.md
+635	0	.claude/agents/github/workflow-automation.md
+446	0	.claude/agents/goal/code-goal-planner.md
+73	0	.claude/agents/goal/goal-planner.md
+130	0	.claude/agents/hive-mind/collective-intelligence-coordinator.md
+203	0	.claude/agents/hive-mind/queen-coordinator.md
+242	0	.claude/agents/hive-mind/scout-explorer.md
+193	0	.claude/agents/hive-mind/swarm-memory-manager.md
+217	0	.claude/agents/hive-mind/worker-specialist.md
+74	0	.claude/agents/neural/safla-neural.md
+665	0	.claude/agents/optimization/benchmark-suite.md
+431	0	.claude/agents/optimization/load-balancer.md
+672	0	.claude/agents/optimization/performance-monitor.md
+674	0	.claude/agents/optimization/resource-allocator.md
+808	0	.claude/agents/optimization/topology-optimizer.md
+472	0	.claude/agents/sparc/architecture.md
+318	0	.claude/agents/sparc/pseudocode.md
+525	0	.claude/agents/sparc/refinement.md
+276	0	.claude/agents/sparc/specification.md
+226	0	.claude/agents/specialized/mobile/spec-mobile-react-native.md
+396	0	.claude/agents/swarm/adaptive-coordinator.md
+327	0	.claude/agents/swarm/hierarchical-coordinator.md
+392	0	.claude/agents/swarm/mesh-coordinator.md
+205	0	.claude/agents/templates/automation-smart-agent.md
+105	0	.claude/agents/templates/coordinator-swarm-init.md
+177	0	.claude/agents/templates/github-pr-manager.md
+259	0	.claude/agents/templates/implementer-sparc-coder.md
+187	0	.claude/agents/templates/memory-coordinator.md
+746	0	.claude/agents/templates/migration-plan.md
+139	0	.claude/agents/templates/orchestrator-task.md
+199	0	.claude/agents/templates/performance-analyzer.md
+183	0	.claude/agents/templates/sparc-coordinator.md
+244	0	.claude/agents/testing/unit/tdd-london-swarm.md
+395	0	.claude/agents/testing/validation/production-validator.md
+10	0	.claude/commands/agents/README.md
+21	0	.claude/commands/agents/agent-capabilities.md
+28	0	.claude/commands/agents/agent-coordination.md
+28	0	.claude/commands/agents/agent-spawning.md
+26	0	.claude/commands/agents/agent-types.md
+54	0	.claude/commands/analysis/COMMAND_COMPLIANCE_REPORT.md
+9	0	.claude/commands/analysis/README.md
+162	0	.claude/commands/analysis/bottleneck-detect.md
+59	0	.claude/commands/analysis/performance-bottlenecks.md
+25	0	.claude/commands/analysis/performance-report.md
+45	0	.claude/commands/analysis/token-efficiency.md
+25	0	.claude/commands/analysis/token-usage.md
+9	0	.claude/commands/automation/README.md
+122	0	.claude/commands/automation/auto-agent.md
+106	0	.claude/commands/automation/self-healing.md
+90	0	.claude/commands/automation/session-memory.md
+73	0	.claude/commands/automation/smart-agents.md
+25	0	.claude/commands/automation/smart-spawn.md
+25	0	.claude/commands/automation/workflow-select.md
+124	0	.claude/commands/flow-nexus/app-store.md
+120	0	.claude/commands/flow-nexus/challenges.md
+65	0	.claude/commands/flow-nexus/login-registration.md
+134	0	.claude/commands/flow-nexus/neural-network.md
+116	0	.claude/commands/flow-nexus/payments.md
+83	0	.claude/commands/flow-nexus/sandbox.md
+87	0	.claude/commands/flow-nexus/swarm.md
+152	0	.claude/commands/flow-nexus/user-tools.md
+115	0	.claude/commands/flow-nexus/workflow.md
+11	0	.claude/commands/github/README.md
+514	0	.claude/commands/github/code-review-swarm.md
+25	0	.claude/commands/github/code-review.md
+147	0	.claude/commands/github/github-modes.md
+121	0	.claude/commands/github/github-swarm.md
+292	0	.claude/commands/github/issue-tracker.md
+25	0	.claude/commands/github/issue-triage.md
+519	0	.claude/commands/github/multi-repo-swarm.md
+26	0	.claude/commands/github/pr-enhance.md
+170	0	.claude/commands/github/pr-manager.md
+471	0	.claude/commands/github/project-board-sync.md
+338	0	.claude/commands/github/release-manager.md
+544	0	.claude/commands/github/release-swarm.md
+25	0	.claude/commands/github/repo-analyze.md
+367	0	.claude/commands/github/repo-architect.md
+482	0	.claude/commands/github/swarm-issue.md
+285	0	.claude/commands/github/swarm-pr.md
+301	0	.claude/commands/github/sync-coordinator.md
+442	0	.claude/commands/github/workflow-automation.md
+17	0	.claude/commands/hive-mind/README.md
+8	0	.claude/commands/hive-mind/hive-mind-consensus.md
+18	0	.claude/commands/hive-mind/hive-mind-init.md
+8	0	.claude/commands/hive-mind/hive-mind-memory.md
+8	0	.claude/commands/hive-mind/hive-mind-metrics.md
+8	0	.claude/commands/hive-mind/hive-mind-resume.md
+8	0	.claude/commands/hive-mind/hive-mind-sessions.md
+21	0	.claude/commands/hive-mind/hive-mind-spawn.md
+8	0	.claude/commands/hive-mind/hive-mind-status.md
+8	0	.claude/commands/hive-mind/hive-mind-stop.md
+8	0	.claude/commands/hive-mind/hive-mind-wizard.md
+27	0	.claude/commands/hive-mind/hive-mind.md
+11	0	.claude/commands/hooks/README.md
+132	0	.claude/commands/hooks/overview.md
+117	0	.claude/commands/hooks/post-edit.md
+112	0	.claude/commands/hooks/post-task.md
+113	0	.claude/commands/hooks/pre-edit.md
+111	0	.claude/commands/hooks/pre-task.md
+118	0	.claude/commands/hooks/session-end.md
+103	0	.claude/commands/hooks/setup.md
+9	0	.claude/commands/monitoring/README.md
+25	0	.claude/commands/monitoring/agent-metrics.md
+44	0	.claude/commands/monitoring/agents.md
+25	0	.claude/commands/monitoring/real-time-view.md
+46	0	.claude/commands/monitoring/status.md
+25	0	.claude/commands/monitoring/swarm-monitor.md
+9	0	.claude/commands/optimization/README.md
+62	0	.claude/commands/optimization/auto-topology.md
+25	0	.claude/commands/optimization/cache-manage.md
+25	0	.claude/commands/optimization/parallel-execute.md
+50	0	.claude/commands/optimization/parallel-execution.md
+25	0	.claude/commands/optimization/topology-optimize.md
+546	0	.claude/commands/pair/commands.md
+510	0	.claude/commands/pair/config.md
+512	0	.claude/commands/pair/examples.md
+348	0	.claude/commands/pair/modes.md
+407	0	.claude/commands/pair/session.md
+209	0	.claude/commands/pair/start.md
+52	0	.claude/commands/sparc/analyzer.md
+53	0	.claude/commands/sparc/architect.md
+
+PROJECT FILES:
+total 85
+drwxrwxrwx 1 brand brand   512 Oct 17 22:01 .
+drwxrwxrwx 1 brand brand   512 Oct 17 22:40 ..
+drwxrwxrwx 1 brand brand   512 Oct 11 15:12 .claude
+drwxrwxrwx 1 brand brand   512 Oct 11 15:11 .claude-flow
+drwxrwxrwx 1 brand brand   512 Oct 18 12:24 .git
+-rwxrwxrwx 1 brand brand   568 Oct 11 15:17 .gitignore
+drwxrwxrwx 1 brand brand   512 Oct 11 15:17 .hive-mind
+-rwxrwxrwx 1 brand brand   656 Oct 11 15:17 .mcp.json
+drwxrwxrwx 1 brand brand   512 Oct 18 00:20 .swarm
+-rwxrwxrwx 1 brand brand 13125 Oct 11 15:17 CLAUDE.md
+-rwxrwxrwx 1 brand brand  8250 Oct 11 18:45 Makefile
+-rwxrwxrwx 1 brand brand  6210 Oct 11 18:48 QUICK_REFERENCE.md
+-rwxrwxrwx 1 brand brand  1038 Oct 11 15:17 claude-flow
+-rwxrwxrwx 1 brand brand   997 Oct 11 15:11 claude-flow.cmd
+drwxrwxrwx 1 brand brand   512 Oct 11 15:11 coordination
+drwxrwxrwx 1 brand brand   512 Oct 11 17:25 daily_dev_startup_reports
+drwxrwxrwx 1 brand brand   512 Oct 17 23:58 daily_reports
+drwxrwxrwx 1 brand brand   512 Oct 18 12:26 docs
+-rwxrwxrwx 1 brand brand  5765 Oct 11 18:49 install.sh
+drwxrwxrwx 1 brand brand   512 Oct 11 16:32 memory
+-rwxrwxrwx 1 brand brand  3505 Oct 17 22:01 package.json
+-rwxrwxrwx 1 brand brand 10394 Oct 11 18:45 report
+-rwxrwxrwx 1 brand brand  8732 Oct 11 18:47 report_aliases.sh
+drwxrwxrwx 1 brand brand   512 Oct 12 18:15 scripts
+
+PACKAGE.JSON FOUND
+{
+  "name": "report-assistant",
+  "version": "2.0.0",
+  "description": "Standardized report management system with GMS methodology",
+  "scripts": {
+    "// === DAILY OPERATIONS ===": "",
+    "today": "npm run gms && npm run progress",
+    "gms": "node scripts/generate-gms.js",
+    "progress": "node scripts/generate-progress.js",
+    "commit": "git add daily_reports/ daily_dev_startup_reports/ && git commit -m \"docs: Add reports for $(date +%Y-%m-%d)\"",
+
+    "// === QUICK ALIASES ===": "",
+    "t": "npm run today",
+    "g": "npm run gms",
+    "p": "npm run progress",
+    "c": "npm run commit",
+
+    "// === AUDIT & VALIDATION ===": "",
+    "audit": "python scripts/report_management/audit_reports.py",
+    "audit:project": "python scripts/report_management/audit_reports.py --project",
+    "validate": "python scripts/report_management/validate_reports.py",
+    "validate:templates": "python scripts/report_management/validate_templates.py",
+
+    "// === GENERATION ===": "",
+    "generate:all": "python scripts/report_management/generate_reports.py --all",
+    "generate:missing": "python scripts/report_management/generate_reports.py --missing",
+    "backfill": "python scripts/report_management/generate_reports.py --backfill",
+
+    "// === SYNCHRONIZATION ===": "",
+    "sync": "python scripts/report_management/sync_reports.py",
+    "sync:templates": "python scripts/report_management/sync_templates.py",
+    "update:format": "python scripts/report_management/update_format.py",
+
+    "// === SWARM OPERATIONS ===": "",
+    "swarm:init": "npx claude-flow@alpha swarm init mesh --max-agents 5",
+    "swarm:audit": "npx claude-flow@alpha swarm deploy audit-all",
+    "swarm:align": "npx claude-flow@alpha swarm deploy align-reports",
+    "swarm:gms": "npx claude-flow@alpha sparc run gms-audit",
+
+    "// === MAINTENANCE ===": "",
+    "backup": "tar -czf backups/reports_$(date +%Y%m%d).tar.gz daily_reports/ daily_dev_startup_reports/",
+    "clean": "find . -name '*.pyc' -delete && find . -name '__pycache__' -type d -exec rm -rf {} + 2>/dev/null || true",
+    "stats": "node scripts/report-stats.js",
+
+    "// === DEVELOPMENT ===": "",
+    "test": "pytest tests/",
+    "test:watch": "pytest-watch tests/",
+    "lint": "pylint scripts/ && eslint scripts/*.js",
+    "format": "black scripts/ && prettier --write scripts/*.js",
+
+
