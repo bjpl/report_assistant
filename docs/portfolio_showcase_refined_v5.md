@@ -89,7 +89,16 @@ This portfolio demonstrates exceptional versatility across **12 production-ready
 - **Features:** 100+ submarine cables, 500+ data centers visualized
 
 ### 5. Content Management & Portfolio Systems
-**Demonstrated Expertise:** Jekyll, Ruby, Design Systems, Bilingual Support
+**Demonstrated Expertise:** Jekyll, Ruby, Design Systems, Bilingual Support, Resource Curation
+
+**ONLINE LANGUAGE LEARNING RESOURCES - Comprehensive Learning Hub**
+- **Scale:** 67 languages with curated resources (Dutch, Danish, Portuguese, etc.)
+- **Resource Types:** Apps, books, podcasts, courses, communities
+- **Technology:** Vite + Vanilla JavaScript + Tailwind CSS + Vitest
+- **Performance:** 98% faster load times with code splitting
+- **Mobile Optimization:** 48x48px touch targets, iPhone notch support
+- **Quality:** 50 automated tests (100% pass rate), WCAG 2.1 AAA compliance
+- **Design:** Thoughtful typography (Crimson Text/Inter), minimal aesthetic
 
 **BRANDONJPLAMBERT - Academic Portfolio**
 - **CMS:** Sveltia CMS with Git-based backend
