@@ -1,0 +1,75 @@
+=== Portfolio Analysis v4: internet ===
+Category: Visualizations
+Generated: 2025-10-18 15:14:17
+
+## 1. Repository Statistics
+---
+Total Commits: 8
+Commits Since Aug 2024: 8
+First Commit: 2025-10-08 00:01:38 -0700
+Last Commit: 2025-10-12 23:13:06 -0700
+Authors: 1
+Branches: 2
+
+## 2. Conventional Commit Types (Since Aug 2024)
+---
+feat: 1
+docs: 7
+
+## 3. Code Churn Analysis (Since Aug 2024)
+---
+Lines Added: 129147
+Lines Removed: 7467
+Net Change: 121680
+
+## 4. Most Changed Files (Top 15)
+---
+    4  README.md
+    3  docs/API_INTEGRATION_GUIDE.md
+    2  visualization-concepts-summary.md
+    2  real-world-visualization-options.md
+    2  knowledge-base-visualizations-complete.md
+    2  knowledge-base-visualizations.md
+    2  docs/QUICK_START_LIVE_APIS.md
+    2  docs/LIVE_API_USAGE_EXAMPLES.md
+    2  docs/KB_IMPLEMENTATION_SUMMARY.md
+    2  docs/INDEX.md
+    2  docs/DATA_FRESHNESS_README.md
+    2  docs/DATA_FRESHNESS_QUICK_REF.md
+    2  docs/DATA_FRESHNESS_GUIDE.md
+    2  docs/daily_reports/2025-10-08.md
+    2  docs/API_SERVICE_GUIDE.md
+
+## 5. Technology Stack
+---
+✓ Node.js/npm project
+✓ Vite
+
+## 6. Day of Week Distribution (Since Aug 2024)
+---
+Wednesday :   6 commits
+Thursday  :   1 commits
+Sunday    :   1 commits
+
+## 7. Author Contributions (Since Aug 2024)
+---
+    8 commits  bjpl
+
+## 8. Recent Commits (Last 10)
+---
+05cc420  |  2025-10-12 23:13:06 -0700  |  bjpl                |  docs: Add comprehensive technology stack documentation
+fda5231  |  2025-10-09 01:05:48 -0700  |  bjpl                |  docs: Clean up file deletions from consolidation
+56ff59f  |  2025-10-08 23:14:56 -0700  |  bjpl                |  docs: Phase 2 documentation consolidation - Major improvements
+fab63fe  |  2025-10-08 22:49:05 -0700  |  bjpl                |  docs: Add agent review reports from comprehensive documentation audit
+18064ef  |  2025-10-08 22:48:28 -0700  |  bjpl                |  docs: Phase 1 documentation improvements - Quick Wins
+316b83b  |  2025-10-08 02:03:36 -0700  |  bjpl                |  docs: Add daily report for October 8, 2025
+46c6a34  |  2025-10-08 00:04:15 -0700  |  bjpl                |  docs: Update README for v2.0 with live APIs and knowledge base features
+666a446  |  2025-10-08 00:01:38 -0700  |  bjpl                |  feat: Complete three-path integration - Live APIs + Knowledge Base + Code Consolidation
+
+## 9. Commit Size Distribution (Since Aug 2024)
+---
+Small (<10 lines):   0 commits
+Medium (10-100):     0 commits
+Large (>100 lines):  8 commits
+Average lines/commit: 17076.8
+

@@ -1,0 +1,85 @@
+=== Portfolio Analysis v4: brandonjplambert ===
+Category: Galleries & Portfolios
+Generated: 2025-10-18 15:13:34
+
+## 1. Repository Statistics
+---
+Total Commits: 238
+Commits Since Aug 2024: 238
+First Commit: 2025-09-01 16:36:59 -0700
+Last Commit: 2025-10-16 19:03:11 -0700
+Authors: 2
+Branches: 4
+
+## 2. Conventional Commit Types (Since Aug 2024)
+---
+feat: 2
+docs: 2
+refactor: 1
+other: 233
+
+## 3. Code Churn Analysis (Since Aug 2024)
+---
+Lines Added: 247878
+Lines Removed: 18472
+Net Change: 229406
+
+## 4. Most Changed Files (Top 15)
+---
+   38  _pages/ai-projects.html
+   31  es/_pages/proyectos-ia.html
+   31  _sass/_layout.scss
+   27  _data/ai_projects.yml
+   24  _data/spanish_accounts.yml
+   22  _pages/proyectos-ia.html
+   21  _pages/resources.html
+   16  es/_pages/recursos.html
+   15  _layouts/default.html
+   14  _config.yml
+   13  _pages/work.html
+   13  _data/career_timeline.yml
+   11  _sass/_components.scss
+   11  _pages/contact.html
+   11  _data/learning_tools.yml
+
+## 5. Technology Stack
+---
+✓ Node.js/npm project
+✓ Ruby
+✓ Jest
+
+## 6. Day of Week Distribution (Since Aug 2024)
+---
+Monday    :  47 commits
+Tuesday   :  26 commits
+Wednesday :  34 commits
+Thursday  :  34 commits
+Friday    :  44 commits
+Saturday  :  17 commits
+Sunday    :  36 commits
+
+## 7. Author Contributions (Since Aug 2024)
+---
+  236 commits  bjpl
+    2 commits  Brandon JP Lambert
+
+## 8. Recent Commits (Last 10)
+---
+e48e4a9  |  2025-10-16 19:03:11 -0700  |  bjpl                |  refactor: Organize /docs root files into subdirectories
+aab2996  |  2025-10-16 16:15:57 -0700  |  bjpl                |  feat: Add comprehensive swarm coordination system with MCP integration
+6bb9a72  |  2025-10-12 23:09:54 -0700  |  bjpl                |  docs: Add comprehensive technology stack documentation
+a1825a2  |  2025-10-11 17:05:53 -0700  |  Brandon JP Lambert  |  feat: Align daily reports to unified format
+89b71cc  |  2025-10-11 16:47:12 -0700  |  Brandon JP Lambert  |  docs: Align October 8 daily report with standard template
+1c088ea  |  2025-10-08 22:54:30 -0700  |  bjpl                |  Comprehensive mobile UX optimization (18 critical fixes)
+15a682d  |  2025-10-08 22:35:41 -0700  |  bjpl                |  Update October 8 daily report with documentation synchronization session
+9797f1d  |  2025-10-08 22:26:56 -0700  |  bjpl                |  Update documentation to reflect October 8, 2025 technical debt elimination
+71ee576  |  2025-10-08 22:11:15 -0700  |  bjpl                |  Add daily report for October 8, 2025 - Plan B technical debt reduction
+79db8c4  |  2025-10-08 21:56:17 -0700  |  bjpl                |  Eliminate navigation duplication and refactor language switcher
+
+## 9. Commit Size Distribution (Since Aug 2024)
+---
+Small (<10 lines):   44 commits
+Medium (10-100):     88 commits
+Large (>100 lines):  101 commits
+Average lines/commit: 1119.1
+

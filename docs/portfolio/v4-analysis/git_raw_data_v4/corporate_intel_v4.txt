@@ -1,0 +1,88 @@
+=== Portfolio Analysis v4: corporate_intel ===
+Category: Open Source Research
+Generated: 2025-10-18 15:14:54
+
+## 1. Repository Statistics
+---
+Total Commits: 84
+Commits Since Aug 2024: 84
+First Commit: 2025-09-14 15:45:28 -0700
+Last Commit: 2025-10-17 20:48:19 -0700
+Authors: 2
+Branches: 3
+
+## 2. Conventional Commit Types (Since Aug 2024)
+---
+feat: 36
+fix: 7
+docs: 17
+test: 2
+refactor: 6
+chore: 10
+other: 6
+
+## 3. Code Churn Analysis (Since Aug 2024)
+---
+Lines Added: 298316
+Lines Removed: 13349
+Net Change: 284967
+
+## 4. Most Changed Files (Top 15)
+---
+   20  .claude-flow/metrics/task-metrics.json
+   20  .claude-flow/metrics/performance.json
+   10  CLAUDE.md
+    8  src/pipeline/sec_ingestion.py
+    7  tests/conftest.py
+    7  src/visualization/dash_app.py
+    7  .gitignore
+    6  src/api/v1/companies.py
+    5  src/pipeline/alpha_vantage_ingestion.py
+    5  src/db/models.py
+    5  src/auth/models.py
+    4  src/visualization/components.py
+    4  src/visualization/assets/style.css
+    4  src/pipeline/yahoo_finance_ingestion.py
+    4  src/core/config.py
+
+## 5. Technology Stack
+---
+✓ Python
+✓ Docker
+✓ Docker Compose
+
+## 6. Day of Week Distribution (Since Aug 2024)
+---
+Monday    :   8 commits
+Tuesday   :  13 commits
+Wednesday :   7 commits
+Thursday  :   3 commits
+Friday    :  26 commits
+Saturday  :   1 commits
+Sunday    :  26 commits
+
+## 7. Author Contributions (Since Aug 2024)
+---
+   74 commits  Claude Code
+   10 commits  bjpl
+
+## 8. Recent Commits (Last 10)
+---
+afd75ac  |  2025-10-17 20:48:19 -0700  |  Claude Code         |  feat: Complete Plan A Day 4 - Data Pipeline Activation & Quality Fixes
+2da4a25  |  2025-10-17 11:03:22 -0700  |  Claude Code         |  feat: Complete swarm execution of Plans A & B - test coverage and technical debt cleanup
+d11aea0  |  2025-10-17 00:50:24 -0700  |  Claude Code         |  docs: Add after-restart quick start checklist
+b0acd09  |  2025-10-17 00:49:23 -0700  |  Claude Code         |  chore: update Claude Flow session metrics after diagnostic session
+2b3c166  |  2025-10-17 00:37:09 -0700  |  Claude Code         |  feat: Add comprehensive staging validation scripts and Docker diagnostic docs
+17a75d9  |  2025-10-17 00:14:52 -0700  |  Claude Code         |  chore: update Claude Flow metrics - performance, system, and task tracking
+16a20f0  |  2025-10-17 00:09:18 -0700  |  Claude Code         |  feat: staging deployment 100% complete - database migrated + TimescaleDB configured
+c950b43  |  2025-10-16 23:57:11 -0700  |  Claude Code         |  feat: staging deployment operational + MinIO fix + comprehensive docs
+95697c0  |  2025-10-16 23:33:15 -0700  |  Claude Code         |  feat: Complete Plan A + Plan D1 staging infrastructure - Repository pattern, deduplication, deployment prep
+ae0094f  |  2025-10-16 16:15:57 -0700  |  Claude Code         |  chore: update metrics, memory stores, and development configuration
+
+## 9. Commit Size Distribution (Since Aug 2024)
+---
+Small (<10 lines):   7 commits
+Medium (10-100):     9 commits
+Large (>100 lines):  68 commits
+Average lines/commit: 3710.3
+

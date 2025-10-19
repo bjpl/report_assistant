@@ -1,0 +1,84 @@
+=== Portfolio Analysis v4: open_learn ===
+Category: Open Source Research
+Generated: 2025-10-18 15:14:34
+
+## 1. Repository Statistics
+---
+Total Commits: 41
+Commits Since Aug 2024: 41
+First Commit: 2025-09-15 14:04:56 -0700
+Last Commit: 2025-10-17 20:49:18 -0700
+Authors: 1
+Branches: 2
+
+## 2. Conventional Commit Types (Since Aug 2024)
+---
+feat: 22
+fix: 4
+docs: 9
+test: 2
+refactor: 1
+other: 3
+
+## 3. Code Churn Analysis (Since Aug 2024)
+---
+Lines Added: 227256
+Lines Removed: 26001
+Net Change: 201255
+
+## 4. Most Changed Files (Top 15)
+---
+    6  backend/app/config/settings.py
+    5  backend/app/database/models.py
+    4  backend/requirements.txt
+    4  backend/app/database/connection.py
+    4  backend/app/api/language.py
+    4  backend/app/api/auth.py
+    4  .env.example
+    3  frontend/tsconfig.json
+    3  frontend/src/components/preferences/LanguagePreferences.tsx
+    3  frontend/src/components/filters/SourceFilter.tsx
+    3  frontend/src/app/sources/page.tsx
+    3  frontend/src/app/preferences/page.tsx
+    3  frontend/src/app/layout.tsx
+    3  frontend/package-lock.json
+    3  frontend/package.json
+
+## 5. Technology Stack
+---
+✓ Docker Compose
+
+## 6. Day of Week Distribution (Since Aug 2024)
+---
+Monday    :  14 commits
+Tuesday   :   2 commits
+Wednesday :   8 commits
+Thursday  :   4 commits
+Friday    :  11 commits
+Saturday  :   1 commits
+Sunday    :   1 commits
+
+## 7. Author Contributions (Since Aug 2024)
+---
+   41 commits  bjpl
+
+## 8. Recent Commits (Last 10)
+---
+7baf4b7  |  2025-10-17 20:49:18 -0700  |  bjpl                |  docs: Add deployment instructions and validation results
+34f6e49  |  2025-10-17 19:50:41 -0700  |  bjpl                |  Phase 1: Core features ready for staging deployment
+fecba1e  |  2025-10-17 11:05:04 -0700  |  bjpl                |  feat: Comprehensive test infrastructure for Colombian media scrapers (Week 2-3 Roadmap)
+127c629  |  2025-10-17 00:36:49 -0700  |  bjpl                |  test: Replace generated tests with 25 simple, runnable unit tests
+75b1e0e  |  2025-10-16 16:16:05 -0700  |  bjpl                |  docs: Add daily report for 2025-10-09
+f2cd73a  |  2025-10-12 23:12:48 -0700  |  bjpl                |  docs: Add comprehensive technology stack documentation
+197c524  |  2025-10-09 14:06:17 -0700  |  bjpl                |  docs: Add personalized deployment guide with generated credentials
+b305ed8  |  2025-10-09 13:57:04 -0700  |  bjpl                |  feat: Railway + Vercel + Supabase Deployment - Managed Platform Edition
+1b716cb  |  2025-10-09 13:45:28 -0700  |  bjpl                |  feat: Automated Deployment Package - 90% Self-Deploying System
+6c2a4e1  |  2025-10-08 22:25:42 -0700  |  bjpl                |  test: Day 6 Comprehensive Testing & Critical Bug Fixes
+
+## 9. Commit Size Distribution (Since Aug 2024)
+---
+Small (<10 lines):   1 commits
+Medium (10-100):     5 commits
+Large (>100 lines):  35 commits
+Average lines/commit: 6177.0
+
