@@ -27,18 +27,19 @@ Report Assistant provides automated tools for managing, validating, and analyzin
 - **Automated Workflows**: Batch operations for efficiency
 
 ### 📁 Multi-Project Support
-- Track 15+ projects with daily reports
+- Track 15 projects with daily reports
 - Support for 10+ projects with startup reports
 - Nested project support (e.g., language-learning/subjunctive_practice)
 - Automatic project discovery and configuration
 
 ## Tech Stack
 
-- **Core**: Node.js, Python 3.x
-- **Orchestration**: Claude-Flow v2.0.0 (SPARC methodology)
+- **Core**: Python 3.12.3 (primary), Makefile workflows
+- **Orchestration**: Claude-Flow v2.0.0 (SPARC methodology) - configured but optional
 - **Validation**: Python scripts with git integration
 - **Generation**: Template-based report creation
 - **Analysis**: Text processing, regex, statistics
+- **Testing**: pytest 8.4.2 with coverage tools
 
 ## Installation
 
@@ -47,30 +48,32 @@ Report Assistant provides automated tools for managing, validating, and analyzin
 git clone https://github.com/bjpl/report_assistant.git
 cd report_assistant
 
-# Install dependencies
-npm run setup:deps
+# Install Python dependencies
+pip install pytest pytest-asyncio pytest-cov pytest-mock
+
+# (Optional) Install Node.js dependencies for coordination
+npm install
 
 # Create required directories
-npm run setup:dirs
+mkdir -p tests backups
 ```
 
 ## Quick Start
 
 ```bash
-# Generate today's GMS report
-npm run gms
-
-# Generate progress report
-npm run progress
-
-# Full workflow (GMS + Progress)
-npm run today
-
 # Validate all reports
-npm run audit
+python scripts/report_management/validate_reports.py
 
 # Generate missing reports
-npm run generate:missing
+python scripts/report_management/generate_reports.py
+
+# Analyze reports
+python scripts/report_management/analyze_reports.py
+
+# Using Makefile (recommended)
+make validate    # Validate all reports
+make analyze     # Run analysis
+make backup      # Create backup
 ```
 
 ## Usage
@@ -78,33 +81,32 @@ npm run generate:missing
 ### Daily Operations
 
 ```bash
-# Morning workflow
-npm run morning  # Generate GMS report for the day
+# Makefile workflow (primary method)
+make validate      # Validate all reports
+make generate      # Generate missing reports
+make analyze       # Run analysis
+make backup        # Create backup
 
-# Evening workflow
-npm run evening  # Generate progress report and commit
-
-# Quick aliases
-npm run t  # Today (GMS + Progress)
-npm run g  # GMS only
-npm run p  # Progress only
-npm run c  # Commit reports
+# Direct Python execution
+python scripts/report_management/validate_reports.py
+python scripts/report_management/generate_reports.py --project <project_name>
+python scripts/report_management/analyze_reports.py search "keyword"
 ```
 
 ### Report Management
 
 ```bash
 # Validate reports against git history
-npm run audit
+python scripts/report_management/validate_reports.py
 
 # Validate specific project
-npm run audit:project -- --project video_gen
+python scripts/report_management/validate_reports.py --project aves
 
-# Generate missing reports for all projects
-npm run generate:missing
+# Generate missing reports
+python scripts/report_management/generate_reports.py
 
-# Backfill historical reports
-npm run backfill
+# Delete invalid reports
+python scripts/report_management/validate_reports.py --delete
 ```
 
 ### Analysis & Search
@@ -113,27 +115,22 @@ npm run backfill
 # Search across all reports
 python scripts/report_management/analyze_reports.py search "authentication"
 
-# Project statistics (last 30 days)
-python scripts/report_management/analyze_reports.py stats --project aves
+# Analyze reports (available via CLI)
+python scripts/report_management/report_cli.py
 
-# Cross-project analysis
-python scripts/report_management/analyze_reports.py cross --days 90
+# Using Makefile
+make analyze
 ```
 
-### Swarm Operations
+### Swarm Operations (Optional - Requires Claude-Flow)
 
 ```bash
 # Initialize swarm for parallel processing
-npm run swarm:init
+npx claude-flow@alpha swarm init
 
-# Run comprehensive audit across all projects
-npm run swarm:audit
-
-# Align reports across projects
-npm run swarm:align
-
-# Execute GMS audit workflow
-npm run swarm:gms
+# Run operations with coordination
+# Note: These features are configured but optional
+# Primary workflow uses direct Python scripts
 ```
 
 ## Configuration
@@ -186,13 +183,18 @@ report_assistant/
 │   ├── templates/          # Report templates
 │   └── portfolio/          # Portfolio analysis
 ├── scripts/
-│   ├── generate-gms.js     # GMS report generation
-│   ├── generate-progress.js  # Progress report generation
 │   └── report_management/  # Python validation/analysis tools
-├── memory/                 # Agent memory and state
+│       ├── analyze_reports.py    # Report analysis
+│       ├── config.py             # Project configuration
+│       ├── generate_reports.py   # Report generation
+│       ├── report_cli.py         # CLI interface
+│       └── validate_reports.py   # Report validation
+├── memory/                 # Agent memory and state (optional)
 │   ├── agents/             # Per-agent memory storage
 │   └── sessions/           # Session persistence
-└── coordination/           # Swarm coordination configs
+├── coordination/           # Swarm coordination configs (optional)
+├── Makefile                # Primary workflow tool
+└── package.json            # Node.js metadata (minimal)
 ```
 
 ## Workflows
@@ -201,91 +203,96 @@ report_assistant/
 
 ```bash
 # 1. Validate all reports
-npm run audit -- --verbose
+python scripts/report_management/validate_reports.py --verbose
 
 # 2. Delete invalid reports
 python scripts/report_management/validate_reports.py --delete
 
 # 3. Generate missing reports
-npm run generate:missing
+python scripts/report_management/generate_reports.py
 
-# 4. Weekly summary
-npm run weekly
+# 4. Create backup
+make backup
 ```
 
 ### New Project Setup
 
 ```bash
-# Create project directories
-npm run init:project -- --project=new_project
-
 # Add to config.py
-# Edit scripts/report_management/config.py and add 'new_project' to PROJECTS
+# Edit scripts/report_management/config.py and add 'new_project' to DAILY_REPORTS_PROJECTS
+
+# Create project directories in parent workspace
+mkdir -p ../new_project/daily_reports
+mkdir -p ../new_project/daily_dev_startup_reports
 
 # Validate setup
-npm run audit:project -- --project new_project
+python scripts/report_management/validate_reports.py --project new_project
 ```
 
 ## Testing
 
+**Note**: Test infrastructure is planned but not yet implemented.
+
 ```bash
-# Run Python tests
-npm run test
+# Install testing dependencies
+pip install pytest pytest-asyncio pytest-cov pytest-mock
 
-# Watch mode
-npm run test:watch
+# Run tests (when implemented)
+pytest
 
-# Linting
-npm run lint
-
-# Format code
-npm run format
+# Coverage report (when implemented)
+pytest --cov=scripts/report_management
 ```
 
 ## Tracked Projects
 
-The system currently tracks and manages reports for:
+The system currently tracks and manages reports for **15 active projects**:
 
-**Language Learning** (10 projects): aves, hablas, describe_it, letratos, online_language_learning_resources, sinonimos series
+**Language Learning** (7 projects):
+- aves, hablas, describe_it, letratos, online_language_learning_resources, open_learn
 
-**Development Tools** (5 projects): report_assistant, deployment_sprint, learn_claude_flow, algorithms_and_data_structures
+**Development Tools** (3 projects):
+- report_assistant, deployment_sprint, algorithms_and_data_structures
 
-**Web Applications** (4 projects): fancy_monkey, corporate_intel, video_gen, open_learn
+**Web Applications** (2 projects):
+- fancy_monkey, corporate_intel
 
-**Geographic & Data Viz** (3 projects): california_puzzle_game, colombia_puzzle_game, internet
+**Geographic & Data Viz** (2 projects):
+- california_puzzle_game, colombia_puzzle_game
 
-**Portfolio & Professional** (2 projects): brandonjplambert, agentic_learning
+**Portfolio & Professional** (2 projects):
+- brandonjplambert, agentic_learning
 
-**AI & Voice** (1 project): learning_voice_agent
+**AI & Voice** (1 project):
+- learning_voice_agent
 
-## API Reference
+## Available Python Scripts
 
-### Python Scripts
+### Core Scripts
 
-```python
-# Validate reports
-from scripts.report_management.validate_reports import validate_project
-validate_project('aves')
+1. **validate_reports.py** - Validate reports against git history
+2. **generate_reports.py** - Generate missing reports
+3. **analyze_reports.py** - Search and analyze reports
+4. **report_cli.py** - Command-line interface
+5. **config.py** - Project configuration
+
+### Usage Examples
+
+```bash
+# Validate all reports
+python scripts/report_management/validate_reports.py
+
+# Validate specific project
+python scripts/report_management/validate_reports.py --project aves
+
+# Delete invalid reports
+python scripts/report_management/validate_reports.py --delete
 
 # Generate reports
-from scripts.report_management.generate_reports import generate_missing
-generate_missing('hablas', overwrite=False)
+python scripts/report_management/generate_reports.py
 
-# Analyze reports
-from scripts.report_management.analyze_reports import search_reports
-results = search_reports('authentication', case_sensitive=False)
-```
-
-### Node.js Scripts
-
-```javascript
-// Generate GMS report
-const generateGMS = require('./scripts/generate-gms.js');
-generateGMS();
-
-// Generate progress report
-const generateProgress = require('./scripts/generate-progress.js');
-generateProgress();
+# Search reports
+python scripts/report_management/analyze_reports.py search "authentication"
 ```
 
 ## Performance
@@ -297,11 +304,12 @@ generateProgress();
 
 ## Best Practices
 
-1. **Daily Workflow**: Run `npm run today` at day start and `npm run evening` at day end
-2. **Weekly Audit**: Run `npm run weekly` every Sunday
+1. **Daily Workflow**: Validate and generate reports regularly using Python scripts
+2. **Weekly Audit**: Run validation weekly to ensure accuracy
 3. **Commit Reports**: Always commit reports after generation
 4. **Validate First**: Run validation before bulk operations
-5. **Use Swarms**: Leverage swarm operations for multi-project tasks
+5. **Use Makefile**: Leverage Makefile for common workflows
+6. **Backup Regularly**: Use `make backup` to create backups
 
 ## Troubleshooting
 
@@ -315,10 +323,10 @@ generateProgress();
 - Verify date format: YYYY-MM-DD
 - Check config.py has correct project paths
 
-**Search not working?**
-- Try case-insensitive search: `--case-sensitive false`
-- Check date ranges: `--days 30`
-- Verify reports exist for the time period
+**Python scripts not working?**
+- Ensure Python 3.12+ is installed
+- Install required packages: pytest, pytest-asyncio, pytest-cov, pytest-mock
+- Check that project paths in config.py are correct
 
 ## Contributing
 
@@ -339,4 +347,20 @@ Brandon Lambert
 
 ---
 
-**Part of the Brandon Lambert Development Portfolio** - Systematic project management and progress tracking across 26+ active development projects.
+## Project Status
+
+**Current State**: Production-ready Python-based workflow
+- **Primary Tool**: Makefile with Python scripts
+- **Optional Features**: Claude-Flow orchestration (configured but not required)
+- **Active Projects**: 15 tracked projects with daily reports
+- **Testing**: Infrastructure planned, not yet implemented
+
+**Known Limitations**:
+- Some npm scripts reference non-existent files (legacy placeholders)
+- Primary workflow is Makefile + Python, not npm scripts
+- Test infrastructure not yet implemented
+- Claude-Flow orchestration is optional and not required for core functionality
+
+---
+
+**Part of the Brandon Lambert Development Portfolio** - Systematic project management and progress tracking across 15 active development projects.
